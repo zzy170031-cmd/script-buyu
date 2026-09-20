@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "status": "unverified_research_candidates_not_qualified_memberships",
+  "origin": "Story-related candidates from the user-authorized ai-buyu seed, split 2026-09-20",
+  "count_policy": "Entries are research leads. Do not count them as verified methods or current participants. Verify individual authorship, works and concrete technique before use.",
+  "candidates": [
+    {"expert_id":"EXP-STORY-MIYAZAKI","name":"Hayao Miyazaki","entity_type":"person","source_url":"https://www.ghibli.jp/ged_01/20making/000475.html","limitation":"Legacy URL may concern another film or director; do not infer personal technique from studio affiliation."},
+    {"expert_id":"EXP-STORY-TAKAHATA","name":"Isao Takahata","entity_type":"person","source_url":"https://www.ghibli.jp/storage/000283/","limitation":"Archive context is not a verified technique; find a direct production account."},
+    {"expert_id":"EXP-STORY-KON","name":"Satoshi Kon","entity_type":"person","source_url":"https://www.midnighteye.com/interviews/satoshi-kon-2/","limitation":"Read the original interview and separate his statements from critical interpretation."},
+    {"expert_id":"EXP-STORY-SHINKAI","name":"Makoto Shinkai","entity_type":"person","source_url":"https://www.bfi.org.uk/sight-and-sound/interviews/trading-places-makoto-shinkai-your-name","limitation":"A specific interview does not validate every story or environment method attributed to him."},
+    {"expert_id":"EXP-STORY-HOSODA","name":"Mamoru Hosoda","entity_type":"person","source_url":"https://www.bfi.org.uk/features/where-begin-mamoru-hosoda","limitation":"Critical overview; obtain a first-person source before direct method attribution."},
+    {"expert_id":"EXP-STORY-MOORE","name":"Tomm Moore","entity_type":"person","source_url":"https://www.cartoonsaloon.ie/wp-content/uploads/2020/03/study_guide.pdf","limitation":"Check study guide author, film and exact coverage; do not attribute all studio practice to one director."},
+    {"expert_id":"EXP-STORY-TWOMEY","name":"Nora Twomey","entity_type":"person","source_url":"https://www.cartoonsaloon.ie/feature-films/wolfwalkers/","limitation":"Legacy seed points to a different film context; this is not evidence that Twomey directed that film or taught a method there. Find a matching primary interview."},
+    {"expert_id":"EXP-STORY-DOCTER","name":"Pete Docter","entity_type":"person","source_url":"https://www.pixar.com/docter","limitation":"Biography may verify credits, not a detailed writing procedure."},
+    {"expert_id":"EXP-STORY-BIRDE","name":"Brad Bird","entity_type":"person","source_url":"https://www.pixar.com/our-story","limitation":"Studio history is not individual method evidence."},
+    {"expert_id":"EXP-STORY-PIXAR-STORY","name":"Pixar Story Team","entity_type":"team","source_url":"https://www.khanacademy.org/computing/pixar/storytelling","limitation":"Course content was not readable during this split; do not claim it was read or tested."},
+    {"expert_id":"EXP-STORY-WGA","name":"Writers Guild of America animation resources","entity_type":"team","source_url":"https://www.wga.org/the-guild/going-guild/animation","limitation":"Professional role guidance is not a creative formula or legal advice."},
+    {"expert_id":"EXP-STORY-GHIBLI-MAKING","name":"Studio Ghibli making materials","entity_type":"team","source_url":"https://www.ghibli.jp/ged_01/20making/000475.html","limitation":"Shared source with another candidate does not establish an independent method or extra evidence origin."}
+  ]
+}

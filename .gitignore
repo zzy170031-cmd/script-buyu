@@ -1,0 +1,20 @@
+# Project inputs and generated drafts are private, never release them by default.
+.work/
+work/
+inputs/
+deliverables/
+output/
+renders/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.xlsx
+~$*

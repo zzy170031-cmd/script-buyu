@@ -1,0 +1,4 @@
+interface:
+  display_name: "不语剧本创作"
+  short_description: "分析故事背景并扩写完整分集剧本，交付待确认的Word文档，不生成后续制作提示词"
+  default_prompt: "使用 $script-buyu，根据我的故事梗概或文档创作完整分集故事剧本，只交付一个DOCX供我确认。"

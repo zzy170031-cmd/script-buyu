@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Story-only screenplay",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "revision", "status", "project", "logline", "synopsis", "characters", "world_rules", "episodes", "scenes"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "revision": {"type": "integer", "minimum": 1},
+    "status": {"const": "awaiting_user_confirmation"},
+    "project": {
+      "type": "object", "additionalProperties": false,
+      "required": ["project_id", "title", "genre", "domain", "audience", "medium", "viewpoint", "episode_count", "target_duration_seconds"],
+      "properties": {
+        "project_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,31}$"},
+        "title": {"type": "string", "minLength": 1},
+        "genre": {"type": "string", "minLength": 1},
+        "domain": {"type": "string", "minLength": 1},
+        "audience": {"type": "string", "minLength": 1},
+        "medium": {"type": "string", "minLength": 1},
+        "viewpoint": {"type": "string", "minLength": 1},
+        "episode_count": {"type": "integer", "minimum": 1},
+        "target_duration_seconds": {"type": "number", "exclusiveMinimum": 0}
+      }
+    },
+    "logline": {"type": "string", "minLength": 1},
+    "synopsis": {"type": "string", "minLength": 1},
+    "characters": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["character_id", "name", "description", "arc"],
+        "properties": {
+          "character_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,31}$"},
+          "name": {"type": "string", "minLength": 1},
+          "description": {"type": "string", "minLength": 1},
+          "arc": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "world_rules": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "episodes": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["episode_id", "title", "target_duration_seconds"],
+        "properties": {
+          "episode_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,31}$"},
+          "title": {"type": "string", "minLength": 1},
+          "target_duration_seconds": {"type": "number", "exclusiveMinimum": 0}
+        }
+      }
+    },
+    "scenes": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["scene_id", "episode_id", "heading", "location", "time_weather", "purpose", "beats"],
+        "properties": {
+          "scene_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,31}$"},
+          "episode_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,31}$"},
+          "heading": {"type": "string", "minLength": 1},
+          "location": {"type": "string", "minLength": 1},
+          "time_weather": {"type": "string", "minLength": 1},
+          "purpose": {"type": "string", "minLength": 1},
+          "beats": {
+            "type": "array", "minItems": 1,
+            "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["beat_id", "kind", "text", "speaker_id"],
+              "properties": {
+                "beat_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_]{0,31}$"},
+                "kind": {"enum": ["action", "dialogue"]},
+                "text": {"type": "string", "minLength": 1},
+                "speaker_id": {"type": ["string", "null"]}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
