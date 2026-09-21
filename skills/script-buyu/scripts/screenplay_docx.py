@@ -22,6 +22,7 @@ META = [("project_id", "项目编号"), ("genre", "类型"), ("domain", "故事�
 SECTIONS = ["故事概览", "故事梗概", "人物", "世界规则", "分集剧本"]
 CHAR_HEADERS = ["人物ID", "姓名", "人物设定", "人物弧线"]
 CHAR_KEYS = ["character_id", "name", "description", "arc"]
+PROMPT_HEADER = "人物形象提示词"
 STYLES = ["SBLogline", "SBSynopsis", "SBWorldRule", "SBEpisode", "SBEpisodeMeta",
           "SBScene", "SBLocation", "SBTime", "SBPurpose", "SBAction", "SBDialogue"]
 
@@ -114,7 +115,11 @@ def create_docx(story, output):
         doc.add_heading(heading, 1)
         doc.add_paragraph(story[key], style)
     doc.add_heading("人物", 1)
-    _table(doc, [CHAR_HEADERS] + [[c[key] for key in CHAR_KEYS] for c in story["characters"]], [.62, .85, 2.9, 2.4])
+    with_prompts = bool(story["characters"]) and "visual_prompt" in story["characters"][0]
+    keys = CHAR_KEYS + (["visual_prompt"] if with_prompts else [])
+    headers = CHAR_HEADERS + ([PROMPT_HEADER] if with_prompts else [])
+    widths = [.5, .7, 1.45, 1.35, 2.77] if with_prompts else [.62, .85, 2.9, 2.4]
+    _table(doc, [headers] + [[c[key] for key in keys] for c in story["characters"]], widths)
     doc.add_heading("世界规则", 1)
     for rule in story["world_rules"]:
         doc.add_paragraph(rule, "SBWorldRule")
@@ -214,8 +219,10 @@ def extract_docx(source):
                 except ValueError as exc:
                     raise ContractError("invalid project numeric field") from exc
             elif tables == 1 and section_index == 2:
-                require(values[0] == CHAR_HEADERS and all(len(row) == 4 for row in values), "character table changed")
-                story["characters"] = [dict(zip(CHAR_KEYS, row)) for row in values[1:]]
+                require(values[0] in (CHAR_HEADERS, CHAR_HEADERS + [PROMPT_HEADER]), "character table changed")
+                keys = CHAR_KEYS + (["visual_prompt"] if len(values[0]) == 5 else [])
+                require(all(len(row) == len(keys) for row in values), "character table changed")
+                story["characters"] = [dict(zip(keys, row)) for row in values[1:]]
             else:
                 raise ContractError("unexpected table; content cannot be silently omitted")
             tables += 1

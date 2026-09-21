@@ -122,6 +122,9 @@ def unique(items, key, label):
 def validate_story(story):
     schema_check(story, read_json(ROOT / "schemas" / "screenplay.schema.json"))
     characters = unique(story["characters"], "character_id", "character")
+    prompt_presence = ["visual_prompt" in item for item in characters.values()]
+    require(not any(prompt_presence) or all(prompt_presence), "visual prompts must cover every listed character")
+    require(all(item.get("visual_prompt", "legacy").strip() for item in characters.values()), "empty visual prompt")
     names = [item["name"] for item in characters.values()]
     require(len(set(names)) == len(names), "duplicate display names")
     require(all(name == name.strip() and "：" not in name and "\n" not in name and "\r" not in name for name in names), "ambiguous speaker name")

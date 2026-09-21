@@ -68,5 +68,16 @@ class PortraitTests(unittest.TestCase):
         output=self.root/'silent.docx';create_docx(data,output)
         self.assertEqual(extract_docx(output),data)
 
+    def test_legacy_embed_rejects_new_prompt_table_without_overwriting(self):
+        data=story()
+        for c in data['characters']: c['visual_prompt']=c['name']+'：本剧已确认的完整人物提示词。'
+        source=self.root/'new-prompts.docx';create_docx(data,source)
+        before=source.read_bytes();out=self.root/'must-not-exist.docx'
+        with self.assertRaisesRegex(ContractError,'character table differs'):
+            embed_images(source,{'C1':'portrait.png'},out,self.root)
+        self.assertFalse(out.exists())
+        self.assertEqual(source.read_bytes(),before)
+        self.assertEqual(extract_docx(source),data)
+
 
 if __name__=='__main__': unittest.main()

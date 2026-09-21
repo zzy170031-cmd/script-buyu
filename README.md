@@ -1,16 +1,16 @@
 # 不语剧本创作 Skill
 
-专门创作、扩写、改编和修订故事剧本，并在用户确认后生成对应分镜脚本。先交付待确认 DOCX，人物表包含形象提示词与对应参考图；确认具体剧本及范围后，再交付 Excel：Sheet1 为七列分镜脚本，Sheet2 为人物完整提示词与内嵌参考图。每部作品自行选择合适的画风、题材和结构，不固定现实玩家与游戏沙盘的形式。
+专门创作、扩写、改编和修订故事剧本。先交付含完整人物提示词、不嵌人物图的DOCX，在文档外展示少量代表人物示例；用户确认剧本及本剧视觉方向后，批量生成人物图并交付Excel：Sheet1七列分镜脚本，Sheet2完整人物提示词与内嵌图。每部作品独立选择画风、题材和结构，不固定现实玩家与游戏沙盘的形式。
 
 ## 能力边界
 
-来稿完整阅读 → 输入与题材判断 → 按需核实背景和参考案例 → 人物与故事设定 → 分集及逐场动作对白 → 剧本检查 → 含人物提示词及参考图的 DOCX → 用户确认 → 分镜改编及人物资料复用 → 两张工作表的 XLSX。
+来稿与背景研究 → 人物及完整逐场故事 → 含人物提示词的DOCX＋文外少量人物示例 → 剧情与视觉方向确认 → 批量生成本次范围全部人物 → 分镜改编与逐人嵌图 → 两张工作表的XLSX。
 
 保留人物对立、人物弧线、不同题材的表现方法、现实与虚拟世界的因果穿插、分集标注、时长预算及修订回读。具体主角、游戏、集数、比例和时长都由当前用户需求确定，不预置旧项目。
 
-**本仓库服务剧本与确认后的分镜脚本交付。** 第一阶段人物提示词与一人一张参考图纳入 Word 人物表；第二阶段把获批故事转换成镜号、场景、人物、动作描述、主画面描述、运镜、台词七列，并在第二张工作表复用对应人物提示词与参考图。范围不扩展到模型配置、场景批量生图或实际视频制作。混合参考文档不静默修改原件。《铁城风云X414》及其第一集 Excel 只说明格式与产出质量，不是固定故事或画风模板。
+**本仓库服务剧本与分镜脚本。** Word人物表第五列仅放完整提示词；少量人物示例在文档外直接展示，不先生成全员。用户可用同条回复确认剧情和视觉方向，不再追加生成许可。合格的同人物示例可复用，其他角色确认后生成。Excel保持七列分镜及第二表人物提示词／图片；范围不扩展到场景批量生图、模型配置或实际视频制作。历史样本只说明格式和质量，不固定风格。
 
-用户提供的 [脚本提示词原文](skills/script-buyu/references/script-prompt-original.txt) 完整归档；使用时遵守 [脚本与 Excel 交付规则](skills/script-buyu/references/storyboard-excel.md)。保留细致的动作、画面与运镜表达，玄幻、热血、三渲二等按本剧选择；不为“短促”而擅自改写已确认台词。用户确认具体剧本即可进入已约定的 Excel 阶段，不重复要求许可。
+用户提供的 [脚本提示词原文](skills/script-buyu/references/script-prompt-original.txt) 完整归档，按 [脚本与Excel交付规则](skills/script-buyu/references/storyboard-excel.md) 使用。保留细致动作、画面及运镜，玄幻、热血、三渲二等按本剧选择；不为“短促”改写已确认台词。剧情确认或视觉确认只完成其一时，不能提前批量人物图或正式Excel。
 
 新增图像提示词资料来自 [YouMind-OpenLab/ai-image-prompts-skill](https://github.com/YouMind-OpenLab/ai-image-prompts-skill)，MIT 许可原文随数据保留。固定快照含11类、22,744条分类记录，实测15,127个唯一ID、14,831条不同提示词全文；上游清单标称15,670，与实测不一致，已记录。数据支持离线按题材检索，示例图片仅保留来源链接；上游脚本、自动同步与交互流程不执行。详见 `skills/script-buyu/references/character-visuals.md` 及 `data/image-prompts/snapshot.json`。
 
@@ -22,9 +22,9 @@ Skill 位于 `skills/script-buyu`，名称为 `$script-buyu`。通过可用的 S
 
 调用示例：
 
-> 使用 $script-buyu。根据我的故事文档创作完整分集故事剧本，保留核心人物和背景，写清逐场动作对白。按本剧内容选择画风，人物表加入形象提示词和对应参考图，最终给我一个 DOCX 待确认。
+> 使用 $script-buyu。根据我的故事文档写完整分集剧本，保留核心人物背景和逐场动作对白。按本剧内容选择画风，DOCX人物表放完整提示词、不嵌图，文档外先给少量代表人物示例供我确认。
 
-> 这版剧本确认了，按约定生成第一集 Excel：Sheet1 分镜脚本，Sheet2 人物提示词及内嵌参考图，沿用本剧人物与画风。
+> 这版第一集剧本和人物示例方向都确认了。按这个方向生成第一集全部人物图，再交付Excel：Sheet1分镜脚本，Sheet2人物提示词和内嵌参考图。
 
 用户不需要编写 JSON。内部 `screenplay.json` 是 Agent 的工作数据，不是默认交付件。用户在 Word 中的修改必须以实际可见正文为准，不能被旧 JSON 覆盖。
 
@@ -39,15 +39,14 @@ python skills/script-buyu/scripts/extract_story_docx.py --input deliverables/sto
 python skills/script-buyu/scripts/validate_skill.py
 python skills/script-buyu/scripts/query_knowledge.py --query "对白" --limit 3
 python skills/script-buyu/scripts/verify_knowledge.py
-python skills/script-buyu/scripts/embed_character_images.py --input deliverables/story-v1.docx --images work/character-images.json --output deliverables/story-v1-with-images.docx
 python -m unittest discover -s skills/script-buyu/tests -v
 ```
 
-生成器对已有路径拒绝覆盖。提取器只自动解析本 Skill 自己的格式；未知表格、未处理修订、图片或文本框会要求 Agent 完整核对，不把提取失败解释为“内容为空”。普通外部 DOCX 先用读取器展开资料，再由 Agent 整理。
+生成器拒绝覆盖旧文件。新人物数据为全员填写 `visual_prompt`，生成五列纯文字人物表并严格回读完整提示词；旧四列仍兼容。未知表格、未处理修订、图片或文本框需完整核对，不把失败解释为内容为空。旧含图稿用通用读取器，原嵌图工具只保留旧格式兼容，不在新默认路线运行。
 
 DOCX 需要在可用的文档渲染器中逐页检查；程序结构通过不等于排版或编剧质量通过。当前仓库的测试是公开的原创微型故事和边界测试，不代表任何用户项目已确认。
 
-原整合验证见 `docs/J20-整合审计.md`，本次两阶段流程审查见 [J10 审查](docs/J10-剧本到脚本流程审查.md)。程序检查、独立代理审查、真实写作结果和排版验收分别记录，不能互相替代。含图版本需通用读取与视觉核对，严格纯文字回读不会静默丢弃图片。
+历史整合记录见 `docs/J20-整合审计.md` 和 `docs/J10-剧本到脚本流程审查.md`。新默认流程及方法库研究见 [本次J10](docs/J10-示例确认与创作方法审查.md) 和 [作家导演方法接入方案](docs/作家导演方法接入方案.md)。方法方案尚未作为新增运行规则启用；现有公开方法仍按需使用。程序、只读审查、实际写作及视觉验收各有证据边界，不相互替代。
 
 ## 专家资料的真实边界
 

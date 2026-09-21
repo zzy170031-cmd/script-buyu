@@ -70,6 +70,57 @@ class StoryTests(unittest.TestCase):
         path = self.mutated_doc(lambda d: setattr(d.tables[1].cell(1, 2), "text", "修订后的性格与处境"))
         self.assertEqual(extract_docx(path)["characters"][0]["description"], "修订后的性格与处境")
 
+    def prompt_document(self):
+        data = story()
+        for c in data["characters"]:
+            c["visual_prompt"] = c["name"] + "：水彩日常人物。\n保持本剧年龄与服装；自然站姿。"
+        path = self.base / "with-prompts.docx"
+        create_docx(data, path)
+        return data, path
+
+    def test_prompt_only_round_trip_has_no_images(self):
+        data, path = self.prompt_document()
+        self.assertEqual(extract_docx(path), data)
+        doc = Document(path)
+        self.assertEqual(doc.tables[1].rows[0].cells[4].text, "人物形象提示词")
+        self.assertEqual(len(doc.inline_shapes), 0)
+        with ZipFile(path) as z:
+            self.assertFalse(any(n.startswith("word/media/") for n in z.namelist()))
+
+    def test_visible_multiline_prompt_edit_is_preserved(self):
+        data, path = self.prompt_document()
+        doc = Document(path)
+        cell = doc.tables[1].cell(1, 4)
+        cell.text = "改成雨衣，保留原年龄。"
+        cell.add_paragraph("第二段：背景留白，不添武器。")
+        doc.save(path)
+        data["characters"][0]["visual_prompt"] = cell.text
+        self.assertEqual(extract_docx(path), data)
+
+    def test_partial_character_prompts_rejected(self):
+        data = story()
+        self.assertGreater(len(data["characters"]), 1)
+        data["characters"][0]["visual_prompt"] = "只写了一个角色"
+        with self.assertRaisesRegex(ContractError, "every listed character"):
+            validate_story(data)
+
+    def test_deleted_prompt_not_silently_restored(self):
+        _, path = self.prompt_document()
+        doc = Document(path)
+        doc.tables[1].cell(1, 4).text = "   "
+        doc.save(path)
+        with self.assertRaises(ContractError):
+            extract_docx(path)
+        self.assertEqual(Document(path).tables[1].cell(1, 4).text, "   ")
+
+    def test_unknown_fifth_header_rejected(self):
+        _, path = self.prompt_document()
+        doc = Document(path)
+        doc.tables[1].cell(0, 4).text = "其他备注"
+        doc.save(path)
+        with self.assertRaisesRegex(ContractError, "character table changed"):
+            extract_docx(path)
+
     def test_multiline_unicode_and_colon(self):
         data = story()
         data["scenes"][0]["beats"][1]["text"] = "他说：灯还亮着。\n我回答：等一下。"

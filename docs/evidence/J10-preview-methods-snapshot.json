@@ -1,0 +1,102 @@
+{
+  "audit_id": "script-buyu-preview-methods-20260921-J10",
+  "baseline_commit": "ee49c159194239da324c35e6a11ff51dea38a6b0",
+  "sealed_at": "2026-09-21T13:16:44.1183884+08:00",
+  "hash_scope": "Working-tree bytes at audit cutoff; Git text line endings may differ",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8094,
+      "sha256": "1ECFA5C7DFACC79836A058E28B5EFCA1A1645ACEA5C01F02F1D62D44DCBC9C75"
+    },
+    {
+      "path": "skills/script-buyu/SKILL.md",
+      "bytes": 6570,
+      "sha256": "059F4737D644AD7C3DC83D0A637FE4B7A4C35330E3BF4462710F97EB4B8F451F"
+    },
+    {
+      "path": "skills/script-buyu/agents/openai.yaml",
+      "bytes": 466,
+      "sha256": "075B7DDF3597E425DDCDF48CE01DBCBD5518DF7007B32F9787DF4D7314AD714A"
+    },
+    {
+      "path": "skills/script-buyu/data/story-methods.json",
+      "bytes": 8471,
+      "sha256": "FF9B0E213395149AE8F1B122214CD99469C2FC5F01B1E274B4DBE9633C6241A0"
+    },
+    {
+      "path": "skills/script-buyu/references/workflow.md",
+      "bytes": 5067,
+      "sha256": "76D357B744C0F22446A5AC31260416E981B955FD676C0D760438B12E9FABF0B8"
+    },
+    {
+      "path": "skills/script-buyu/references/output-contract.md",
+      "bytes": 3986,
+      "sha256": "47A4112A806A0CE2BD0360A99D25F92E0C63DC08BCBA9F6F11A7B9A64FB607C5"
+    },
+    {
+      "path": "skills/script-buyu/references/docx-delivery.md",
+      "bytes": 2780,
+      "sha256": "8B61B7293E2A803076B6965D85394CF8488107958D3364E1D754E1C77A09A6D2"
+    },
+    {
+      "path": "skills/script-buyu/references/character-visuals.md",
+      "bytes": 5295,
+      "sha256": "966A3BE9EF52813AE79046FECAC1AA08D76A8F80126B3B701E9E48239EDF4B76"
+    },
+    {
+      "path": "skills/script-buyu/references/storyboard-excel.md",
+      "bytes": 8496,
+      "sha256": "BFC38146B460195525213DA34240136D629CD49A696641F58B7B5F6B208F9335"
+    },
+    {
+      "path": "skills/script-buyu/schemas/screenplay.schema.json",
+      "bytes": 3779,
+      "sha256": "F7B99F82628125014810C4C573E009682766907551D3F7FA63B0FF41A67D1743"
+    },
+    {
+      "path": "skills/script-buyu/scripts/screenplay_docx.py",
+      "bytes": 16674,
+      "sha256": "CB9B62B922D7DEE38825E2040A2727B968307E588D6CCC66DA4C735E4480DF39"
+    },
+    {
+      "path": "skills/script-buyu/scripts/story_contract.py",
+      "bytes": 7387,
+      "sha256": "2C6B9EB5444D35633A4D97961BE9E2044C2A29BABDA93C4BA7B625FD93603D7E"
+    },
+    {
+      "path": "skills/script-buyu/tests/test_story.py",
+      "bytes": 20216,
+      "sha256": "3F647B6BA0A01DB6C567EA065AD62A6250B6B975642FDE0D25A9F2BC24B636BF"
+    },
+    {
+      "path": "skills/script-buyu/tests/test_portraits.py",
+      "bytes": 4608,
+      "sha256": "7255F47001C2EA06882290F77FD9B58747D660BCEFDB61A41E3CC6EE832B9EC1"
+    },
+    {
+      "path": "docs/J10-示例确认与创作方法审查.md",
+      "bytes": 12894,
+      "sha256": "0528301E75862BA90D962B6703CB2D83CE53F68AD07A28A5B5818B99A4D4A205"
+    },
+    {
+      "path": "docs/作家导演方法接入方案.md",
+      "bytes": 7733,
+      "sha256": "8EA85F9C1FC569B6C63C3C30ADAF435485A55869F126D4C78740BD19517E4976"
+    }
+  ],
+  "checks": {
+    "story_tests_passed": 52,
+    "portrait_tests_passed": 5,
+    "new_tests": 6,
+    "skill_structure": "passed",
+    "official_validator": "passed",
+    "challenge_units": 10,
+    "independent_reviewers": 4,
+    "behavior_scenarios": 7,
+    "empty_cast_gate": "fixed and independently rechecked",
+    "new_method_cards": "proposal only, not enabled",
+    "image_batch_and_excel": "not executed",
+    "document_render": "not executed"
+  }
+}
