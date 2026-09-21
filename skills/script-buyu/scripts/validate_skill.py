@@ -55,8 +55,11 @@ def validate_skill(root=ROOT):
         literals = [node.value for node in ast.walk(tree) if isinstance(node, ast.Constant) and isinstance(node.value, str)]
         require(not any(re.match(r"^[A-Za-z]:[\\/]", value) for value in literals), "absolute runtime path")
     read_json(root / "schemas/screenplay.schema.json")
+    from query_methods import validate_index
+    genre_coverage = validate_index(read_json(root / "data/genre-index.json"), library)
     return {"status": "structural_checks_passed", "sources": len(sources), "methods": len(methods),
             "candidate_entries": len(candidates["candidates"]),
+            "genre_coverage": genre_coverage,
             "limitations": "Does not prove Agent routing, literary quality, source freshness or rendered layout."}
 
 

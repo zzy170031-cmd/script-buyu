@@ -1,0 +1,190 @@
+{
+  "audit_id": "script-buyu-genre-expansion-20260921",
+  "requested_level": "J10",
+  "closed_design_units": 10,
+  "baseline_commit": "c204898fe7246d2d9572a0233162dde706352486",
+  "implementation_authority": "User requested conditional addition; prior remote synchronization authorization persists.",
+  "profiles": [
+    "P03",
+    "P07",
+    "P02"
+  ],
+  "reviewers": [
+    {
+      "id": "/root/genre_j10_editor",
+      "role": "content_editor",
+      "owned": [
+        "Q01",
+        "Q02",
+        "Q03"
+      ],
+      "fork": "none",
+      "blind_received": true,
+      "cross_received": true
+    },
+    {
+      "id": "/root/genre_j10_direction",
+      "role": "scene_direction",
+      "owned": [
+        "Q04",
+        "Q05",
+        "Q06"
+      ],
+      "fork": "none",
+      "blind_received": true,
+      "cross_received": true
+    },
+    {
+      "id": "/root/genre_j10_library",
+      "role": "source_retrieval_evaluation",
+      "owned": [
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10"
+      ],
+      "fork": "none",
+      "blind_received": true,
+      "cross_received": true
+    },
+    {
+      "id": "/root/genre_j10_verifier",
+      "role": "independent_evidence_verifier",
+      "owned": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10"
+      ],
+      "fork": "none",
+      "baseline_files_read": true,
+      "candidate_files_read": true,
+      "independent_tests": "18 passed after stage fix"
+    }
+  ],
+  "independence_limits": [
+    "shared model",
+    "shared frozen baseline summary",
+    "source author repetitions tracked; URL count is not independent corroboration"
+  ],
+  "design_verdict": "conditional",
+  "scope": {
+    "included": [
+      "mystery",
+      "romance",
+      "action",
+      "gunfight",
+      "science-fiction",
+      "thriller"
+    ],
+    "broader_genre_scope": "awaiting_user_definition",
+    "counting": "ten new people per genre combined writer/director, pending user clarification",
+    "not_claimed": "all possible genres or ten writers plus ten directors"
+  },
+  "candidate_counts": {
+    "new_people": 47,
+    "new_sources": 48,
+    "new_methods": 48,
+    "new_genre_bindings": 64,
+    "all_sources": 65,
+    "all_public_methods": 65,
+    "internal_rules": 10,
+    "planned_genres": 16
+  },
+  "evidence": [
+    {
+      "type": "read_only_source_research",
+      "coverage": "48 records, relevant passages read by three research reviewers; not independent full-corpus recheck"
+    },
+    {
+      "type": "unit_tests",
+      "command": "python -m unittest discover -s skills/script-buyu/tests -p test_genre_methods.py -q",
+      "result": "18 passed by root and independently by verifier",
+      "proves": "Counting, provenance references, stage filters and dependency isolation cases; confirmed stage returns dedicated steps and excludes draft-only construction"
+    },
+    {
+      "type": "regression_tests",
+      "command": "python -m unittest discover -s skills/script-buyu/tests -p test_story.py -q",
+      "result": "52 passed",
+      "proves": "covered structural and DOCX read-back behavior"
+    },
+    {
+      "type": "skill_validation",
+      "result": "custom and official quick validator passed",
+      "proves": "structural validity only"
+    },
+    {
+      "type": "independent_source_sample",
+      "source_ids": [
+        "SRC-G011",
+        "SRC-G019",
+        "SRC-G022",
+        "SRC-G026",
+        "SRC-G035",
+        "SRC-G040",
+        "SRC-G046",
+        "SRC-G048"
+      ],
+      "coverage": "8 of 48 source records, covering all six initial genres",
+      "result": "Relevant original statements support summaries; no sampled source withdrawal required",
+      "limitation": "Not full-corpus independent source review"
+    }
+  ],
+  "candidate_verification": "independent_targeted_recheck_passed_first_six_only",
+  "outcome_limits": [
+    "No actual audience validation",
+    "No measured retention improvement",
+    "No all-genre completion",
+    "No external creator participation",
+    "No new user screenplay or imagery generated"
+  ],
+  "rollback": "Revert the expansion commit or isolate affected source/method/binding; do not rewrite user stories or force-push.",
+  "open_required_findings": 0,
+  "findings": [
+    {
+      "id": "P2-confirmed-stage",
+      "severity": "REQUIRED/P2",
+      "status": "closed",
+      "problem": "Director profession incorrectly granted confirmed_translation to draft construction methods",
+      "fix": "Content-based stages; six dedicated confirmed_steps; query replaces draft steps; missing dedicated steps rejected",
+      "verification": "Independent six-card reading, actual six-genre queries and 18 tests passed"
+    },
+    {
+      "id": "same-person-genre-source-limit",
+      "severity": "advisory",
+      "status": "documented",
+      "fix": "One person per genre binding and one source per binding; a multi-source extension requires schema and test changes"
+    }
+  ],
+  "release_scope": "Six named genres only; no open blocker for this batch; overall scope and counting clarification remain pending",
+  "health": {
+    "checked_at": "2026-09-21 14:14:30 +08:00",
+    "status": "HEALTHY",
+    "codex_pid": 24212,
+    "current_transcript_bytes": 84640551
+  },
+  "final_validation_note": "Custom validator passed. Official validator passed with existing PyYAML dependency after read-only sandbox escalation; initial sandbox import failed due inaccessible dependency, not counted as success.",
+  "candidate_file_hashes": {
+    "README.md": "dbffe7a87c829f26bb6e9fb9a5ce9fdefff497ff78236d67640d74c98c03c6b7",
+    "skills/script-buyu/SKILL.md": "2723e667d9e3086674490dd3211ba65dc7c456d5535e284624e9738211b6afcf",
+    "skills/script-buyu/data/story-methods.json": "8afc7db4a7200dec5f53364f17d34641419a608b6f6bd3a5da359efb4e18f6c0",
+    "skills/script-buyu/data/genre-index.json": "fbfed2dbdaadb4f62a4623e9cd214f76080e646579dee667ff69926893ede265",
+    "skills/script-buyu/references/genre-methods.md": "bf79710f17300d479c5e96274d0c0171e90872b2c7cee78953c6a500d3b7754e",
+    "skills/script-buyu/references/scene-methods.md": "bee95cdf2c478f3f3e8c2106cc49506cf48095310f895770b14c6d7aaaf7dfce",
+    "skills/script-buyu/references/workflow.md": "d732d9787286e760a550dc87d8799ba872c3f8f39d3f8a259c46b94a68c0089f",
+    "skills/script-buyu/references/expert-groups.md": "f0317a17280ba8d64c726268a290e37ea42cfb0b06dce15033bdf8e12c1e3553",
+    "skills/script-buyu/scripts/query_methods.py": "d10d4c1cc73c9eda48ed95da1cca10798e59b8688391631bd5686ea4bd114416",
+    "skills/script-buyu/scripts/validate_skill.py": "69ad4a232cc2822579bcea69088d1538c58eac4857dda697aabaf5b6c9848350",
+    "skills/script-buyu/tests/test_genre_methods.py": "fa6cbbc84289ed857b63a12726fa4363cc173e5937ec5629ac5953d603cb2ab0",
+    "docs/J10-题材方法库扩充审查.md": "31ef4438e8430361ffa1a6b6cad60dd5e4311df2e038e3158379493abf65a8dd",
+    "docs/首批六类方法索引.md": "82ad5787d4de0176301939277ed78413f42e18814951737d486b81bc7fb456c9"
+  },
+  "hash_note": "Raw working-tree bytes before commit; Git line-ending normalization may change checkout bytes. Evidence file excluded from its own hash list.",
+  "local_markdown_links": "All relative Markdown links in changed Markdown files resolve"
+}

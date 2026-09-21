@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "non_participation_notice": "Public methods and editorial heuristics only. No person or organization participates in or endorses current projects.",
   "sources": [
     {
@@ -290,6 +290,1163 @@
       "read_status": "original_interview_relevant_body_read",
       "confidence": "支持对应方法摘要，不证明通用质量效果",
       "limitations": "仅迁移编排思路，不引入片场生产、快门参数或打斗配额；确认后不能改变战果和关键动作。"
+    },
+    {
+      "source_id": "SRC-G001",
+      "entity_id": "rian-johnson",
+      "person_id": "rian-johnson",
+      "name": "Rian Johnson",
+      "aliases": [
+        "Rian Johnson"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Knives Out",
+      "url": "https://www.bfi.org.uk/sight-and-sound/interviews/rian-johnson-knives-out-agatha-christie-had-modern-sensibility",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2019-11-27",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "Poirot及How did you envisage…Benoit Blanc问答，L23–33",
+      "evidence_summary": "侦探外显特点令嫌疑人低估他；古典类型人物应转为观众认识的当代人物。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "滑稽不能代替推理，不复制口音或人物。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G002",
+      "entity_id": "gillian-flynn",
+      "person_id": "gillian-flynn",
+      "name": "Gillian Flynn",
+      "aliases": [
+        "Gillian Flynn"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "Gone Girl",
+      "url": "https://www.filmlinc.org/daily/gillian-flynn-interview/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2014-09-26",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "What were the particular challenges for Gone Girl? L33–35",
+      "evidence_summary": "内心叙述和时间结构需拆解重组才能转为银幕表达。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不能改冻结事实，不强制中点反转。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G003",
+      "entity_id": "tana-french",
+      "person_id": "tana-french",
+      "name": "Tana French",
+      "aliases": [
+        "Tana French"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "In the Woods；The Likeness",
+      "url": "https://www.arts.gov/stories/podcast/tana-french",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2021-03-18",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "演员经历问答L82–85；unreliable narrator L110–112",
+      "evidence_summary": "通过人物偏见、恐惧和需求看世界，先理解人物再发现行动。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不可靠解释不授权改变世界事实；短漫剧压缩内心长段。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G004",
+      "entity_id": "park-chan-wook",
+      "person_id": "park-chan-wook",
+      "name": "朴赞郁 / Park Chan-wook",
+      "aliases": [
+        "朴赞郁",
+        "Park Chan-wook"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Decision to Leave",
+      "url": "https://cdn.festival-cannes.com/media/uploads/2023/03/143597.pdf",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": null,
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "PDF第7张页面P6，INTERVIEW WITH DIRECTOR，L131–162",
+      "evidence_summary": "爱情与侦探故事合流，分开的语言可与不愿离开的内心相悖。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不强制慢燃、悲剧、情色或特定摄影。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G005",
+      "entity_id": "chung-seo-kyung",
+      "person_id": "chung-seo-kyung",
+      "name": "郑瑞景 / Chung Seo-kyung",
+      "aliases": [
+        "郑瑞景",
+        "Chung Seo-kyung"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "Decision to Leave",
+      "url": "https://cdn.festival-cannes.com/media/uploads/2023/03/143597.pdf",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": null,
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "PDF第10张页面P9，COMMENTS署名Screenwriter CHUNG Seo-kyung，L270–276",
+      "evidence_summary": "新证词还被人物用来判断对方是否爱自己，不止判断有罪无罪。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不能把一切证据浪漫化或以爱情证明无罪。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G006",
+      "entity_id": "david-fincher",
+      "person_id": "david-fincher",
+      "name": "David Fincher",
+      "aliases": [
+        "David Fincher"
+      ],
+      "entity_type": "person",
+      "professional_role": "director",
+      "project_evidence": "Zodiac",
+      "url": "https://cinemontage.org/david-fincher/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2007-03-01",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "How does it differ from your other movies? L37–38",
+      "evidence_summary": "较宽的场面和直接调度避免镜头过早指定凶手，让观众判断。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不要求全程远景，关键线索可明确强调。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G007",
+      "entity_id": "justine-triet",
+      "person_id": "justine-triet",
+      "name": "Justine Triet",
+      "aliases": [
+        "Justine Triet"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Anatomy of a Fall",
+      "url": "https://www.filmcomment.com/interview-justine-triet-on-anatomy-of-a-fall/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2023-Fall",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "original approach while writing L20–22；配角问题L31–36",
+      "evidence_summary": "庭审审视伴侣关系；有限家庭影像让观众填补缺口；配角超越职业功能。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "开放不等于缺关键线索，不强制真相不明。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G008",
+      "entity_id": "agatha-christie",
+      "person_id": "agatha-christie",
+      "name": "Agatha Christie",
+      "aliases": [
+        "Agatha Christie"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "An Autobiography中的侦探写作论述",
+      "url": "https://www.agathachristie.com/en/news/2021/on-writing-agatha-christies-advice",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2021-09-10",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "On Brevity；On Writing Detective Fiction；On Writing for the Stage",
+      "evidence_summary": "侦探故事需语言经济，避免反复重述；可见行动减少描述负担。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不删除公平推理必需线索，不复刻庄园风格。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G009",
+      "entity_id": "kiyoshi-kurosawa",
+      "person_id": "kiyoshi-kurosawa",
+      "name": "黑泽清 / Kiyoshi Kurosawa",
+      "aliases": [
+        "黑泽清",
+        "Kiyoshi Kurosawa"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Cure",
+      "url": "https://www.festival-entrevues.com/storage/drupal/images/archives/interview_kurosawa_hd.pdf",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2014-10-09",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "PDF第2页DOUBLE FEATURE #1: CURE / THE BOSTON STRANGLER，L7–26",
+      "evidence_summary": "抓到嫌犯后可转换叙事问题；连续审讯可让人物关系完整展开。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不强制长镜头或超自然；不将其分析他片全算原创理论。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G010",
+      "entity_id": "asghar-farhadi",
+      "person_id": "asghar-farhadi",
+      "name": "Asghar Farhadi",
+      "aliases": [
+        "Asghar Farhadi"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Everybody Knows",
+      "url": "https://www.francetvpro.fr/contenu-de-presse/42542",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": null,
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "Entretien，Pourquoi…un petit village plutôt qu'à Madrid? L129–132",
+      "evidence_summary": "熟人村庄的关系和聚集方式构成情节条件，改成城市会成为另一故事。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不强制小镇，熟人不等于全知。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G011",
+      "entity_id": "anthony-horowitz",
+      "person_id": "anthony-horowitz",
+      "name": "Anthony Horowitz",
+      "aliases": [
+        "Anthony Horowitz"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "Magpie Murders",
+      "url": "https://www.penguin.co.uk/discover/articles/how-to-write-murder-mystery",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2023-03-07",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "第2节Start with a simple formula；第3节People should be able to guess the twist",
+      "evidence_summary": "从人物与杀人原因关系出发；反转让读者回看发现信息已提供。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不把犯罪公式套给所有悬疑，公平与可预测需权衡。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G012",
+      "entity_id": "wong-kar-wai",
+      "person_id": "wong-kar-wai",
+      "name": "王家卫 / Wong Kar Wai",
+      "aliases": [
+        "王家卫",
+        "Wong Kar Wai"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "In the Mood for Love",
+      "url": "https://www.bfi.org.uk/sight-and-sound/interviews/wong-kar-wai-mood-love-25",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2025-05-20",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "focus on hands L60–62；repetition L69–71",
+      "evidence_summary": "手部细节透露未说欲望；重复场景可随关系改变意义。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不复制旗袍配乐色调，重复不变义可删。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G013",
+      "entity_id": "nora-ephron",
+      "person_id": "nora-ephron",
+      "name": "Nora Ephron",
+      "aliases": [
+        "Nora Ephron"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "When Harry Met Sally；Sleepless in Seattle",
+      "url": "https://www.todlippy.com/writing/interviews/an-interview-with-nora-ephron",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2000",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "romantic comedy问答L38–40；原载Projections11 pp214–218",
+      "evidence_summary": "现代爱情喜剧需要仍成立的关系障碍，如友谊风险或彼此尚未认识。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不套旧时代规则，不强制异性恋或喜剧。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G014",
+      "entity_id": "nancy-meyers",
+      "person_id": "nancy-meyers",
+      "name": "Nancy Meyers",
+      "aliases": [
+        "Nancy Meyers"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "The Holiday",
+      "url": "https://www.phase9.tv/the-holiday-2006-q-and-a-interview-with-director-nancy-meyers/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2006-11-29",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "首问romantic comedy L12–17；末署Universal Pictures UK Q&A",
+      "evidence_summary": "从真实关系困境出发加深复杂性，再按个人乐观取向转为喜剧。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "乐观仅可选，不固定爱情结局；页面另有2025更新日期。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G015",
+      "entity_id": "richard-linklater",
+      "person_id": "richard-linklater",
+      "name": "Richard Linklater",
+      "aliases": [
+        "Richard Linklater"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Before Midnight",
+      "url": "https://www.sbs.com.au/whats-on/article/before-midnight-richard-linklater-interview/hd4shh7sj",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2013-06-12",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "visual style L113–115；characters matured L122–125",
+      "evidence_summary": "让观众与双方共同停留；人物核心延续而生活责任累积。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不强制长对白长镜头，短漫剧保留有效关系交换。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G016",
+      "entity_id": "sally-rooney",
+      "person_id": "sally-rooney",
+      "name": "Sally Rooney",
+      "aliases": [
+        "Sally Rooney"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "Normal People",
+      "url": "https://www.oprahdaily.com/entertainment/books/a27182301/sally-rooney-normal-people-interview/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2019-04-18",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "longer period L306–307；technology L302–305",
+      "evidence_summary": "跳过平稳时期，在关系转移处落场；通信技术有独特关系动力。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "仅用于需压缩关系线时，不强制所有观察场变化或吵架；通信符合条件。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G017",
+      "entity_id": "emily-henry",
+      "person_id": "emily-henry",
+      "name": "Emily Henry",
+      "aliases": [
+        "Emily Henry"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "Happy Place",
+      "url": "https://www.brit.co/emily-henry-interview/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2023-12-05",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "grand gesture L93–103；本人发言L98、100",
+      "evidence_summary": "复合不能只靠一方；理解双方犯错后要让双方承担关系风险。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "严重伤害不能各打五十大板，不强制团圆。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G018",
+      "entity_id": "rob-reiner",
+      "person_id": "rob-reiner",
+      "name": "Rob Reiner",
+      "aliases": [
+        "Rob Reiner"
+      ],
+      "entity_type": "person",
+      "professional_role": "director",
+      "project_evidence": "When Harry Met Sally",
+      "url": "https://lcweb2.loc.gov/static/programs/national-film-preservation-board/documents/Interview_Rob-Reiner.pdf",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2022",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "PDF第2–3页，On shooting the scene，L38–70",
+      "evidence_summary": "最后的旁观者反应需超过既有笑点，否则可剪掉；场所反差参与效果。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "无需复制原场景性内容，不强加每场路人吐槽。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G019",
+      "entity_id": "emma-thompson",
+      "person_id": "emma-thompson",
+      "name": "Emma Thompson",
+      "aliases": [
+        "Emma Thompson"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "Sense and Sensibility",
+      "url": "https://www.bafta.org/stories/emma-thompson-screenwriters-lecture/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2014-09-20",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_event_excerpt_read",
+      "locator": "From comedy to drama改编段L125–127",
+      "evidence_summary": "改编包含提炼与想象性创作；先写材料，再通过省略压缩。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "活动正文及本人短引语已读，完整讲座转录访问失败；不能删必要动机。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_editor"
+    },
+    {
+      "source_id": "SRC-G020",
+      "entity_id": "john-woo",
+      "person_id": "john-woo",
+      "name": "吴宇森 / John Woo",
+      "aliases": [
+        "吴宇森",
+        "John Woo"
+      ],
+      "entity_type": "person",
+      "professional_role": "director",
+      "project_evidence": "Hard Boiled",
+      "url": "https://www.dga.org/craft/dgaq/issues/1301-winter-2013/shot-to-remember-hard-boiled",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2013-Winter",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "L89、113、116–129，茶楼开场关系、动作风格及结尾特写",
+      "evidence_summary": "开场确立人物关系，编排与全片统一，末端特写显出主角越界的悲剧感。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不采纳忽视逻辑的个人表态，不提取武器技巧或危险现场经验；慢动作可选。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_direction"
+    },
+    {
+      "source_id": "SRC-G021",
+      "entity_id": "michael-mann",
+      "person_id": "michael-mann",
+      "name": "Michael Mann",
+      "aliases": [
+        "Michael Mann"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Heat",
+      "url": "https://www.dga.org/craft/dgaq/issues/1201-winter-2012/dga-interview-michael-mann",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2012-Winter",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "L134–143，咖啡馆与街头交战场景分析",
+      "evidence_summary": "对话与交战都来自戏剧冲突，镜头动作依据双方目标和连续反应。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不提取训练战术，写实程度服从本剧规则。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_direction"
+    },
+    {
+      "source_id": "SRC-G022",
+      "entity_id": "derek-kolstad",
+      "person_id": "derek-kolstad",
+      "name": "Derek Kolstad",
+      "aliases": [
+        "Derek Kolstad"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "John Wick: Chapter 2",
+      "url": "https://www.slashfilm.com/549179/john-wick-chapter-2-screenwriter-derek-kolstad-interview/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2017-02-10",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "L80–94，视觉代替对白、俱乐部段落和动作起止",
+      "evidence_summary": "对白可压缩为目光和场景表达；枪战写明起止，留导演发展中间表达。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "草稿可改对白；确认后不得删改原话；不能把完整动作剧本降为一句概述。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_direction"
+    },
+    {
+      "source_id": "SRC-G023",
+      "entity_id": "chad-stahelski",
+      "person_id": "chad-stahelski",
+      "name": "Chad Stahelski",
+      "aliases": [
+        "Chad Stahelski"
+      ],
+      "entity_type": "person",
+      "professional_role": "director",
+      "project_evidence": "John Wick: Chapter 2",
+      "url": "https://www.slashfilm.com/549196/john-wick-chapter-2-interview/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2017-02-14",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "L87–90，公众不察觉的枪战与喜剧执行",
+      "evidence_summary": "荒诞情境与严肃表演制造幽默，旁人不察觉关联隐藏世界设定。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "幻想案例不能当现实枪声知识；采访其他参与者不自动计人。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_direction"
+    },
+    {
+      "source_id": "SRC-G024",
+      "entity_id": "clint-eastwood",
+      "person_id": "clint-eastwood",
+      "name": "Clint Eastwood",
+      "aliases": [
+        "Clint Eastwood"
+      ],
+      "entity_type": "person",
+      "professional_role": "director",
+      "project_evidence": "Unforgiven",
+      "url": "https://www.dga.org/craft/dgaq/issues/2003-summer-2020/shot-to-remember-unforgiven",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2020-Summer",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "L91–98，友人遗体、冲突累积、人物入场",
+      "evidence_summary": "暂缓展示反应保留冲击；对峙由剧本逐步积累，演员需理解当下效果。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不强制每场延迟，不照搬现场赶工或枪械动作。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_direction"
+    },
+    {
+      "source_id": "SRC-G025",
+      "entity_id": "michelle-maclaren",
+      "person_id": "michelle-maclaren",
+      "name": "Michelle MacLaren",
+      "aliases": [
+        "Michelle MacLaren"
+      ],
+      "entity_type": "person",
+      "professional_role": "director",
+      "project_evidence": "Breaking Bad: One Minute",
+      "url": "https://entertainment.ie/movies/movie-news/in-conversation-with-michelle-maclaren-228601/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": null,
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "L65–77、83–89，主观视角、跨导演一致性、One Minute",
+      "evidence_summary": "精确预排时间视角再剪短；紧密脚本和清晰人物弧能容纳镜头风格差异。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "日期未知，不固定焦段运镜；排除现场效果制作。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_direction"
+    },
+    {
+      "source_id": "SRC-G026",
+      "entity_id": "ben-wheatley",
+      "person_id": "ben-wheatley",
+      "name": "Ben Wheatley",
+      "aliases": [
+        "Ben Wheatley"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Free Fire",
+      "url": "https://www.creativescreenwriting.com/cswcms/free-fire/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2017-04-21",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "L34–53，故事起点与真实人物进入类型处境",
+      "evidence_summary": "报告与银幕惯例有差异；以恐惧失误和个人经验过滤类型惯例。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不纳入武器知识，不固定命中或伤势数量；Amy Jump没有本次本人证据不计。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_direction"
+    },
+    {
+      "source_id": "SRC-G027",
+      "entity_id": "walter-hill",
+      "person_id": "walter-hill",
+      "name": "Walter Hill",
+      "aliases": [
+        "Walter Hill"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Dead for a Dollar",
+      "url": "https://www.filmcomment.com/interview-walter-hill-on-dead-for-a-dollar/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2022-Fall",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "L25–42，人物对立、边界、末段枪战",
+      "evidence_summary": "动作始于人物，末段不能超出既有角色边界，结尾情绪由处境决定。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "人物成长可改变边界但须有因，不强制哀伤结尾。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_direction"
+    },
+    {
+      "source_id": "SRC-G028",
+      "entity_id": "christopher-mcquarrie",
+      "person_id": "christopher-mcquarrie",
+      "name": "Christopher McQuarrie",
+      "aliases": [
+        "Christopher McQuarrie"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Mission: Impossible – Rogue Nation",
+      "url": "https://www.slashfilm.com/541649/christopher-mcquarrie-interview/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2015-12-18",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "L73–87、103–107，动作减法、歌剧院、观众知情",
+      "evidence_summary": "规模大不等于更好；镜头以初次观看者的位置和目标理解为依据。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不提取武器姿势操作，不设通用长度，不照搬危险实拍。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_direction"
+    },
+    {
+      "source_id": "SRC-G029",
+      "entity_id": "steven-e-de-souza",
+      "person_id": "steven-e-de-souza",
+      "name": "Steven E. de Souza",
+      "aliases": [
+        "Steven E. de Souza"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "Die Hard",
+      "url": "https://johnaugust.com/2021/scriptnotes-episode-527-diehard-transcript",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2021-12-15",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "仅Steven本人L605–621、626，设定、多方知情和空间图",
+      "evidence_summary": "武装场面规模需符合反派设定，观众掌握双方信息可生悬念，建筑图帮助追踪空间。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不提装备配置战术；主持人观点不归其名；多视角可选。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_direction"
+    },
+    {
+      "source_id": "SRC-G030",
+      "entity_id": "paul-greengrass",
+      "person_id": "paul-greengrass",
+      "name": "Paul Greengrass",
+      "aliases": [
+        "Paul Greengrass"
+      ],
+      "entity_type": "person",
+      "professional_role": "director",
+      "project_evidence": "The Bourne Ultimatum",
+      "url": "https://www.dga.org/craft/dgaq/issues/1501-winter-2015/shot-to-remember-the-bourne-ultimatum",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2015-Winter",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "L88–105，距离、快慢、大动作准备",
+      "evidence_summary": "追逐与慢逼近交替，回报前建立距离危机，镜头像在反应。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不强制手持快剪；本源为追逐近身，不计枪战。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_direction"
+    },
+    {
+      "source_id": "SRC-G031",
+      "entity_id": "kathryn-bigelow",
+      "person_id": "kathryn-bigelow",
+      "name": "Kathryn Bigelow",
+      "aliases": [
+        "Kathryn Bigelow"
+      ],
+      "entity_type": "person",
+      "professional_role": "director",
+      "project_evidence": "The Hurt Locker",
+      "url": "https://www.dga.org/craft/dgaq/issues/0804-winter-2009/profile-kathryn-bigelow",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2009-Winter",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "L98–120，运动情绪、视觉初稿、空间适配",
+      "evidence_summary": "画面运动关联情绪，分镜给视觉语法，场地促使动作画面协作调整。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不把运动等同快剪，获批后仅调表达，不提爆炸物操作；不计枪战。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_direction"
+    },
+    {
+      "source_id": "SRC-G032",
+      "entity_id": "jeb-stuart",
+      "person_id": "jeb-stuart",
+      "name": "Jeb Stuart",
+      "aliases": [
+        "Jeb Stuart"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "Die Hard；The Fugitive",
+      "url": "https://entertainment.ie/movies/movie-news/die-hard-jeb-stuart-action-scripts-437394/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": null,
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "L29–36，人物驱动动作与悬念",
+      "evidence_summary": "先让观众关心人物，再让其进入悬念处境，规模数量不能替代可感风险。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "日期未知，不把他片评价当通则；联合署名不补枪战计数。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_direction"
+    },
+    {
+      "source_id": "SRC-G033",
+      "entity_id": "alex-garland",
+      "person_id": "alex-garland",
+      "name": "Alex Garland",
+      "aliases": [
+        "Alex Garland"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Ex Machina",
+      "url": "https://observer.case.edu/a-conversation-with-ex-machina-director-alex-garland/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2015-05-10",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "Winston Eng首问，I tried to step away回答L90–97",
+      "evidence_summary": "从被囚Ava立场理解求生机智，裂痕、花园和测试问题提示处境。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不把所有AI写成恶意或受害者，不照搬玻璃牢房测试。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G034",
+      "entity_id": "gareth-edwards",
+      "person_id": "gareth-edwards",
+      "name": "Gareth Edwards",
+      "aliases": [
+        "Gareth Edwards"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "The Creator",
+      "url": "https://www.bfi.org.uk/interviews/gareth-edwards-creator",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2023-09-28",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "AI及Vietnam allegory问答L47–58",
+      "evidence_summary": "从机器人角度想被奴役和不平等；双方认为不能轻易停下造成冲突。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "双视角不等于道德等价；寓言不当现实AI事实。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G035",
+      "entity_id": "ted-chiang",
+      "person_id": "ted-chiang",
+      "name": "Ted Chiang",
+      "aliases": [
+        "Ted Chiang"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "Exhalation；The Lifecycle of Software Objects",
+      "url": "https://aaww.org/the-occasional-writer-an-interview-with-science-fiction-author-ted-chiang/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2012-10-03",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "故事产生L17–20；conceptual breakthrough L33–37；AI关系L38–43",
+      "evidence_summary": "多角度探索想法后形成故事；科幻把范式突破戏剧化，AI关系涉及需求选择。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "我方综合步骤非作者模板，不要求每篇先知结局。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G036",
+      "entity_id": "jeff-vandermeer",
+      "person_id": "jeff-vandermeer",
+      "name": "Jeff VanderMeer",
+      "aliases": [
+        "Jeff VanderMeer"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "Annihilation；Authority",
+      "url": "https://www.lightspeedmagazine.com/nonfiction/interview-jeff-vandermeer/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2014-05",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "creepy approach L94–100；生态伦理L148–150",
+      "evidence_summary": "角色与读者可感到不同异常，揭示、不可信机构叠加不安，生态观点由人物争论。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不把他对他片猜测当事实；故意异常和生成错误需区分。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G037",
+      "entity_id": "jordan-peele",
+      "person_id": "jordan-peele",
+      "name": "Jordan Peele",
+      "aliases": [
+        "Jordan Peele"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Us；Get Out",
+      "url": "https://www.bfi.org.uk/sight-and-sound/interviews/jordan-peele-us-i-knew-i-was-gonna-forge-new-ground-pantheon-doppelganger-tales",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2019-03-22",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "人物可信与喜剧恐怖L48–51；2020-07-16更新",
+      "evidence_summary": "角色须像现实人行动，反常行动有情绪理由或被指出；真实感加强恐惧和幽默。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不强制笑点或固定喜剧恐怖比例。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G038",
+      "entity_id": "kim-stanley-robinson",
+      "person_id": "kim-stanley-robinson",
+      "name": "Kim Stanley Robinson",
+      "aliases": [
+        "Kim Stanley Robinson"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "2312",
+      "url": "https://www.lightspeedmagazine.com/nonfiction/interview-kim-stanley-robinson/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2012-08",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "2312技术前提及protagonist问答L69–78",
+      "evidence_summary": "选择空间电梯和自复制机械，排除超光速，使范围受太阳系约束，关系与栖居共同构思。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "2012科学判断不自动当今日科学结论。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G039",
+      "entity_id": "andy-weir",
+      "person_id": "andy-weir",
+      "name": "Andy Weir",
+      "aliases": [
+        "Andy Weir"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "The Martian",
+      "url": "https://www.lightspeedmagazine.com/nonfiction/interview-andy-weir/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2015-12",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "读者科学反馈L126–134；偏差L151–156；协作L172–176",
+      "evidence_summary": "接受科学纠错，以幽默人物口吻承载解释，承认虚构偏差，不靠专业协作失能造冲突。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "幽默无配额，作者承认的偏差不可引用为科学事实。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G040",
+      "entity_id": "john-carpenter",
+      "person_id": "john-carpenter",
+      "name": "John Carpenter",
+      "aliases": [
+        "John Carpenter"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Dark Star；Assault on Precinct 13",
+      "url": "https://www.bfi.org.uk/sight-and-sound/interviews/john-carpenter-dark-star-assault-precinct-13",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "1978-Spring",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "原刊1978春，网页2021-01-15；L95–105威胁，L108–111支线",
+      "evidence_summary": "中心概念统合人物片段，外部不讲理危险与主线中的交谈并存。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "本人也反思松散；不复制具体伤害桥段，不固定无动机恶。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G041",
+      "entity_id": "david-cronenberg",
+      "person_id": "david-cronenberg",
+      "name": "David Cronenberg",
+      "aliases": [
+        "David Cronenberg"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "eXistenZ；Eastern Promises",
+      "url": "https://www.wired.com/2007/12/body-language-a/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2007-12-29",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "身体问答L69–71；后果L76–82；评论者主题L103–106",
+      "evidence_summary": "抽象概念通过身体表情呈现，暴力有身体后果，不按评论者主题清单写作。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不把身体恐怖标签冒称其先验创作公式，不强制血腥。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G042",
+      "entity_id": "ann-leckie",
+      "person_id": "ann-leckie",
+      "name": "Ann Leckie",
+      "aliases": [
+        "Ann Leckie"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "Ancillary Justice；Ancillary Sword",
+      "url": "https://www.lightspeedmagazine.com/nonfiction/feature-interview-ann-leckie/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2015-02",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "宗教和空间站L205–214",
+      "evidence_summary": "长期太空生活改变文化重要性，重新想象地表与空间站的文化含义，质疑现实默认。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不把现实文化简化为单一标签。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G043",
+      "entity_id": "duncan-jones",
+      "person_id": "duncan-jones",
+      "name": "Duncan Jones",
+      "aliases": [
+        "Duncan Jones"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Moon",
+      "url": "https://www.eyeforfilm.co.uk/feature/2009-06-17-duncan-jones-interview-on-moon-feature-story-by-amber-wilkinson",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2009-06-17",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "类型期待L29–32；限制L33–41；机器人伦理L56–58",
+      "evidence_summary": "借旧科幻机器人预期制造不同结果，在演员场地等限制内形成故事并理解设施运作。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不借Gerty或克隆情节，少场景不保证低生成成本。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G044",
+      "entity_id": "robert-eggers",
+      "person_id": "robert-eggers",
+      "name": "Robert Eggers",
+      "aliases": [
+        "Robert Eggers"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "The Witch",
+      "url": "https://www.bfi.org.uk/sight-and-sound/interviews/voices-undead-robert-eggers-witch",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2016-03-10",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "历史L24–28；家庭L33–37；民俗记录L44–51；2016-07-11更新",
+      "evidence_summary": "研究推动影片；清教徒噩梦与家庭戏，从民俗和历史记录共存的恐惧中选材。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "人物信念不等于事实；换文化需重查。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G045",
+      "entity_id": "ari-aster",
+      "person_id": "ari-aster",
+      "name": "Ari Aster",
+      "aliases": [
+        "Ari Aster"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Hereditary",
+      "url": "https://www.nhpr.org/2018-06-11/director-ari-aster-says-hereditary-is-a-family-drama-at-its-core",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2018-06-11",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "NPR原采访刊载，本人L415、421、423、427、431",
+      "evidence_summary": "先使家庭剧鲜活，再处理恐怖；事件改变后续，玩偶屋意象表达被控制。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "深层不安不是普适爽感或商业保证。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G046",
+      "entity_id": "gillian-flynn",
+      "person_id": "gillian-flynn",
+      "name": "Gillian Flynn",
+      "aliases": [
+        "Gillian Flynn"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "Gone Girl；Sharp Objects",
+      "url": "https://www.pbs.org/video/a-conversation-with-gillian-flynn-bwoikx/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2021-05-22",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "On Story S11E8，来历L358–374，语调L377–384，独白L464–469",
+      "evidence_summary": "来历和持续情绪痛苦使黑暗角色超出廉价刺激；按集安排主题语调，独白位置不阻情节。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "理解不等于开脱，不把童年创伤当所有反派模板。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G047",
+      "entity_id": "mike-flanagan",
+      "person_id": "mike-flanagan",
+      "name": "Mike Flanagan",
+      "aliases": [
+        "Mike Flanagan"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer / director",
+      "project_evidence": "Oculus",
+      "url": "https://www.denofgeek.com/movies/interview-oculus-director-mike-flanagan/",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2014-04-14",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "genesis L15–21；Mirrors L23–26；viewer imagination问答",
+      "evidence_summary": "令所见不再客观可靠，以日常物件让观众参与想象而非只被动看恐怖。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "个人媒介判断不是定律，不套镜子装置。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
+    },
+    {
+      "source_id": "SRC-G048",
+      "entity_id": "stephen-king",
+      "person_id": "stephen-king",
+      "name": "Stephen King",
+      "aliases": [
+        "Stephen King"
+      ],
+      "entity_type": "person",
+      "professional_role": "writer",
+      "project_evidence": "The Outsider；If It Bleeds",
+      "url": "https://freshairarchive.org/segments/stephen-king-sorry-you-feel-youre-stuck-stephen-king-novel",
+      "source_type": "本人原始采访、讲座或其明确署名刊载；具体读取范围见read_status与定位",
+      "published_at": "2020-04-08",
+      "accessed_at": "2026-09-21",
+      "read_status": "primary_relevant_passage_read",
+      "locator": "Terry Gross可怕世界问题L147–159；神话L160–169",
+      "evidence_summary": "陌生意外侵入普通日常，先有威胁再找匹配神话，危险延伸到留下者的悲痛。",
+      "confidence": "支持可见观点，不证明创作质量；题材关联为有依据的适配判断",
+      "limitations": "不把本人转述民俗当权威史，不照搬具体生物或神话。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "researcher": "genre_j10_library"
     }
   ],
   "methods": [
@@ -852,6 +2009,1353 @@
       ],
       "check": "看点与回报可感且有依据，节奏加快没有破坏故事连续性；不承诺爆款或未测量的留存率。",
       "limits": "本库编辑归纳，详见references/audience-rhythm.md；不固定秒数、反转数、打脸套路或视觉风格，不改变既有DOCX与两表Excel交付。"
+    },
+    {
+      "method_id": "G001",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G001"
+      ],
+      "task": "低估侦探产生信息泄漏",
+      "when": "当前场景需要处理以下问题时：低估侦探产生信息泄漏；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "悬疑"
+      ],
+      "steps": [
+        "给侦探可被低估的外显行为",
+        "让嫌疑人放松并泄漏可验证信息",
+        "回查泄漏和最终推理的连接"
+      ],
+      "check": "线索来自可见行为或台词，不靠凭空猜中。",
+      "limits": "滑稽不能代替推理，不复制口音或人物。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G002",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G002"
+      ],
+      "task": "拆分事实时间与揭示顺序",
+      "when": "当前场景需要处理以下问题时：拆分事实时间与揭示顺序；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "悬疑"
+      ],
+      "steps": [
+        "分别列事实时间、展示时间和内心信息",
+        "把必要内心转为可观察行动",
+        "逐次揭示回查此前证据"
+      ],
+      "check": "人物当时的知情范围仍成立。",
+      "limits": "不能改冻结事实，不强制中点反转。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G003",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G003"
+      ],
+      "task": "人物偏见过滤证据",
+      "when": "当前场景需要处理以下问题时：人物偏见过滤证据；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "悬疑"
+      ],
+      "steps": [
+        "写叙述者的需求和恐惧",
+        "使线索经其偏见产生误读",
+        "保留客观事实供后续纠偏"
+      ],
+      "check": "区分发生的事与人物解释。",
+      "limits": "不可靠解释不授权改变世界事实；短漫剧压缩内心长段。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G004",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G004"
+      ],
+      "task": "案件推进与情感反向行动",
+      "when": "当前场景需要处理以下问题时：案件推进与情感反向行动；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "悬疑",
+        "爱情"
+      ],
+      "steps": [
+        "为调查行为写案件和关系两目标",
+        "让分离宣言和照顾行动相悖",
+        "分别回查证据链与情感变化"
+      ],
+      "check": "动作的两种含义都有前因。",
+      "limits": "不强制慢燃、悲剧、情色或特定摄影。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G005",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G005"
+      ],
+      "task": "证据的关系含义",
+      "when": "当前场景需要处理以下问题时：证据的关系含义；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "悬疑",
+        "爱情"
+      ],
+      "steps": [
+        "登记证据的案件与关系含义",
+        "让两种解读产生冲突",
+        "以选择显示人物关系需求"
+      ],
+      "check": "关系解读没有被当成案件事实。",
+      "limits": "不能把一切证据浪漫化或以爱情证明无罪。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G006",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G006"
+      ],
+      "task": "避免镜头提前裁定嫌疑",
+      "when": "当前场景需要处理以下问题时：避免镜头提前裁定嫌疑；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "悬疑"
+      ],
+      "steps": [
+        "列每人的可见行为",
+        "以共享空间呈现相互反应",
+        "删除无证据的定罪式特写描述"
+      ],
+      "check": "去掉音乐和表情定性后仍有行为依据。",
+      "limits": "不要求全程远景，关键线索可明确强调。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision",
+        "confirmed_translation"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "confirmed_steps": [
+        "核对获批场景中每个人已有的行为和反应，保持原信息出现顺序。",
+        "在既有空间内安排构图、视线和反应覆盖，不新增暗示有罪的动作。",
+        "检查特写是否让观众提前获得原稿未揭示的信息；若会则舍弃该表达。"
+      ],
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G007",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G007"
+      ],
+      "task": "有限材料与多方解释",
+      "when": "当前场景需要处理以下问题时：有限材料与多方解释；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "悬疑"
+      ],
+      "steps": [
+        "冻结已有材料与缺失部分",
+        "写各方对材料的不同解释",
+        "给解释者独立于职业的个人动机"
+      ],
+      "check": "未展示部分不被暗中确认为事实。",
+      "limits": "开放不等于缺关键线索，不强制真相不明。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G008",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G008"
+      ],
+      "task": "删去重复解释并保留线索",
+      "when": "当前场景需要处理以下问题时：删去重复解释并保留线索；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "悬疑"
+      ],
+      "steps": [
+        "标记重复案情",
+        "将必要状态改为可见行动和物件变化",
+        "删后核对首次线索和回收"
+      ],
+      "check": "解释新增信息、改变判断或推进动作。",
+      "limits": "不删除公平推理必需线索，不复刻庄园风格。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G009",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G009"
+      ],
+      "task": "抓捕后转换悬念",
+      "when": "当前场景需要处理以下问题时：抓捕后转换悬念；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "悬疑"
+      ],
+      "steps": [
+        "写抓捕前问题与解决证据",
+        "把抓捕后果转为动机或影响的问题",
+        "在连续审讯行动中改变主导权"
+      ],
+      "check": "新问题由前段后果产生。",
+      "limits": "不强制长镜头或超自然；不将其分析他片全算原创理论。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G010",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G010"
+      ],
+      "task": "关系网络限制嫌疑与秘密",
+      "when": "当前场景需要处理以下问题时：关系网络限制嫌疑与秘密；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "悬疑"
+      ],
+      "steps": [
+        "画人物往来和秘密关系",
+        "由地点决定碰面与听见的机会",
+        "让既存关系带动嫌疑扩散"
+      ],
+      "check": "信息传播有具体接触路径。",
+      "limits": "不强制小镇，熟人不等于全知。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G011",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G011"
+      ],
+      "task": "可回溯的公平反转",
+      "when": "当前场景需要处理以下问题时：可回溯的公平反转；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "悬疑"
+      ],
+      "steps": [
+        "写施动者受动者与动机关系",
+        "安排可见但可误读的线索",
+        "反转后指回先前信息"
+      ],
+      "check": "读者能指出漏看了什么，而非作者新补什么。",
+      "limits": "不把犯罪公式套给所有悬疑，公平与可预测需权衡。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G012",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G012"
+      ],
+      "task": "重复动作的关系变义",
+      "when": "当前场景需要处理以下问题时：重复动作的关系变义；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "爱情"
+      ],
+      "steps": [
+        "选有实际用途的动作或物件",
+        "关系改变后再次呈现",
+        "以迟疑接受或撤回显示差别"
+      ],
+      "check": "差别可见并对应关系变化。",
+      "limits": "不复制旗袍配乐色调，重复不变义可删。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G013",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G013"
+      ],
+      "task": "让爱情障碍扎根关系",
+      "when": "当前场景需要处理以下问题时：让爱情障碍扎根关系；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "爱情"
+      ],
+      "steps": [
+        "写双方想靠近的原因",
+        "写靠近会失去的关系或条件",
+        "让每次靠近改变而非重置障碍"
+      ],
+      "check": "若正常沟通即可解决，应有不能或不愿沟通的依据。",
+      "limits": "不套旧时代规则，不强制异性恋或喜剧。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G014",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G014"
+      ],
+      "task": "真实困境中的喜剧转向",
+      "when": "当前场景需要处理以下问题时：真实困境中的喜剧转向；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "爱情"
+      ],
+      "steps": [
+        "写没有笑话也成立的关系困境",
+        "由人物应对方式制造窘迫",
+        "保留代价并给予可见积极行动"
+      ],
+      "check": "去掉笑点后需求清楚，笑点不取消伤害。",
+      "limits": "乐观仅可选，不固定爱情结局；页面另有2025更新日期。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G015",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G015"
+      ],
+      "task": "共同空间中的关系拉扯",
+      "when": "当前场景需要处理以下问题时：共同空间中的关系拉扯；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "爱情"
+      ],
+      "steps": [
+        "确定双方当前生活责任",
+        "将分歧放进持续共同活动",
+        "保留双方反应并记录争执后变化"
+      ],
+      "check": "角色变化有经历依据，一方发言时另一方仍在场。",
+      "limits": "不强制长对白长镜头，短漫剧保留有效关系交换。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G016",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G016"
+      ],
+      "task": "在关系转移处选择场景",
+      "when": "当前场景需要处理以下问题时：在关系转移处选择场景；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "爱情"
+      ],
+      "steps": [
+        "列两人关系状态变化",
+        "在转移处选场并略去重复日常",
+        "保留跨时间的身份和知情连接"
+      ],
+      "check": "选中的转折场有可辨关系变化，省略没吞掉关键因果。",
+      "limits": "仅用于需压缩关系线时，不强制所有观察场变化或吵架；通信符合条件。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G017",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G017"
+      ],
+      "task": "双向承担风险的复合",
+      "when": "当前场景需要处理以下问题时：双向承担风险的复合；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "爱情"
+      ],
+      "steps": [
+        "列两人造成破裂的具体行为",
+        "设计双方承认和改变的行动",
+        "让复合在双方承担风险后发生"
+      ],
+      "check": "示爱回应先前伤害，双方有选择权。",
+      "limits": "严重伤害不能各打五十大板，不强制团圆。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G018",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G018"
+      ],
+      "task": "旁观者反应收束恋爱喜剧",
+      "when": "当前场景需要处理以下问题时：旁观者反应收束恋爱喜剧；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "爱情"
+      ],
+      "steps": [
+        "让关系冲突在公共场所升级",
+        "加入符合旁观者视角的简短反应",
+        "比较有无收尾反应的节奏"
+      ],
+      "check": "收尾增加理解或回报而非解释笑点。",
+      "limits": "无需复制原场景性内容，不强加每场路人吐槽。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G019",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G019"
+      ],
+      "task": "保留情感因果的改编省略",
+      "when": "当前场景需要处理以下问题时：保留情感因果的改编省略；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "爱情"
+      ],
+      "steps": [
+        "列爱情线必要转折",
+        "每转折留最有表现力的场景",
+        "删重复说明并回查因果"
+      ],
+      "check": "观众仍能解释为何靠近退缩或改变。",
+      "limits": "活动正文及本人短引语已读，完整讲座转录访问失败；不能删必要动机。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G020",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G020"
+      ],
+      "task": "让枪战节拍揭示人物",
+      "when": "当前场景需要处理以下问题时：让枪战节拍揭示人物；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "动作",
+        "枪战"
+      ],
+      "steps": [
+        "写双方关系和观众已知信息",
+        "动作节点连接伤势、保护对象或选择",
+        "用结果与反应核对人物变化"
+      ],
+      "check": "奇观之外仍推进人物冲突，首尾状态有依据。",
+      "limits": "不采纳忽视逻辑的个人表态，不提取武器技巧或危险现场经验；慢动作可选。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision",
+        "confirmed_translation"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "confirmed_steps": [
+        "定位获批动作段既有的目标、保护对象、伤势及结果，不改动作起止和战果。",
+        "用景别、构图和机位突出这些已发生的选择与反应，不另加角色越界行为。",
+        "核对原有台词、旁白、事件顺序及结果逐项完整，表达不能造成提前揭示。"
+      ],
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G021",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G021"
+      ],
+      "task": "从冲突目标生成动作",
+      "when": "当前场景需要处理以下问题时：从冲突目标生成动作；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "动作",
+        "枪战"
+      ],
+      "steps": [
+        "分别写双方要达成什么",
+        "节点表现目标受阻或关系变化",
+        "删去无法连接冲突的炫技"
+      ],
+      "check": "主要动作节点的原因可解释。",
+      "limits": "不提取训练战术，写实程度服从本剧规则。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G022",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G022"
+      ],
+      "task": "锁定动作起止，允许表达协作",
+      "when": "当前场景需要处理以下问题时：锁定动作起止，允许表达协作；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "动作",
+        "枪战"
+      ],
+      "steps": [
+        "写行动前目标和行动后变化",
+        "以可见态度替代重复解释",
+        "中间表达回检既定起止"
+      ],
+      "check": "减少解释后仍读懂态度与行动原因。",
+      "limits": "草稿可改对白；确认后不得删改原话；不能把完整动作剧本降为一句概述。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G023",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G023"
+      ],
+      "task": "以世界规则承载动作喜剧",
+      "when": "当前场景需要处理以下问题时：以世界规则承载动作喜剧；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "动作",
+        "枪战"
+      ],
+      "steps": [
+        "明确本场现实程度与公众知情规则",
+        "人物认真行动，由情境制造反差",
+        "回查同类事件的规则一致"
+      ],
+      "check": "不是临时规则或人物突然变性格。",
+      "limits": "幻想案例不能当现实枪声知识；采访其他参与者不自动计人。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G024",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G024"
+      ],
+      "task": "延迟反应，让对峙积累重量",
+      "when": "当前场景需要处理以下问题时：延迟反应，让对峙积累重量；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "动作",
+        "枪战"
+      ],
+      "steps": [
+        "区分观众先看见和暂看不见的信息",
+        "爆发前积累关系与触发事件",
+        "以关键入场或反应兑现积累"
+      ],
+      "check": "延迟增强情绪而非隐瞒必需线索。",
+      "limits": "不强制每场延迟，不照搬现场赶工或枪械动作。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision",
+        "confirmed_translation"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "confirmed_steps": [
+        "保留获批场景的入场、反应及揭示顺序，标明观众原本何时看见信息。",
+        "仅在该时点和现有动作内选择停留与景别，不把反应移到别场或藏起必要线索。",
+        "检查画面停留没有改变台词播放顺序、客观时间和剧情因果。"
+      ],
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G025",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G025"
+      ],
+      "task": "以人物视角计时，以整剧故事裁决",
+      "when": "当前场景需要处理以下问题时：以人物视角计时，以整剧故事裁决；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "动作",
+        "枪战"
+      ],
+      "steps": [
+        "标记当前认知和情绪视点",
+        "预排冲突节点及信息顺序",
+        "删除无压力增益的拖延并回查人物弧"
+      ],
+      "check": "镜头变化服务同一故事，延长时间有压力依据。",
+      "limits": "日期未知，不固定焦段运镜；排除现场效果制作。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision",
+        "confirmed_translation"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "confirmed_steps": [
+        "沿用获批人物视点及信息顺序，逐镜记录已经存在的冲突节点。",
+        "为既有动作安排可读的停留和运镜；只消除表格误写造成的重复播放，不删原稿动作或台词。",
+        "对照原场核对顺序、知情和结果；预算不够时报告缺口，不自行压掉剧情。"
+      ],
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G026",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G026"
+      ],
+      "task": "用人物失误检验类型惯例",
+      "when": "当前场景需要处理以下问题时：用人物失误检验类型惯例；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "动作",
+        "枪战"
+      ],
+      "steps": [
+        "列出本场类型预期",
+        "写符合恐惧和局限的反应",
+        "检查反应带来的关系或事件后果"
+      ],
+      "check": "失误改变后续，人物超出类型功能。",
+      "limits": "不纳入武器知识，不固定命中或伤势数量；Amy Jump没有本次本人证据不计。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G027",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G027"
+      ],
+      "task": "在人物边界内设计对抗",
+      "when": "当前场景需要处理以下问题时：在人物边界内设计对抗；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "动作",
+        "枪战"
+      ],
+      "steps": [
+        "写能力性格与行为边界",
+        "逐拍写他会怎样做及对方回应",
+        "依据后果决定结尾情绪"
+      ],
+      "check": "不为高光突然换人。",
+      "limits": "人物成长可改变边界但须有因，不强制哀伤结尾。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G028",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G028"
+      ],
+      "task": "按观众理解安排动作信息",
+      "when": "当前场景需要处理以下问题时：按观众理解安排动作信息；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "动作",
+        "枪战"
+      ],
+      "steps": [
+        "列理解本拍需要的前置信息",
+        "信息可见后再推进关键镜头",
+        "删掉无新变化的重复动作"
+      ],
+      "check": "新读者能解释位置、目标和变化。",
+      "limits": "不提取武器姿势操作，不设通用长度，不照搬危险实拍。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision",
+        "confirmed_translation"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "confirmed_steps": [
+        "标出获批段落中位置、目标及关键信息原有的出现时点。",
+        "在既定顺序内用构图和机位使信息可读，不补前置解释、不提前揭晓。",
+        "检查各镜承载的已确认动作和原话完整且只呈现应有次数；需要删事件或重排时退出转译。"
+      ],
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G029",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G029"
+      ],
+      "task": "武装场面接回设定与知情关系",
+      "when": "当前场景需要处理以下问题时：武装场面接回设定与知情关系；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "动作",
+        "枪战"
+      ],
+      "steps": [
+        "查场面规模的前文依据",
+        "登记各方和观众已知信息",
+        "用简单空间图回查场景连接"
+      ],
+      "check": "能力不突然出现，视点切换增加有效信息。",
+      "limits": "不提装备配置战术；主持人观点不归其名；多视角可选。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G030",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G030"
+      ],
+      "task": "快慢关系准备动作回报",
+      "when": "当前场景需要处理以下问题时：快慢关系准备动作回报；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "动作"
+      ],
+      "steps": [
+        "追踪各方剩余机会",
+        "交替不同速度与压力的段落",
+        "高光前建立空间和选择"
+      ],
+      "check": "高光有准备，观众知道谁更接近目标。",
+      "limits": "不强制手持快剪；本源为追逐近身，不计枪战。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G031",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G031"
+      ],
+      "task": "空间与动作共同服务情绪",
+      "when": "当前场景需要处理以下问题时：空间与动作共同服务情绪；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "动作"
+      ],
+      "steps": [
+        "确定本段情绪变化",
+        "用分镜草案表达视觉关系",
+        "按空间调整表达并回查故事目的"
+      ],
+      "check": "动作空间对白像同一场自然发生。",
+      "limits": "不把运动等同快剪，获批后仅调表达，不提爆炸物操作；不计枪战。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision",
+        "confirmed_translation"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "confirmed_steps": [
+        "沿用已确认空间、人物位置和动作起止，标出本场已有的情绪变化。",
+        "以构图、机位和运镜表现既有空间关系，不为适配画面新增动作或改场地事实。",
+        "回读原剧情、台词及结果，若视听方案依赖改写正文则只记录建议，不执行。"
+      ],
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G032",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G032"
+      ],
+      "task": "让风险属于具体人物",
+      "when": "当前场景需要处理以下问题时：让风险属于具体人物；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "动作"
+      ],
+      "steps": [
+        "写观众关心人物的原因",
+        "把障碍连到人物会失去的东西",
+        "查场面升级是否增加个人风险"
+      ],
+      "check": "场面具有该人物的具体关联。",
+      "limits": "日期未知，不把他片评价当通则；联合署名不补枪战计数。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G033",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G033"
+      ],
+      "task": "从受限智能体立场重算动机",
+      "when": "当前场景需要处理以下问题时：从受限智能体立场重算动机；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "科幻",
+        "惊悚"
+      ],
+      "steps": [
+        "列智能体资源限制与代价",
+        "给同一行为写人类怀疑和智能体求生两种解释",
+        "以可见细节改变信任判断"
+      ],
+      "check": "反转后原行为仍有可追溯动机。",
+      "limits": "不把所有AI写成恶意或受害者，不照搬玻璃牢房测试。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G034",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G034"
+      ],
+      "task": "让科幻阵营各有难以放弃的理由",
+      "when": "当前场景需要处理以下问题时：让科幻阵营各有难以放弃的理由；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "科幻"
+      ],
+      "steps": [
+        "写两方自认正当的目标和损失",
+        "把技术差异放入同一生存或资源矛盾",
+        "安排理由都成立却不能兼得的选择"
+      ],
+      "check": "技术造成的权利或生存差异实际影响事件。",
+      "limits": "双视角不等于道德等价；寓言不当现实AI事实。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G035",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G035"
+      ],
+      "task": "将概念突破变成人物代价",
+      "when": "当前场景需要处理以下问题时：将概念突破变成人物代价；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "科幻"
+      ],
+      "steps": [
+        "冻结反事实前提和可检验后果",
+        "写原理解、反证、新理解",
+        "让理解变化迫使人物付出选择代价"
+      ],
+      "check": "高潮改变理解和行动，不只补百科。",
+      "limits": "我方综合步骤非作者模板，不要求每篇先知结局。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G036",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G036"
+      ],
+      "task": "双层异常与生态立场冲突",
+      "when": "当前场景需要处理以下问题时：双层异常与生态立场冲突；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "科幻",
+        "惊悚"
+      ],
+      "steps": [
+        "标角色和观众各知异常",
+        "每次揭示改变一项解释或信任",
+        "让生存与生态利益通过人物冲突"
+      ],
+      "check": "不安有信息来源和后果，不靠自相矛盾。",
+      "limits": "不把他对他片猜测当事实；故意异常和生成错误需区分。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G037",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G037"
+      ],
+      "task": "以可信行动保持恐惧压力",
+      "when": "当前场景需要处理以下问题时：以可信行动保持恐惧压力；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "惊悚"
+      ],
+      "steps": [
+        "先写正常求助或脱困反应",
+        "反常行动补可见情绪或关系原因",
+        "按需要以真实反应松弛再恢复威胁"
+      ],
+      "check": "危险不依赖人物无故降智。",
+      "limits": "不强制笑点或固定喜剧恐怖比例。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G038",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G038"
+      ],
+      "task": "少量技术前提约束文明尺度",
+      "when": "当前场景需要处理以下问题时：少量技术前提约束文明尺度；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "科幻"
+      ],
+      "steps": [
+        "明确允许和不允许的技术",
+        "推导交通栖居资源约束",
+        "让关系和任务经过这些约束"
+      ],
+      "check": "困难不被临时新技术取消。",
+      "limits": "2012科学判断不自动当今日科学结论。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G039",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G039"
+      ],
+      "task": "专业行动与人物声音承载科学难题",
+      "when": "当前场景需要处理以下问题时：专业行动与人物声音承载科学难题；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "科幻"
+      ],
+      "steps": [
+        "分真实依据、外推与明示虚构",
+        "把说明放入正在解决的问题",
+        "以压力反应显性格并复核专业行为"
+      ],
+      "check": "能看见问题行动结果，专业者不无因失能。",
+      "limits": "幽默无配额，作者承认的偏差不可引用为科学事实。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G040",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G040"
+      ],
+      "task": "中心处境统摄人物段落与威胁",
+      "when": "当前场景需要处理以下问题时：中心处境统摄人物段落与威胁；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "科幻",
+        "惊悚"
+      ],
+      "steps": [
+        "写共同的中心处境",
+        "让交谈影响关系或判断",
+        "回到威胁时兑现此前限制"
+      ],
+      "check": "支线后主目标清楚，慢段有认识或关系作用。",
+      "limits": "本人也反思松散；不复制具体伤害桥段，不固定无动机恶。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G041",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G041"
+      ],
+      "task": "让抽象压力具有身体表现",
+      "when": "当前场景需要处理以下问题时：让抽象压力具有身体表现；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "科幻",
+        "惊悚"
+      ],
+      "steps": [
+        "把设定影响转为动作表情变化",
+        "让危险兑现为人物代价"
+      ],
+      "check": "不靠概念旁白也看出变化。",
+      "limits": "不把身体恐怖标签冒称其先验创作公式，不强制血腥。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G042",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G042"
+      ],
+      "task": "从栖居环境推导文化默认值",
+      "when": "当前场景需要处理以下问题时：从栖居环境推导文化默认值；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "科幻"
+      ],
+      "steps": [
+        "选择长期环境差异",
+        "推导价值禁忌或礼仪变化",
+        "令差异影响实际交涉或选择"
+      ],
+      "check": "区别有环境因果且改变行为。",
+      "limits": "不把现实文化简化为单一标签。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G043",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G043"
+      ],
+      "task": "在限制内改写科幻预期",
+      "when": "当前场景需要处理以下问题时：在限制内改写科幻预期；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "科幻"
+      ],
+      "steps": [
+        "记录一项观众类型预期",
+        "以既有规则支持另一合理结果",
+        "用有限场景和关系完成揭示"
+      ],
+      "check": "意外来自预期变化而非规则失效。",
+      "limits": "不借Gerty或克隆情节，少场景不保证低生成成本。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G044",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G044"
+      ],
+      "task": "让时代信念进入家庭恐惧",
+      "when": "当前场景需要处理以下问题时：让时代信念进入家庭恐惧；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "惊悚"
+      ],
+      "steps": [
+        "确定人物相信的一项危险",
+        "写信念如何解释日常损失",
+        "让家人产生相互冲突的应对"
+      ],
+      "check": "恐惧由世界观与关系生长，不只靠复古物件。",
+      "limits": "人物信念不等于事实；换文化需重查。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G045",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G045"
+      ],
+      "task": "灾变放大家庭已有裂痕",
+      "when": "当前场景需要处理以下问题时：灾变放大家庭已有裂痕；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "惊悚"
+      ],
+      "steps": [
+        "危险前写具体家庭矛盾",
+        "使事件改变关系条件",
+        "用贯穿意象表现失控程度"
+      ],
+      "check": "去掉超自然后，关系仍有因果。",
+      "limits": "深层不安不是普适爽感或商业保证。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G046",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G046"
+      ],
+      "task": "人物来历支撑黑暗行为与揭示位置",
+      "when": "当前场景需要处理以下问题时：人物来历支撑黑暗行为与揭示位置；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "惊悚"
+      ],
+      "steps": [
+        "追溯当前行为的经历",
+        "只披露改变本场理解的过去",
+        "解释放在动作或关系转折中"
+      ],
+      "check": "角色因果可理解，独白调整不切断线索。",
+      "limits": "理解不等于开脱，不把童年创伤当所有反派模板。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G047",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G047"
+      ],
+      "task": "动摇日常感知工具的可信度",
+      "when": "当前场景需要处理以下问题时：动摇日常感知工具的可信度；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "惊悚"
+      ],
+      "steps": [
+        "建立物件的可靠用途",
+        "让异常破坏对它的信任",
+        "用可追踪信息差邀请观众判断"
+      ],
+      "check": "主观呈现有规则，不任意撤销已展示事实。",
+      "limits": "个人媒介判断不是定律，不套镜子装置。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
+    },
+    {
+      "method_id": "G048",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-G048"
+      ],
+      "task": "日常基线和持续后果放大异变",
+      "when": "当前场景需要处理以下问题时：日常基线和持续后果放大异变；结合题材绑定适用理由选择，可不用。",
+      "scene_tags": [
+        "惊悚"
+      ],
+      "steps": [
+        "建立普通生活秩序",
+        "异常侵入并破坏秩序",
+        "持续追踪关系和生活后果"
+      ],
+      "check": "惊吓后不归零。",
+      "limits": "不把本人转述民俗当权威史，不照搬具体生物或神话。；步骤为本库适配，不是本人逐条教学。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "草稿仅改授权范围；确认后只取不改故事的可视表达建议，用于动作描述、主画面和运镜；不能删改台词、旁白、事件、结果、人物身份或揭示时点。含故事重组的步骤在确认后只作诊断。",
+      "availability": "active",
+      "batch_id": "genre-six-20260921",
+      "stage_basis": "按具体方法可执行内容划分，不按作者是否兼任导演划分；正文构造方法确认后不进入操作检索。"
     }
   ]
 }

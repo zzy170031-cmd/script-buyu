@@ -1,0 +1,1825 @@
+{
+  "version": "1.0",
+  "baseline_commit": "c204898fe7246d2d9572a0233162dde706352486",
+  "scope_status": "initial_six_genres_only_overall_scope_pending_user_definition",
+  "counting_policy": "每类作家与导演合计至少10位新增不同自然人；同人多头衔一次，有逐类依据才可跨类复用。更广范围及各职业另10的口径待用户答复。",
+  "minimum_new_people_per_genre": 10,
+  "baseline_entity_ids": [
+    "ANIMATION-GUILD",
+    "CRAIG-MAZIN",
+    "DISNEY-STORY",
+    "RUSSO-BROTHERS",
+    "alfred-hitchcock",
+    "anthony-russo",
+    "bong-joon-ho",
+    "christopher-nolan",
+    "craig-mazin",
+    "harold-pinter",
+    "hayao-miyazaki",
+    "hirokazu-koreeda",
+    "james-cameron",
+    "joe-russo",
+    "liu-cixin",
+    "mo-yan",
+    "richard-curtis",
+    "satoshi-kon",
+    "svetlana-alexievich",
+    "ursula-k-le-guin",
+    "作家-Svetlana Alexievich",
+    "作家-Ursula K. Le Guin",
+    "作家-莫言",
+    "剧作家-Harold Pinter",
+    "动画导演-今敏",
+    "动画导演-宫崎骏",
+    "导演-Alfred Hitchcock",
+    "导演-是枝裕和",
+    "科幻作家-刘慈欣",
+    "编剧与导演-Christopher Nolan",
+    "编剧与导演-James Cameron",
+    "编剧与导演-Richard Curtis",
+    "编剧与导演-奉俊昊"
+  ],
+  "people": [
+    {
+      "person_id": "craig-mazin",
+      "name": "Craig Mazin",
+      "aliases": [
+        "克雷格·麦辛"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "ursula-k-le-guin",
+      "name": "Ursula K. Le Guin",
+      "aliases": [
+        "勒古恩",
+        "厄休拉·勒古恩"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "harold-pinter",
+      "name": "Harold Pinter",
+      "aliases": [
+        "品特",
+        "哈罗德·品特"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "mo-yan",
+      "name": "莫言",
+      "aliases": [
+        "Mo Yan"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "liu-cixin",
+      "name": "刘慈欣",
+      "aliases": [
+        "Liu Cixin"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "svetlana-alexievich",
+      "name": "Svetlana Alexievich",
+      "aliases": [
+        "阿列克谢耶维奇"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "richard-curtis",
+      "name": "Richard Curtis",
+      "aliases": [
+        "理查德·柯蒂斯"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "alfred-hitchcock",
+      "name": "Alfred Hitchcock",
+      "aliases": [
+        "希区柯克"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "hirokazu-koreeda",
+      "name": "是枝裕和",
+      "aliases": [
+        "Hirokazu Koreeda"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "bong-joon-ho",
+      "name": "奉俊昊",
+      "aliases": [
+        "Bong Joon-ho"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "christopher-nolan",
+      "name": "Christopher Nolan",
+      "aliases": [
+        "诺兰",
+        "克里斯托弗·诺兰"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "hayao-miyazaki",
+      "name": "宫崎骏",
+      "aliases": [
+        "Hayao Miyazaki"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "satoshi-kon",
+      "name": "今敏",
+      "aliases": [
+        "Satoshi Kon"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "james-cameron",
+      "name": "James Cameron",
+      "aliases": [
+        "卡梅隆",
+        "詹姆斯·卡梅隆"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "joe-russo",
+      "name": "Joe Russo",
+      "aliases": [
+        "乔·罗素"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "anthony-russo",
+      "name": "Anthony Russo",
+      "aliases": [
+        "安东尼·罗素"
+      ],
+      "baseline": true
+    },
+    {
+      "person_id": "rian-johnson",
+      "name": "Rian Johnson",
+      "aliases": [
+        "Rian Johnson"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "gillian-flynn",
+      "name": "Gillian Flynn",
+      "aliases": [
+        "Gillian Flynn"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "tana-french",
+      "name": "Tana French",
+      "aliases": [
+        "Tana French"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "park-chan-wook",
+      "name": "朴赞郁 / Park Chan-wook",
+      "aliases": [
+        "朴赞郁",
+        "Park Chan-wook"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "chung-seo-kyung",
+      "name": "郑瑞景 / Chung Seo-kyung",
+      "aliases": [
+        "郑瑞景",
+        "Chung Seo-kyung"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "david-fincher",
+      "name": "David Fincher",
+      "aliases": [
+        "David Fincher"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "justine-triet",
+      "name": "Justine Triet",
+      "aliases": [
+        "Justine Triet"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "agatha-christie",
+      "name": "Agatha Christie",
+      "aliases": [
+        "Agatha Christie"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "kiyoshi-kurosawa",
+      "name": "黑泽清 / Kiyoshi Kurosawa",
+      "aliases": [
+        "黑泽清",
+        "Kiyoshi Kurosawa"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "asghar-farhadi",
+      "name": "Asghar Farhadi",
+      "aliases": [
+        "Asghar Farhadi"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "anthony-horowitz",
+      "name": "Anthony Horowitz",
+      "aliases": [
+        "Anthony Horowitz"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "wong-kar-wai",
+      "name": "王家卫 / Wong Kar Wai",
+      "aliases": [
+        "王家卫",
+        "Wong Kar Wai"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "nora-ephron",
+      "name": "Nora Ephron",
+      "aliases": [
+        "Nora Ephron"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "nancy-meyers",
+      "name": "Nancy Meyers",
+      "aliases": [
+        "Nancy Meyers"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "richard-linklater",
+      "name": "Richard Linklater",
+      "aliases": [
+        "Richard Linklater"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "sally-rooney",
+      "name": "Sally Rooney",
+      "aliases": [
+        "Sally Rooney"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "emily-henry",
+      "name": "Emily Henry",
+      "aliases": [
+        "Emily Henry"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "rob-reiner",
+      "name": "Rob Reiner",
+      "aliases": [
+        "Rob Reiner"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "emma-thompson",
+      "name": "Emma Thompson",
+      "aliases": [
+        "Emma Thompson"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "john-woo",
+      "name": "吴宇森 / John Woo",
+      "aliases": [
+        "吴宇森",
+        "John Woo"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "michael-mann",
+      "name": "Michael Mann",
+      "aliases": [
+        "Michael Mann"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "derek-kolstad",
+      "name": "Derek Kolstad",
+      "aliases": [
+        "Derek Kolstad"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "chad-stahelski",
+      "name": "Chad Stahelski",
+      "aliases": [
+        "Chad Stahelski"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "clint-eastwood",
+      "name": "Clint Eastwood",
+      "aliases": [
+        "Clint Eastwood"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "michelle-maclaren",
+      "name": "Michelle MacLaren",
+      "aliases": [
+        "Michelle MacLaren"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "ben-wheatley",
+      "name": "Ben Wheatley",
+      "aliases": [
+        "Ben Wheatley"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "walter-hill",
+      "name": "Walter Hill",
+      "aliases": [
+        "Walter Hill"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "christopher-mcquarrie",
+      "name": "Christopher McQuarrie",
+      "aliases": [
+        "Christopher McQuarrie"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "steven-e-de-souza",
+      "name": "Steven E. de Souza",
+      "aliases": [
+        "Steven E. de Souza"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "paul-greengrass",
+      "name": "Paul Greengrass",
+      "aliases": [
+        "Paul Greengrass"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "kathryn-bigelow",
+      "name": "Kathryn Bigelow",
+      "aliases": [
+        "Kathryn Bigelow"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "jeb-stuart",
+      "name": "Jeb Stuart",
+      "aliases": [
+        "Jeb Stuart"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "alex-garland",
+      "name": "Alex Garland",
+      "aliases": [
+        "Alex Garland"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "gareth-edwards",
+      "name": "Gareth Edwards",
+      "aliases": [
+        "Gareth Edwards"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "ted-chiang",
+      "name": "Ted Chiang",
+      "aliases": [
+        "Ted Chiang"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "jeff-vandermeer",
+      "name": "Jeff VanderMeer",
+      "aliases": [
+        "Jeff VanderMeer"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "jordan-peele",
+      "name": "Jordan Peele",
+      "aliases": [
+        "Jordan Peele"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "kim-stanley-robinson",
+      "name": "Kim Stanley Robinson",
+      "aliases": [
+        "Kim Stanley Robinson"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "andy-weir",
+      "name": "Andy Weir",
+      "aliases": [
+        "Andy Weir"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "john-carpenter",
+      "name": "John Carpenter",
+      "aliases": [
+        "John Carpenter"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "david-cronenberg",
+      "name": "David Cronenberg",
+      "aliases": [
+        "David Cronenberg"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "ann-leckie",
+      "name": "Ann Leckie",
+      "aliases": [
+        "Ann Leckie"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "duncan-jones",
+      "name": "Duncan Jones",
+      "aliases": [
+        "Duncan Jones"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "robert-eggers",
+      "name": "Robert Eggers",
+      "aliases": [
+        "Robert Eggers"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "ari-aster",
+      "name": "Ari Aster",
+      "aliases": [
+        "Ari Aster"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "mike-flanagan",
+      "name": "Mike Flanagan",
+      "aliases": [
+        "Mike Flanagan"
+      ],
+      "baseline": false
+    },
+    {
+      "person_id": "stephen-king",
+      "name": "Stephen King",
+      "aliases": [
+        "Stephen King"
+      ],
+      "baseline": false
+    }
+  ],
+  "genres": [
+    {
+      "genre_id": "mystery",
+      "label": "悬疑",
+      "aliases": [
+        "推理",
+        "侦探"
+      ],
+      "definition": "信息、证据与解释变化",
+      "status": "active",
+      "entries": [
+        {
+          "person_id": "rian-johnson",
+          "source_id": "SRC-G001",
+          "method_ids": [
+            "G001"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "询问及嫌疑群像，以人物关系产生线索。",
+          "work_evidence": "Knives Out",
+          "evidence_locator": "Poirot及How did you envisage…Benoit Blanc问答，L23–33",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "gillian-flynn",
+          "source_id": "SRC-G002",
+          "method_ids": [
+            "G002"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "双视角、失踪谜团及小说转漫剧的信息改编。",
+          "work_evidence": "Gone Girl",
+          "evidence_locator": "What were the particular challenges for Gone Girl? L33–35",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "tana-french",
+          "source_id": "SRC-G003",
+          "method_ids": [
+            "G003"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "证词冲突、关系调查与有盲点的侦探。",
+          "work_evidence": "In the Woods；The Likeness",
+          "evidence_locator": "演员经历问答L82–85；unreliable narrator L110–112",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "park-chan-wook",
+          "source_id": "SRC-G004",
+          "method_ids": [
+            "G004"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "调查行动同时暴露私人动机。",
+          "work_evidence": "Decision to Leave",
+          "evidence_locator": "PDF第7张页面P6，INTERVIEW WITH DIRECTOR，L131–162",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "chung-seo-kyung",
+          "source_id": "SRC-G005",
+          "method_ids": [
+            "G005"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "关系驱动调查与证词动机误读。",
+          "work_evidence": "Decision to Leave",
+          "evidence_locator": "PDF第10张页面P9，COMMENTS署名Screenwriter CHUNG Seo-kyung，L270–276",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "david-fincher",
+          "source_id": "SRC-G006",
+          "method_ids": [
+            "G006"
+          ],
+          "roles": [
+            "director"
+          ],
+          "fit": "多嫌疑人对话与证据不足的调查采访。",
+          "work_evidence": "Zodiac",
+          "evidence_locator": "How does it differ from your other movies? L37–38",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "justine-triet",
+          "source_id": "SRC-G007",
+          "method_ids": [
+            "G007"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "庭审、录音重听和家庭事件竞争叙述。",
+          "work_evidence": "Anatomy of a Fall",
+          "evidence_locator": "original approach while writing L20–22；配角问题L31–36",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "agatha-christie",
+          "source_id": "SRC-G008",
+          "method_ids": [
+            "G008"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "短集案情回顾和推理揭示压缩。",
+          "work_evidence": "An Autobiography中的侦探写作论述",
+          "evidence_locator": "On Brevity；On Writing Detective Fiction；On Writing for the Stage",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "kiyoshi-kurosawa",
+          "source_id": "SRC-G009",
+          "method_ids": [
+            "G009"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "早揭嫌犯、审讯、身份谜转动机谜。",
+          "work_evidence": "Cure",
+          "evidence_locator": "PDF第2页DOUBLE FEATURE #1: CURE / THE BOSTON STRANGLER，L7–26",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "asghar-farhadi",
+          "source_id": "SRC-G010",
+          "method_ids": [
+            "G010"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "封闭社区、婚宴和熟人犯罪网络。",
+          "work_evidence": "Everybody Knows",
+          "evidence_locator": "Entretien，Pourquoi…un petit village plutôt qu'à Madrid? L129–132",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "anthony-horowitz",
+          "source_id": "SRC-G011",
+          "method_ids": [
+            "G011"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "凶手、身份反转及推理回收。",
+          "work_evidence": "Magpie Murders",
+          "evidence_locator": "第2节Start with a simple formula；第3节People should be able to guess the twist",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        }
+      ]
+    },
+    {
+      "genre_id": "romance",
+      "label": "爱情",
+      "aliases": [
+        "恋爱",
+        "情感爱情"
+      ],
+      "definition": "亲密关系及其选择",
+      "status": "active",
+      "entries": [
+        {
+          "person_id": "park-chan-wook",
+          "source_id": "SRC-G004",
+          "method_ids": [
+            "G004"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "表态与行动相悖的克制关系和分离。",
+          "work_evidence": "Decision to Leave",
+          "evidence_locator": "PDF第7张页面P6，INTERVIEW WITH DIRECTOR，L131–162",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "chung-seo-kyung",
+          "source_id": "SRC-G005",
+          "method_ids": [
+            "G005"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "借外部事件判断爱意。",
+          "work_evidence": "Decision to Leave",
+          "evidence_locator": "PDF第10张页面P9，COMMENTS署名Screenwriter CHUNG Seo-kyung，L270–276",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "wong-kar-wai",
+          "source_id": "SRC-G012",
+          "method_ids": [
+            "G012"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "克制爱意、试探、错过与升温的可视表达。",
+          "work_evidence": "In the Mood for Love",
+          "evidence_locator": "focus on hands L60–62；repetition L69–71",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "nora-ephron",
+          "source_id": "SRC-G013",
+          "method_ids": [
+            "G013"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "朋友变恋人、陌生连接与恋爱持续障碍。",
+          "work_evidence": "When Harry Met Sally；Sleepless in Seattle",
+          "evidence_locator": "romantic comedy问答L38–40；原载Projections11 pp214–218",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "nancy-meyers",
+          "source_id": "SRC-G014",
+          "method_ids": [
+            "G014"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "失恋恢复、约会和关系尴尬喜剧。",
+          "work_evidence": "The Holiday",
+          "evidence_locator": "首问romantic comedy L12–17；末署Universal Pictures UK Q&A",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "richard-linklater",
+          "source_id": "SRC-G015",
+          "method_ids": [
+            "G015"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "长期关系、重逢和有共同历史的争执。",
+          "work_evidence": "Before Midnight",
+          "evidence_locator": "visual style L113–115；characters matured L122–125",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "sally-rooney",
+          "source_id": "SRC-G016",
+          "method_ids": [
+            "G016"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "多年分合、短信与线下差异、短集压缩。",
+          "work_evidence": "Normal People",
+          "evidence_locator": "longer period L306–307；technology L302–305",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "emily-henry",
+          "source_id": "SRC-G017",
+          "method_ids": [
+            "G017"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "破镜重圆、误解修复及情感终局。",
+          "work_evidence": "Happy Place",
+          "evidence_locator": "grand gesture L93–103；本人发言L98、100",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "rob-reiner",
+          "source_id": "SRC-G018",
+          "method_ids": [
+            "G018"
+          ],
+          "roles": [
+            "director"
+          ],
+          "fit": "约会、尴尬争执和情侣喜剧收尾。",
+          "work_evidence": "When Harry Met Sally",
+          "evidence_locator": "PDF第2–3页，On shooting the scene，L38–70",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "emma-thompson",
+          "source_id": "SRC-G019",
+          "method_ids": [
+            "G019"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "长篇爱情转短集及多人关系压缩。",
+          "work_evidence": "Sense and Sensibility",
+          "evidence_locator": "From comedy to drama改编段L125–127",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        }
+      ]
+    },
+    {
+      "genre_id": "action",
+      "label": "动作",
+      "aliases": [
+        "动作冒险"
+      ],
+      "definition": "身体行动、障碍与后果",
+      "status": "active",
+      "entries": [
+        {
+          "person_id": "john-woo",
+          "source_id": "SRC-G020",
+          "method_ids": [
+            "G020"
+          ],
+          "roles": [
+            "director"
+          ],
+          "fit": "本人用身体运动与场面节拍解释人物揭示。",
+          "work_evidence": "Hard Boiled",
+          "evidence_locator": "L89、113、116–129，茶楼开场关系、动作风格及结尾特写",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "michael-mann",
+          "source_id": "SRC-G021",
+          "method_ids": [
+            "G021"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "本人明确动作来自戏剧冲突。",
+          "work_evidence": "Heat",
+          "evidence_locator": "L134–143，咖啡馆与街头交战场景分析",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "derek-kolstad",
+          "source_id": "SRC-G022",
+          "method_ids": [
+            "G022"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "本人说明动作文字与银幕表达分工。",
+          "work_evidence": "John Wick: Chapter 2",
+          "evidence_locator": "L80–94，视觉代替对白、俱乐部段落和动作起止",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "chad-stahelski",
+          "source_id": "SRC-G023",
+          "method_ids": [
+            "G023"
+          ],
+          "roles": [
+            "director"
+          ],
+          "fit": "动作情境与表演合作产生幽默。",
+          "work_evidence": "John Wick: Chapter 2",
+          "evidence_locator": "L87–90，公众不察觉的枪战与喜剧执行",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "clint-eastwood",
+          "source_id": "SRC-G024",
+          "method_ids": [
+            "G024"
+          ],
+          "roles": [
+            "director"
+          ],
+          "fit": "因果积累和留白增强爆发。",
+          "work_evidence": "Unforgiven",
+          "evidence_locator": "L91–98，友人遗体、冲突累积、人物入场",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "michelle-maclaren",
+          "source_id": "SRC-G025",
+          "method_ids": [
+            "G025"
+          ],
+          "roles": [
+            "director"
+          ],
+          "fit": "本人谈动作拆解、视角和时间设计。",
+          "work_evidence": "Breaking Bad: One Minute",
+          "evidence_locator": "L65–77、83–89，主观视角、跨导演一致性、One Minute",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "ben-wheatley",
+          "source_id": "SRC-G026",
+          "method_ids": [
+            "G026"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "人物局限改造动作惯例。",
+          "work_evidence": "Free Fire",
+          "evidence_locator": "L34–53，故事起点与真实人物进入类型处境",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "walter-hill",
+          "source_id": "SRC-G027",
+          "method_ids": [
+            "G027"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "本人以人物边界生成行动回应。",
+          "work_evidence": "Dead for a Dollar",
+          "evidence_locator": "L25–42，人物对立、边界、末段枪战",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "christopher-mcquarrie",
+          "source_id": "SRC-G028",
+          "method_ids": [
+            "G028"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "本人讨论追逐减法和场面变化。",
+          "work_evidence": "Mission: Impossible – Rogue Nation",
+          "evidence_locator": "L73–87、103–107，动作减法、歌剧院、观众知情",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "steven-e-de-souza",
+          "source_id": "SRC-G029",
+          "method_ids": [
+            "G029"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "本人说明设定支撑和视角结构。",
+          "work_evidence": "Die Hard",
+          "evidence_locator": "仅Steven本人L605–621、626，设定、多方知情和空间图",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "paul-greengrass",
+          "source_id": "SRC-G030",
+          "method_ids": [
+            "G030"
+          ],
+          "roles": [
+            "director"
+          ],
+          "fit": "本人解析追逐、救援和近身冲突节拍。",
+          "work_evidence": "The Bourne Ultimatum",
+          "evidence_locator": "L88–105，距离、快慢、大动作准备",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "kathryn-bigelow",
+          "source_id": "SRC-G031",
+          "method_ids": [
+            "G031"
+          ],
+          "roles": [
+            "director"
+          ],
+          "fit": "本人说明运动、空间与情绪联合设计。",
+          "work_evidence": "The Hurt Locker",
+          "evidence_locator": "L98–120，运动情绪、视觉初稿、空间适配",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "jeb-stuart",
+          "source_id": "SRC-G032",
+          "method_ids": [
+            "G032"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "本人直接说明人物驱动动作写作。",
+          "work_evidence": "Die Hard；The Fugitive",
+          "evidence_locator": "L29–36，人物驱动动作与悬念",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        }
+      ]
+    },
+    {
+      "genre_id": "gunfight",
+      "label": "枪战",
+      "aliases": [
+        "持枪冲突"
+      ],
+      "definition": "持枪对抗的叙事、视听与人物后果；可跨动作、犯罪和科幻",
+      "status": "active",
+      "entries": [
+        {
+          "person_id": "john-woo",
+          "source_id": "SRC-G020",
+          "method_ids": [
+            "G020"
+          ],
+          "roles": [
+            "director"
+          ],
+          "fit": "本人逐镜解析茶楼枪战的关系及结果表达。",
+          "work_evidence": "Hard Boiled",
+          "evidence_locator": "L89、113、116–129，茶楼开场关系、动作风格及结尾特写",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "michael-mann",
+          "source_id": "SRC-G021",
+          "method_ids": [
+            "G021"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "直接解释Heat街头交战与双方目标的关系。",
+          "work_evidence": "Heat",
+          "evidence_locator": "L134–143，咖啡馆与街头交战场景分析",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "derek-kolstad",
+          "source_id": "SRC-G022",
+          "method_ids": [
+            "G022"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "本人回答住宅及俱乐部枪战如何写入剧本。",
+          "work_evidence": "John Wick: Chapter 2",
+          "evidence_locator": "L80–94，视觉代替对白、俱乐部段落和动作起止",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "chad-stahelski",
+          "source_id": "SRC-G023",
+          "method_ids": [
+            "G023"
+          ],
+          "roles": [
+            "director"
+          ],
+          "fit": "直接讨论公共场合枪战的基调与世界规则。",
+          "work_evidence": "John Wick: Chapter 2",
+          "evidence_locator": "L87–90，公众不察觉的枪战与喜剧执行",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "clint-eastwood",
+          "source_id": "SRC-G024",
+          "method_ids": [
+            "G024"
+          ],
+          "roles": [
+            "director"
+          ],
+          "fit": "逐段解释酒馆枪战前后的镜头判断。",
+          "work_evidence": "Unforgiven",
+          "evidence_locator": "L91–98，友人遗体、冲突累积、人物入场",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "michelle-maclaren",
+          "source_id": "SRC-G025",
+          "method_ids": [
+            "G025"
+          ],
+          "roles": [
+            "director"
+          ],
+          "fit": "具体针对One Minute持枪袭击段的计时与镜头。",
+          "work_evidence": "Breaking Bad: One Minute",
+          "evidence_locator": "L65–77、83–89，主观视角、跨导演一致性、One Minute",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "ben-wheatley",
+          "source_id": "SRC-G026",
+          "method_ids": [
+            "G026"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "本人直接解释Free Fire枪战叙事起点。",
+          "work_evidence": "Free Fire",
+          "evidence_locator": "L34–53，故事起点与真实人物进入类型处境",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "walter-hill",
+          "source_id": "SRC-G027",
+          "method_ids": [
+            "G027"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "明确用末段枪战解释人物边界。",
+          "work_evidence": "Dead for a Dollar",
+          "evidence_locator": "L25–42，人物对立、边界、末段枪战",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "christopher-mcquarrie",
+          "source_id": "SRC-G028",
+          "method_ids": [
+            "G028"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "解释歌剧院持枪镜头时机及末段交战覆盖。",
+          "work_evidence": "Mission: Impossible – Rogue Nation",
+          "evidence_locator": "L73–87、103–107，动作减法、歌剧院、观众知情",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "steven-e-de-souza",
+          "source_id": "SRC-G029",
+          "method_ids": [
+            "G029"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "直接回应持枪对抗融入剧情及双方知情悬念。",
+          "work_evidence": "Die Hard",
+          "evidence_locator": "仅Steven本人L605–621、626，设定、多方知情和空间图",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        }
+      ]
+    },
+    {
+      "genre_id": "science-fiction",
+      "label": "科幻",
+      "aliases": [
+        "科幻剧",
+        "sci-fi",
+        "science fiction"
+      ],
+      "definition": "技术或科学假设影响人物与社会",
+      "status": "active",
+      "entries": [
+        {
+          "person_id": "alex-garland",
+          "source_id": "SRC-G033",
+          "method_ids": [
+            "G033"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "人工意识、人格地位和伦理使设定成为处境。",
+          "work_evidence": "Ex Machina",
+          "evidence_locator": "Winston Eng首问，I tried to step away回答L90–97",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "gareth-edwards",
+          "source_id": "SRC-G034",
+          "method_ids": [
+            "G034"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "本人讨论AI寓言和阵营冲突写法。",
+          "work_evidence": "The Creator",
+          "evidence_locator": "AI及Vietnam allegory问答L47–58",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "ted-chiang",
+          "source_id": "SRC-G035",
+          "method_ids": [
+            "G035"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "本人谈科学发现与人工意识关系。",
+          "work_evidence": "Exhalation；The Lifecycle of Software Objects",
+          "evidence_locator": "故事产生L17–20；conceptual breakthrough L33–37；AI关系L38–43",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "jeff-vandermeer",
+          "source_id": "SRC-G036",
+          "method_ids": [
+            "G036"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "生态、科学争议及非人类视角。",
+          "work_evidence": "Annihilation；Authority",
+          "evidence_locator": "creepy approach L94–100；生态伦理L148–150",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "kim-stanley-robinson",
+          "source_id": "SRC-G038",
+          "method_ids": [
+            "G038"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "技术前提直接决定作品的空间和故事条件。",
+          "work_evidence": "2312",
+          "evidence_locator": "2312技术前提及protagonist问答L69–78",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "andy-weir",
+          "source_id": "SRC-G039",
+          "method_ids": [
+            "G039"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "本人说明硬科学进入生存故事和人物表达。",
+          "work_evidence": "The Martian",
+          "evidence_locator": "读者科学反馈L126–134；偏差L151–156；协作L172–176",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "john-carpenter",
+          "source_id": "SRC-G040",
+          "method_ids": [
+            "G040"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "本人用Dark Star说明固定科幻处境下的群像。",
+          "work_evidence": "Dark Star；Assault on Precinct 13",
+          "evidence_locator": "原刊1978春，网页2021-01-15；L95–105威胁，L108–111支线",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "david-cronenberg",
+          "source_id": "SRC-G041",
+          "method_ids": [
+            "G041"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "本人将身体表现原则关联eXistenZ。",
+          "work_evidence": "eXistenZ；Eastern Promises",
+          "evidence_locator": "身体问答L69–71；后果L76–82；评论者主题L103–106",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "ann-leckie",
+          "source_id": "SRC-G042",
+          "method_ids": [
+            "G042"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "本人以太空栖居推演宗教文化与社会科幻。",
+          "work_evidence": "Ancillary Justice；Ancillary Sword",
+          "evidence_locator": "宗教和空间站L205–214",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "duncan-jones",
+          "source_id": "SRC-G043",
+          "method_ids": [
+            "G043"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "本人讲述类型预期、设施逻辑与受限故事设计。",
+          "work_evidence": "Moon",
+          "evidence_locator": "类型期待L29–32；限制L33–41；机器人伦理L56–58",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        }
+      ]
+    },
+    {
+      "genre_id": "thriller",
+      "label": "惊悚",
+      "aliases": [
+        "心理惊悚",
+        "悬念惊悚"
+      ],
+      "definition": "持续威胁、不安和情绪压力",
+      "status": "active",
+      "entries": [
+        {
+          "person_id": "alex-garland",
+          "source_id": "SRC-G033",
+          "method_ids": [
+            "G033"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "囚禁威胁与信任测试形成封闭环境压力。",
+          "work_evidence": "Ex Machina",
+          "evidence_locator": "Winston Eng首问，I tried to step away回答L90–97",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "jeff-vandermeer",
+          "source_id": "SRC-G036",
+          "method_ids": [
+            "G036"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "本人直接解释孤立、恐惧层次和揭示节奏。",
+          "work_evidence": "Annihilation；Authority",
+          "evidence_locator": "creepy approach L94–100；生态伦理L148–150",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "jordan-peele",
+          "source_id": "SRC-G037",
+          "method_ids": [
+            "G037"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "原问答针对危险中的人物行动与情绪反应。",
+          "work_evidence": "Us；Get Out",
+          "evidence_locator": "人物可信与喜剧恐怖L48–51；2020-07-16更新",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "john-carpenter",
+          "source_id": "SRC-G040",
+          "method_ids": [
+            "G040"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "本人用Assault解释围困压力与人物段落关系。",
+          "work_evidence": "Dark Star；Assault on Precinct 13",
+          "evidence_locator": "原刊1978春，网页2021-01-15；L95–105威胁，L108–111支线",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "david-cronenberg",
+          "source_id": "SRC-G041",
+          "method_ids": [
+            "G041"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "本人讨论危险接近感与身体后果。",
+          "work_evidence": "eXistenZ；Eastern Promises",
+          "evidence_locator": "身体问答L69–71；后果L76–82；评论者主题L103–106",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "robert-eggers",
+          "source_id": "SRC-G044",
+          "method_ids": [
+            "G044"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "本人解释历史主体信念、家庭和民俗形成恐惧。",
+          "work_evidence": "The Witch",
+          "evidence_locator": "历史L24–28；家庭L33–37；民俗记录L44–51；2016-07-11更新",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "ari-aster",
+          "source_id": "SRC-G045",
+          "method_ids": [
+            "G045"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "本人解释家庭悲剧逐渐形成恐怖体验。",
+          "work_evidence": "Hereditary",
+          "evidence_locator": "NPR原采访刊载，本人L415、421、423、427、431",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "gillian-flynn",
+          "source_id": "SRC-G046",
+          "method_ids": [
+            "G046"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "心理惊悚、黑暗家庭关系和揭示节奏的本人说明。",
+          "work_evidence": "Gone Girl；Sharp Objects",
+          "evidence_locator": "On Story S11E8，来历L358–374，语调L377–384，独白L464–469",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "mike-flanagan",
+          "source_id": "SRC-G047",
+          "method_ids": [
+            "G047"
+          ],
+          "roles": [
+            "writer",
+            "director"
+          ],
+          "fit": "本人解释感知失真、日常物件与观众想象。",
+          "work_evidence": "Oculus",
+          "evidence_locator": "genesis L15–21；Mirrors L23–26；viewer imagination问答",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        },
+        {
+          "person_id": "stephen-king",
+          "source_id": "SRC-G048",
+          "method_ids": [
+            "G048"
+          ],
+          "roles": [
+            "writer"
+          ],
+          "fit": "本人说明普通人与陌生威胁及余波的写作方向。",
+          "work_evidence": "The Outsider；If It Bleeds",
+          "evidence_locator": "Terry Gross可怕世界问题L147–159；神话L160–169",
+          "fit_status": "editorial_adaptation_supported_by_named_work_and_passage",
+          "availability": "active",
+          "batch_id": "genre-six-20260921"
+        }
+      ]
+    },
+    {
+      "genre_id": "comedy",
+      "label": "喜剧",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "family",
+      "label": "家庭",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "historical",
+      "label": "历史",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "war",
+      "label": "战争",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "fantasy",
+      "label": "奇幻",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "wuxia",
+      "label": "武侠",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "crime",
+      "label": "犯罪",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "coming-of-age",
+      "label": "青春成长",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "horror",
+      "label": "恐怖",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "adventure",
+      "label": "冒险",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "workplace",
+      "label": "职场",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "sports",
+      "label": "体育竞技",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "disaster",
+      "label": "灾难",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "mythology",
+      "label": "神话",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "xianxia",
+      "label": "仙侠玄幻",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    },
+    {
+      "genre_id": "slice-of-life",
+      "label": "生活治愈",
+      "aliases": [],
+      "definition": "扩展目录候选；范围与证据尚未完成，不计首批覆盖。",
+      "status": "planned",
+      "entries": []
+    }
+  ],
+  "batches": [
+    {
+      "batch_id": "genre-six-20260921",
+      "parent_commit": "c204898fe7246d2d9572a0233162dde706352486",
+      "status": "first_batch_targeted_checks_passed",
+      "people_added": 47,
+      "sources_added": 48,
+      "genre_bindings_added": 64,
+      "isolation": "source availability blocks only its methods/bindings; method or binding isolation blocks that dependency; counts are computed, never frozen at ten",
+      "excluded": "Celine Sciamma, Patricia Highsmith, P.D.James, Nora Roberts, William Gibson, Denis Villeneuve: 本轮未读到足够正文；另Greengrass/Bigelow/Stuart不计枪战。",
+      "quality_status": "not_audience_validated"
+    }
+  ]
+}
