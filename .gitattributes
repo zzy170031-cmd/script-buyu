@@ -2,3 +2,4 @@
 skills/script-buyu/references/source-archive/** -text
 skills/script-buyu/data/*.json -text
 skills/script-buyu/data/image-prompts/** -text
+skills/script-buyu/references/script-prompt-original.txt -text

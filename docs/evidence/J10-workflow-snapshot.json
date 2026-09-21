@@ -1,0 +1,71 @@
+{
+  "audit_id": "script-buyu-storyboard-20260921-J10",
+  "baseline_commit": "9226b006a83d59a084ccbafab39c55ef310bdfb6",
+  "sealed_at": "2026-09-21T12:39:10.1402362+08:00",
+  "hash_scope": "Local working-tree bytes at audit cutoff; Git may normalize line endings except original TXT marked -text",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 277,
+      "sha256": "1C1834FF8AC757DC7609A904DC75B422CAD4DE949E16250C5FBFB4A7D80AA3C8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8172,
+      "sha256": "E4775FA679A366F0FA99CF9B838925E597878DED66832638DD4FE48A66B6DF47"
+    },
+    {
+      "path": "skills/script-buyu/SKILL.md",
+      "bytes": 6217,
+      "sha256": "310EFEA62F232E8C6948BFEA9492938142D6B7FF2A2757E9EE14FD878F3FF8D8"
+    },
+    {
+      "path": "skills/script-buyu/agents/openai.yaml",
+      "bytes": 436,
+      "sha256": "818209FD8674E3B8F591074FD62175B69FAD4DC78DB1224350C2C24355EBCA88"
+    },
+    {
+      "path": "skills/script-buyu/references/workflow.md",
+      "bytes": 4089,
+      "sha256": "F1D73D8F030C51EBEAD2FA9F265943CB44511AF32619E271CA702A52A85E7275"
+    },
+    {
+      "path": "skills/script-buyu/references/output-contract.md",
+      "bytes": 4472,
+      "sha256": "4DCF177FFDA78622F459F50A519C6B9D00CD0CC1AEF1B53D2CD10FF28208DC98"
+    },
+    {
+      "path": "skills/script-buyu/references/docx-delivery.md",
+      "bytes": 2795,
+      "sha256": "616C694D01F3F5A39508906B7FBF96A602ECE6E9DA8529C3B73C4BDCB9474FDB"
+    },
+    {
+      "path": "skills/script-buyu/references/character-visuals.md",
+      "bytes": 3887,
+      "sha256": "3E6F88E80547A54E35F03A0A54093633378DA6CF7B2FD5F112F423E0C8596E33"
+    },
+    {
+      "path": "skills/script-buyu/references/storyboard-excel.md",
+      "bytes": 7926,
+      "sha256": "1F5A501E14C636B6A9ECAEF94BBA828B81E34D62EFED65E27FDF4F37CE089B05"
+    },
+    {
+      "path": "skills/script-buyu/references/script-prompt-original.txt",
+      "bytes": 4636,
+      "sha256": "6B5B8015F31FFCBAEEC547685724118A1DE3B3C1E3CCF8DB1175E93133E72BC6"
+    },
+    {
+      "path": "docs/J10-剧本到脚本流程审查.md",
+      "bytes": 15670,
+      "sha256": "391659A368AC67A483BA6D4ECCD9B81B24E1DEED40EC094639174A1ABD1512EE"
+    }
+  ],
+  "checks": {
+    "skill_structure": "passed",
+    "official_quick_validate": "passed with PYTHONUTF8=1",
+    "existing_tests": 61,
+    "independent_challenge_units": 10,
+    "readonly_scenarios": 6,
+    "new_xlsx_production": "not performed; awaits actual confirmed screenplay"
+  }
+}

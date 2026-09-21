@@ -1,4 +1,4 @@
 interface:
   display_name: "不语剧本创作"
-  short_description: "创作完整故事剧本，按剧情设计人物提示词与参考图，嵌入Word且不固定画风"
-  default_prompt: "使用 $script-buyu，根据我的梗概或文档写完整故事剧本，按内容选择叙事与画风，人物表加入形象提示词和对应参考图，交付一个DOCX。"
+  short_description: "先交付含人物提示词与参考图的剧本Word，确认后输出分镜与人物两表Excel"
+  default_prompt: "使用 $script-buyu，根据我的梗概或文档写完整剧本，按本剧选择叙事与画风，人物表加入提示词和参考图。先交付DOCX，待我确认后输出Excel：Sheet1分镜脚本，Sheet2人物提示词与内嵌参考图。"
