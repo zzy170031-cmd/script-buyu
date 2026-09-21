@@ -1,0 +1,510 @@
+[
+    {
+        "machine_id":  "case_01",
+        "案例名":  "45 秒追击钩子短片",
+        "案例类型":  "benchmark",
+        "目标时长":  "45 秒",
+        "推荐委员会":  "动作冒险组",
+        "推荐导演组合":  [
+                       "今石洋之",
+                       "朴性厚",
+                       "今敏"
+                   ],
+        "场景概要":  "角色在天台被追到边缘，跳跃前回望，下一个镜头切入下坠与追击。",
+        "结构提示":  "三段式；3 秒内必须给出追击关系；结尾卡在跃下后的未知结果。",
+        "验证价值":  "适合测试高能动作、RenderSegment 切分、爆点转场和 hard_locks 稳定性。",
+        "source_type":  "internal_example",
+        "source_notes":  "作为 v0.1 benchmark 的内部标准短例，用于验证动作与爆点结构。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-19"
+    },
+    {
+        "machine_id":  "case_02",
+        "案例名":  "10 分钟初遇单集",
+        "案例类型":  "benchmark",
+        "目标时长":  "10 分钟",
+        "推荐委员会":  "日常治愈组",
+        "推荐导演组合":  [
+                       "山田尚子",
+                       "新海诚",
+                       "今敏"
+                   ],
+        "场景概要":  "两位主角在雨后放学路和便利店前反复相遇，从尴尬到逐渐放松。",
+        "结构提示":  "起承转合；中段靠小动作和环境变化推动关系；结尾留下下一次相遇的钩子。",
+        "验证价值":  "适合测试微表演、留白、情绪景观和对白润色。",
+        "source_type":  "internal_example",
+        "source_notes":  "作为 v0.1 benchmark 的内部中等长度样例，用于验证日常与情绪段组织。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-19"
+    },
+    {
+        "machine_id":  "case_03",
+        "案例名":  "60 分钟多集群像项目",
+        "案例类型":  "benchmark",
+        "目标时长":  "60 分钟",
+        "推荐委员会":  "史诗群像组",
+        "推荐导演组合":  [
+                       "荒木哲郎",
+                       "今石洋之",
+                       "新海诚",
+                       "今敏"
+                   ],
+        "场景概要":  "多个角色在危机逐步扩大的城市中集结、战斗、分裂并收束到情感结局。",
+        "结构提示":  "自动拆成多 Episode；每集 22-24 分钟左右；跨集 hard_locks 一致。",
+        "验证价值":  "适合测试分集、跨 Episode 一致性、群像空间和段落 handoff。",
+        "source_type":  "internal_example",
+        "source_notes":  "作为 v0.1 benchmark 的长项目样例，用于验证分集和跨集一致性。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-19"
+    },
+    {
+        "machine_id":  "case_04",
+        "案例名":  "镜中错位悬疑段",
+        "案例类型":  "经典段落",
+        "目标时长":  "30-60 秒",
+        "推荐委员会":  "悬疑心理组",
+        "推荐导演组合":  [
+                       "今敏",
+                       "山田尚子"
+                   ],
+        "场景概要":  "角色在洗手间镜前整理衣领，镜像比现实人物提前半拍动作。",
+        "结构提示":  "先给稳定日常，再精确引入一处错位，不靠大音效吓人。",
+        "验证价值":  "适合测试现实/幻觉接缝、匹配剪接和主观不安。",
+        "source_type":  "internal_example",
+        "source_notes":  "作为今敏风格错位段的内部经典案例，用于验证悬疑与错位效果。",
+        "confidence_level":  "medium",
+        "last_reviewed_at":  "2026-04-19"
+    },
+    {
+        "machine_id":  "case_05",
+        "案例名":  "桌下心动微表演段",
+        "案例类型":  "经典段落",
+        "目标时长":  "30-60 秒",
+        "推荐委员会":  "日常治愈组",
+        "推荐导演组合":  [
+                       "山田尚子",
+                       "新海诚"
+                   ],
+        "场景概要":  "两人在教室桌旁对话，桌下脚尖轻碰又收回，窗外阳光慢慢偏移。",
+        "结构提示":  "对白少，重点在局部动作、停顿和环境余韵。",
+        "验证价值":  "适合测试低视点、局部特写和中文对白留白。",
+        "source_type":  "internal_example",
+        "source_notes":  "作为山田尚子式微表演的内部经典案例，用于验证低视点和留白。",
+        "confidence_level":  "medium",
+        "last_reviewed_at":  "2026-04-19"
+    },
+    {
+        "machine_id":  "case_06",
+        "案例名":  "近身反击动作段",
+        "案例类型":  "经典段落",
+        "目标时长":  "30-90 秒",
+        "推荐委员会":  "动作冒险组",
+        "推荐导演组合":  [
+                       "朴性厚",
+                       "今石洋之"
+                   ],
+        "场景概要":  "角色侧身闪过攻击后利用楼梯扶手回弹反击。",
+        "结构提示":  "必须先交代动作轴线，再进入高速打击，最后给一帧爆点停格。",
+        "验证价值":  "适合测试动作链、轴线可读性和打击节拍。",
+        "source_type":  "internal_example",
+        "source_notes":  "作为近身格斗的内部经典案例，用于验证动作轴线和打击节拍。",
+        "confidence_level":  "medium",
+        "last_reviewed_at":  "2026-04-19"
+    },
+    {
+        "machine_id":  "case_07",
+        "案例名":  "Chief 到 Scene 的稳态接管段",
+        "案例类型":  "handoff",
+        "目标时长":  "30-60 秒",
+        "推荐委员会":  "史诗群像组",
+        "推荐导演组合":  [
+                       "荒木哲郎",
+                       "荒木哲郎"
+                   ],
+        "场景概要":  "世界观 establishing 结束后，镜头切入具体群像站位与危机入口，但硬锁保持完全不变。",
+        "结构提示":  "先给一个 buffer cut 重申人物基线和空间方向，再允许场景节奏与构图细化。",
+        "验证价值":  "适合验证 chief hard_locks 是否完整传递到 scene 层。",
+        "source_type":  "internal_example",
+        "source_notes":  "用于验证 chief -\u003e scene handoff 的稳定基线传递。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-19"
+    },
+    {
+        "machine_id":  "case_08",
+        "案例名":  "Scene 到 Action 的动作起手段",
+        "案例类型":  "handoff",
+        "目标时长":  "45-90 秒",
+        "推荐委员会":  "动作冒险组",
+        "推荐导演组合":  [
+                       "荒木哲郎",
+                       "朴性厚"
+                   ],
+        "场景概要":  "叙事场推进到冲突爆发前，先用站位 cut 固定左右和攻击方向，再切入近身打斗。",
+        "结构提示":  "先稳动作轴，再进动作总监段，不允许直接从对白场跳到失轴快打。",
+        "验证价值":  "适合验证 scene -\u003e action handoff、屏幕方向和 continuity 是否成立。",
+        "source_type":  "internal_example",
+        "source_notes":  "用于验证 scene -\u003e action 交接是否真正通过 buffer cut 建立动作轴。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-19"
+    },
+    {
+        "machine_id":  "case_09",
+        "案例名":  "Emotion 到 Transition 的余韵收束段",
+        "案例类型":  "handoff",
+        "目标时长":  "30-60 秒",
+        "推荐委员会":  "日常治愈组",
+        "推荐导演组合":  [
+                       "新海诚",
+                       "今敏"
+                   ],
+        "场景概要":  "情绪高点后不直接切新场，而先让风声、列车声和视线余韵带出转场。",
+        "结构提示":  "最后一个情绪动作必须成为转场接力点，景观或声音承担桥接功能。",
+        "验证价值":  "适合验证 emotion -\u003e transition handoff 和 soft fade 逻辑。",
+        "source_type":  "internal_example",
+        "source_notes":  "用于验证情绪段如何不掉气地过门到下一场。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-19"
+    },
+    {
+        "machine_id":  "case_10",
+        "案例名":  "今石式群像集结爆发段",
+        "案例类型":  "导演经典",
+        "目标时长":  "45-75 秒",
+        "推荐委员会":  "动作冒险组",
+        "推荐导演组合":  [
+                       "今石洋之",
+                       "今石洋之"
+                   ],
+        "场景概要":  "全员排阵、统一冲刺、爆点定格三步完成热血集结。",
+        "结构提示":  "排阵必须清楚，爆点前要有短停格，冲出方向统一。",
+        "验证价值":  "适合验证高饱和群像、统一冲锋和爆点定格的连贯性。",
+        "source_type":  "team_distillation",
+        "source_notes":  "提炼自今石洋之代表性群像爆发处理方式。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-19"
+    },
+    {
+        "machine_id":  "case_11",
+        "案例名":  "新海式列车回望段",
+        "案例类型":  "导演经典",
+        "目标时长":  "30-60 秒",
+        "推荐委员会":  "日常治愈组",
+        "推荐导演组合":  [
+                       "新海诚",
+                       "新海诚"
+                   ],
+        "场景概要":  "列车窗格切开视线，角色在黄昏逆光中只完成一次短促回望。",
+        "结构提示":  "景观必须先于对白建立情绪，列车运动方向与人物视线必须稳定。",
+        "验证价值":  "适合验证关系停顿、景观承情绪和片段式转场。",
+        "source_type":  "team_distillation",
+        "source_notes":  "提炼自新海诚典型的都市列车与迟疑回望镜头。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-19"
+    },
+    {
+        "machine_id":  "case_12",
+        "案例名":  "今敏式媒介错位揭示段",
+        "案例类型":  "导演经典",
+        "目标时长":  "45-75 秒",
+        "推荐委员会":  "悬疑心理组",
+        "推荐导演组合":  [
+                       "今敏",
+                       "今敏"
+                   ],
+        "场景概要":  "角色盯着监控屏幕，屏幕中的自己提前离场，现实人物还停在原地。",
+        "结构提示":  "必须让观众先看到错位，再让角色意识到；切口不能靠夸张特效。",
+        "验证价值":  "适合验证现实/媒介错位、结构反转和悬疑推进。",
+        "source_type":  "team_distillation",
+        "source_notes":  "提炼自今敏媒介界面错位与现实裂缝处理方式。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-19"
+    },
+    {
+        "machine_id":  "case_13",
+        "案例名":  "Chief 到 Transition 的压场收束段",
+        "案例类型":  "handoff",
+        "目标时长":  "30-60 秒",
+        "推荐委员会":  "史诗群像组",
+        "推荐导演组合":  [
+                       "荒木哲郎",
+                       "今敏"
+                   ],
+        "场景概要":  "群像危机段在爆点后不直接切黑，而是先保留 chief 的空间压迫，再把最后一个视线和广播噪声交给 transition 层带入下一场。",
+        "结构提示":  "前半保持 chief 的站位与 hard_locks，后半只允许 transition 层接管声音、匹配剪接和出场方向，不允许改人物基线。",
+        "验证价值":  "适合验证 chief -> transition handoff 是否只改桥接层，不破坏 hard_locks、群像空间关系和下一场入口。",
+        "source_type":  "internal_example",
+        "source_notes":  "用于验证 chief -> transition handoff 在结构收束段里的最小接管边界。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-20"
+    },
+    {
+        "machine_id":  "case_14",
+        "案例名":  "Action 到 Emotion 的反冲缓释段",
+        "案例类型":  "handoff",
+        "目标时长":  "30-60 秒",
+        "推荐委员会":  "动作冒险组",
+        "推荐导演组合":  [
+                       "朴性厚",
+                       "新海诚"
+                   ],
+        "场景概要":  "近身打击结束后角色没有立刻离场，而是留在呼吸、颤抖与余震里，镜头从高速追击切到手部回收和眼神停顿。",
+        "结构提示":  "必须先给动作反冲落点，再让 emotion 层接管呼吸、停顿和环境余韵，不允许直接抽掉动作因果。",
+        "验证价值":  "适合验证 action -> emotion handoff 是否保住受力延续、情绪回流和相邻 cut 之间的缓冲。",
+        "source_type":  "internal_example",
+        "source_notes":  "用于验证 action -> emotion 交接在高强度段落后的缓释是否成立。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-20"
+    },
+    {
+        "machine_id":  "case_15",
+        "案例名":  "汤浅式梦境奔逃切层段",
+        "案例类型":  "导演经典",
+        "目标时长":  "30-60 秒",
+        "推荐委员会":  "悬疑心理组",
+        "推荐导演组合":  [
+                       "汤浅政明",
+                       "汤浅政明"
+                   ],
+        "场景概要":  "角色在楼梯间奔逃，墙面和楼层关系不断滑移，现实空间被主观恐慌拉成连续变形。",
+        "结构提示":  "允许主观变形，但必须给观众保留最低可读的逃跑方向、心理升级节拍和梦境切层边界。",
+        "验证价值":  "适合验证梦境切层、主观空间变形和 transition/emotion 双重接管。",
+        "source_type":  "team_distillation",
+        "source_notes":  "提炼自汤浅政明式主观奔逃、心理膨胀和空间变形的段落处理方式。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-20"
+    },
+    {
+        "machine_id":  "case_16",
+        "案例名":  "荒木式压迫推进集结段",
+        "案例类型":  "导演经典",
+        "目标时长":  "45-75 秒",
+        "推荐委员会":  "史诗群像组",
+        "推荐导演组合":  [
+                       "荒木哲郎",
+                       "荒木哲郎"
+                   ],
+        "场景概要":  "警报、俯冲镜头和群像站位同步推进，危机在前景遮挡和背景运动中一层层压近主角群。",
+        "结构提示":  "先用空间压迫建立危机，再让群像站位逐步收紧，不靠对白解释风险，也不丢主轴推进。",
+        "验证价值":  "适合验证群像空间压迫、危机推进和 chief/scene 层的统一调度。",
+        "source_type":  "team_distillation",
+        "source_notes":  "提炼自荒木哲郎式群像压迫推进、危机加压和队列收束的段落处理。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-20"
+    },
+    {
+        "machine_id":  "case_17",
+        "案例名":  "朴式贴身追击断点段",
+        "案例类型":  "导演经典",
+        "目标时长":  "45-90 秒",
+        "推荐委员会":  "动作冒险组",
+        "推荐导演组合":  [
+                       "朴性厚",
+                       "朴性厚"
+                   ],
+        "场景概要":  "角色贴墙滑步、闪身变线，再用短促重击把追击节拍钉进楼道纵深，随后立刻切入下一轮压迫。",
+        "结构提示":  "镜头必须跟着受力点和转向点切，不允许为了炫技破坏 action 轴线、空间出口和下一击可读性。",
+        "验证价值":  "适合验证近身 action 轴线、重击定点和高速追击中的节拍可读性。",
+        "source_type":  "team_distillation",
+        "source_notes":  "提炼自朴性厚式贴身动作、重击断点和高速追击调度方式。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-20"
+    },
+    {
+        "machine_id":  "case_18",
+        "案例名":  "双层 Hard Lock 回正修复段",
+        "案例类型":  "failure_repair",
+        "目标时长":  "30-45 秒",
+        "推荐委员会":  "悬疑心理组",
+        "推荐导演组合":  [
+                       "今敏",
+                       "山田尚子"
+                   ],
+        "场景概要":  "相邻两个 cut 在 repair 前同时出现 style_drift 和 character_inconsistency：一个 cut 的 hard_locks 顺序漂移，另一个 cut 丢了角色外观 tokens。",
+        "结构提示":  "先由 validator 标出 style_drift 与 character_inconsistency，再用 repair pass 和 hard lock 模板最小改动回正，不重写无关结构。",
+        "验证价值":  "适合验证 style_drift、character_inconsistency 与 repair template 的闭环，不把整段重写成新内容。",
+        "source_type":  "internal_example",
+        "source_notes":  "用于验证 failure_pattern_library 到 repair template 的映射在双层 hard lock 回正场景里可实际落地。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-20"
+    },
+    {
+        "machine_id":  "case_19",
+        "案例名":  "Chief/Transition 交接缺口回正段",
+        "案例类型":  "failure_repair",
+        "目标时长":  "30-60 秒",
+        "推荐委员会":  "史诗群像组",
+        "推荐导演组合":  [
+                       "荒木哲郎",
+                       "今敏"
+                   ],
+        "场景概要":  "群像危机段结束后直接切入下一场内景，chief 保住了人物与空间基线，但丢了 transition 层该承担的桥接声、视线接力和出口方向，造成 handoff_gap。",
+        "结构提示":  "先由 Handoff Coverage 与 Continuity Validator 标出 handoff_gap，再用 repair pass 最小补回 transition bridge、广播噪声和视线承接，不重写 chief 基线或下一场 action block。",
+        "验证价值":  "适合验证 handoff_gap 是否能通过最小桥接修复回正，而不是把两场内容整体重排。",
+        "source_type":  "internal_example",
+        "source_notes":  "用于验证 failure_pattern_library 对 handoff_gap -> prompt_18 / prompt_16 的映射，能为 hope 主线程提供稳定的 handoff repair 支撑。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-20"
+    },
+    {
+        "machine_id":  "case_20",
+        "案例名":  "导出合同漂移回正段",
+        "案例类型":  "failure_repair",
+        "目标时长":  "30-60 秒",
+        "推荐委员会":  "日常治愈组",
+        "推荐导演组合":  [
+                       "新海诚",
+                       "山田尚子"
+                   ],
+        "场景概要":  "同一段黄昏列车回望内容在导出 workbook 前出现 export_contract_drift：PromptPackage 字段顺序错位、sheet 名称缩写不一致，外部消费面会误读镜头和对白关系。",
+        "结构提示":  "先由 Export contract check 标出 export_contract_drift，再用 repair template 只回正 sheet 字段、PromptPackage 顺序和缺失的 hard_locks，不改 narrative scene 的原始意图。",
+        "验证价值":  "适合验证 export_contract_drift 的修复是否停留在导出合同层，而不是反向重写场景本体。",
+        "source_type":  "internal_example",
+        "source_notes":  "用于验证 failure_pattern_library 对 export_contract_drift -> prompt_17 的映射，能够稳定支撑 hope 主线程的对外交付物。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-20"
+    },
+    {
+        "machine_id":  "case_21",
+        "案例名":  "中文脏提示清洗回正段",
+        "案例类型":  "failure_repair",
+        "目标时长":  "30-45 秒",
+        "推荐委员会":  "日常治愈组",
+        "推荐导演组合":  [
+                       "山田尚子",
+                       "新海诚"
+                   ],
+        "场景概要":  "黄昏放学路段在多轮接入后混入英文占位、重复 token 和接口残片，形成 chinese_prompt_noise，但目标内容仍然是同一段克制的关系推进。",
+        "结构提示":  "先由 Prompt quality review 与 Export sanity check 标出 chinese_prompt_noise，再用 repair pass 只清洗中文字段、统一 token 与标点，不改人物关系、景观时序或情绪推进。",
+        "验证价值":  "适合验证 chinese_prompt_noise 的修复边界是否停留在提示层，不把日常段落误重写成新剧情。",
+        "source_type":  "internal_example",
+        "source_notes":  "用于验证 failure_pattern_library 对 chinese_prompt_noise -> prompt_09 的映射，能为 hope 主线程提供稳定的中文提示清洗资产。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-20"
+    },
+    {
+        "machine_id":  "case_22",
+        "案例名":  "相邻 Cut 连续性断裂回正段",
+        "案例类型":  "failure_repair",
+        "目标时长":  "30-60 秒",
+        "推荐委员会":  "动作冒险组",
+        "推荐导演组合":  [
+                       "朴性厚",
+                       "荒木哲郎"
+                   ],
+        "场景概要":  "近身追击段的第二个 cut 把角色从左进右出改成右进左出，同时视线和动作落点都没继续承接，形成 continuity_break。",
+        "结构提示":  "先由 Continuity Validator 标出 continuity_break，再用 prompt_16 只修 continuity refs、动作接续和相邻 cut 的入口/出口，不重写整段 action block。",
+        "验证价值":  "适合验证 continuity_break 的修复是否停留在相邻 cut 与 continuity 字段层，而不是借机重排整段镜头组织。",
+        "source_type":  "internal_example",
+        "source_notes":  "用于验证 failure_pattern_library 对 continuity_break -> prompt_16 的映射，能为 hope 主线程提供稳定的相邻 cut 连续性修复资产。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-20"
+    },
+    {
+        "machine_id":  "case_23",
+        "案例名":  "跨场景 Segment 回切修复段",
+        "案例类型":  "failure_repair",
+        "目标时长":  "45-75 秒",
+        "推荐委员会":  "史诗群像组",
+        "推荐导演组合":  [
+                       "荒木哲郎",
+                       "今石洋之"
+                   ],
+        "场景概要":  "导出前的 RenderSegment 规划把两个相邻 NarrativeScene 合并进同一段，群像推进和下一场入口被压成一个 segment，形成 segment_cross_scene。",
+        "结构提示":  "先由 Segment Duration Validator / Boundary Guard 标出 segment_cross_scene，再用 repair pass 只把 segment_plan 按 NarrativeScene 边界拆回合法范围，不改 scene 内部 beat 排列。",
+        "验证价值":  "适合验证 segment_cross_scene 的修复边界是否停留在分段规划层，不把 scene 内容反向改写成新结构。",
+        "source_type":  "internal_example",
+        "source_notes":  "用于验证 failure_pattern_library 对 segment_cross_scene -> prompt_09 的映射，能为 hope 主线程提供稳定的分段边界回正资产。",
+        "confidence_level":  "high",
+        "last_reviewed_at":  "2026-04-20"
+    },
+  {
+    "machine_id":  "case_24",
+    "案例名":  "Hard Locks 顺序漂移回正段",
+    "案例类型":  "failure_repair",
+        "目标时长":  "30-45 秒",
+        "推荐委员会":  "悬疑心理组",
+        "推荐导演组合":  [
+                       "今敏",
+                       "山田尚子"
+                   ],
+        "场景概要":  "局部 repair 后虽然保住了剧情，但 render_prompt 里的 hard_locks 被重写成乱序版本，关键角色 token 和镜头基线都发生 hard_lock_loss。",
+        "结构提示":  "先由 Hard Lock Injector Guard 与 Style Unity Validator 标出 hard_lock_loss，再用 prompt_15 只回正 hard_locks 字面量和顺序，不改 layout、叙事和无关 prompt 片段。",
+        "验证价值":  "适合验证 hard_lock_loss 的修复是否严格停留在 render_prompt 层，不让修复动作外溢到结构层。",
+        "source_type":  "internal_example",
+    "source_notes":  "用于验证 failure_pattern_library 对 hard_lock_loss -> prompt_15 的映射，能为 hope 主线程提供稳定的 hard lock 回正资产。",
+    "confidence_level":  "high",
+    "last_reviewed_at":  "2026-04-20"
+  },
+  {
+    "machine_id":  "case_25",
+    "案例名":  "Exporter continuity 列回补修复段",
+    "案例类型":  "failure_repair",
+    "目标时长":  "30-60 秒",
+    "推荐委员会":  "动作冒险组",
+    "推荐导演组合":  [
+                       "朴性厚",
+                       "荒木哲郎"
+                   ],
+    "场景概要":  "近身追击段本体仍成立，但 exporter 投影 Cuts 时丢掉 continuity_refs 和 transition_out，runtime consumer 只能看到 action_description，导致 continuity_break 在支持面上重新出现。",
+    "结构提示":  "先由 Continuity Validator 与 Handoff Coverage 标出 continuity_break，再用 prompt_16 只回补 continuity_refs、transition_out 和相邻 cut 桥接，不重写 segment_plan，也不改原始动作段组织。",
+    "验证价值":  "适合验证 exporter continuity payload 漂移是否能停留在 continuity 字段层修复，而不是借机重写整段镜头；关键词覆盖 continuity_break、continuity_refs、exporter、payload。",
+    "source_type":  "internal_example",
+    "source_notes":  "用于验证 support-facing failure_repair 在 continuity_break / exporter_continuity_ref_drop 场景下成立，确保 exporter payload 丢列不会破坏 hope 主线程的 continuity repair 闭环。",
+    "confidence_level":  "high",
+    "last_reviewed_at":  "2026-04-20"
+  },
+  {
+    "machine_id":  "case_26",
+    "案例名":  "Runtime consumer handoff zone 投影回正段",
+    "案例类型":  "failure_repair",
+    "目标时长":  "30-60 秒",
+    "推荐委员会":  "史诗群像组",
+    "推荐导演组合":  [
+                       "荒木哲郎",
+                       "今敏"
+                   ],
+    "场景概要":  "群像段原始 handoff zone 已存在，但 runtime consumer 只带出 buffer_cut_ids，没有带出 handoff zone 的 transition_type 和 continuity_notes，导致 handoff_gap 在支持 payload 中被误判为普通段落切换。",
+    "结构提示":  "先由 Handoff Coverage 与 Continuity Validator 标出 handoff_gap，再用 prompt_18 / prompt_16 只回补 handoff zone、transition_type、continuity_notes 和必要 buffer cut，不跨 NarrativeScene，也不回改 chief / scene 基线。",
+    "验证价值":  "适合验证 runtime consumer handoff payload 漂移是否能在 handoff_boundary 内修复；关键词覆盖 handoff_gap、runtime consumer、handoff zone、continuity_notes。",
+    "source_type":  "internal_example",
+    "source_notes":  "用于验证 support-facing failure_repair 在 handoff_gap / runtime_consumer_handoff_zone_drop 场景下成立，保证 hope 主线程消费 handoff payload 时仍能走最小修复路径。",
+    "confidence_level":  "high",
+    "last_reviewed_at":  "2026-04-20"
+  },
+  {
+    "machine_id":  "case_27",
+    "案例名":  "PromptPackage 列标签泄露清洗段",
+    "案例类型":  "failure_repair",
+    "目标时长":  "30-45 秒",
+    "推荐委员会":  "日常治愈组",
+    "推荐导演组合":  [
+                       "山田尚子",
+                       "新海诚"
+                   ],
+    "场景概要":  "日常关系段的 PromptPackage 在 consumer payload 侧混入 field alias、列标签和 Validation 表头残片，render_prompt 因此出现 chinese_prompt_noise，但 narrative scene 本体没有变化。",
+    "结构提示":  "先由 Prompt quality review / Export sanity check 标出 chinese_prompt_noise，再用 prompt_09 只清洗 PromptPackage、field alias 和 payload 表头噪声，不改 relationship_timeline、layout 目标或景观推进。",
+    "验证价值":  "适合验证 consumer payload alias leak 是否能被当成提示层问题处理；关键词覆盖 chinese_prompt_noise、PromptPackage、alias、payload、field label。",
+    "source_type":  "internal_example",
+    "source_notes":  "用于验证 support-facing failure_repair 在 chinese_prompt_noise / consumer_payload_alias_leak 场景下成立，确保主线程拿到的 PromptPackage 不会被列标签污染。",
+    "confidence_level":  "high",
+    "last_reviewed_at":  "2026-04-20"
+  },
+  {
+    "machine_id":  "case_28",
+    "案例名":  "旧版 PromptPackage 投影回正段",
+    "案例类型":  "failure_repair",
+    "目标时长":  "30-60 秒",
+    "推荐委员会":  "日常治愈组",
+    "推荐导演组合":  [
+                       "新海诚",
+                       "山田尚子"
+                   ],
+    "场景概要":  "runtime consumer 仍沿用旧版 PromptPackage 投影，只输出 render_prompt，漏掉 layout_prompt、negative_prompt 和 cut_number，形成 export_contract_drift，外部消费面无法对齐 snapshot contract。",
+    "结构提示":  "先由 Export contract check 标出 export_contract_drift，再用 prompt_17 只回正 PromptPackage、layout_prompt、negative_prompt、cut_number 和 shared contract rows，不反写 narrative scene 或 scene beats。",
+    "验证价值":  "适合验证 runtime consumer 使用旧 schema 时能否只在 export_mapping 层修复；关键词覆盖 export_contract_drift、runtime consumer、PromptPackage、layout_prompt、negative_prompt。",
+    "source_type":  "internal_example",
+    "source_notes":  "用于验证 support-facing failure_repair 在 export_contract_drift / runtime_consumer_stale_prompt_projection 场景下成立，确保 hope 主线程外发 payload 与 snapshot contract 重新同源。",
+    "confidence_level":  "high",
+    "last_reviewed_at":  "2026-04-20"
+  }
+]

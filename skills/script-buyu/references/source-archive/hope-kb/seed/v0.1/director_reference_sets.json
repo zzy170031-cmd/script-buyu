@@ -1,0 +1,166 @@
+[
+  {
+    "machine_id": "director_ref_01",
+    "director_machine_id": "director_01",
+    "代表作品": ["天元突破グレンラガン", "キルラキル", "プロメア"],
+    "公开锚点": [
+      "https://promare-movie.com/",
+      "https://promare-movie.com/about/"
+    ],
+    "用途说明": "用于支撑今石洋之在高饱和撞色、极端透视、爆发构图和热血高潮上的风格归纳。",
+    "source_type": "official_product",
+    "source_notes": "以《普罗米亚》官方站作为首批公开锚点，其他作品名作为代表作回指。",
+    "confidence_level": "high",
+    "last_reviewed_at": "2026-04-19"
+  },
+  {
+    "machine_id": "director_ref_02",
+    "director_machine_id": "director_02",
+    "代表作品": ["進撃の巨人", "甲鉄城のカバネリ"],
+    "公开锚点": [
+      "https://shingeki.tv/season1/staff/",
+      "https://shingeki.tv/season1/"
+    ],
+    "用途说明": "用于支撑荒木哲郎在群像危机、纵深压迫、危机推进和压迫性空间组织上的风格归纳。",
+    "source_type": "official_product",
+    "source_notes": "以《进击的巨人》官方 staff 页面作为首批公开锚点。",
+    "confidence_level": "high",
+    "last_reviewed_at": "2026-04-19"
+  },
+  {
+    "machine_id": "director_ref_03",
+    "director_machine_id": "director_03",
+    "代表作品": ["劇場版 呪術廻戦 ０", "神之塔 -Tower of God-"],
+    "公开锚点": [
+      "https://jujutsukaisen-movie.jp/?lang=en"
+    ],
+    "用途说明": "用于支撑朴性厚在近身格斗、打击感、动作链和速度感上的风格归纳。",
+    "source_type": "official_product",
+    "source_notes": "以《剧场版 咒术回战 0》官方站 staff 信息作为首批公开锚点。",
+    "confidence_level": "medium",
+    "last_reviewed_at": "2026-04-19"
+  },
+  {
+    "machine_id": "director_ref_04",
+    "director_machine_id": "director_04",
+    "代表作品": ["君の名は。", "天気の子", "すずめの戸締まり"],
+    "公开锚点": [
+      "https://suzume-tojimari-movie.jp/index.html"
+    ],
+    "用途说明": "用于支撑新海诚在高光逆光、景观托情绪、天空层次和都市情绪景观上的风格归纳。",
+    "source_type": "official_product",
+    "source_notes": "以《铃芽之旅》官方站作为首批公开锚点，兼做新海诚作品入口。",
+    "confidence_level": "high",
+    "last_reviewed_at": "2026-04-19"
+  },
+  {
+    "machine_id": "director_ref_05",
+    "director_machine_id": "director_05",
+    "代表作品": ["映画 聲の形", "リズと青い鳥", "映画けいおん！"],
+    "公开锚点": [
+      "https://www.kyotoanimation.co.jp/works/koeM/",
+      "https://www.kyotoanimation.co.jp/works/liz/",
+      "https://www.kyotoanimation.co.jp/works/k-onMovie/"
+    ],
+    "用途说明": "用于支撑山田尚子在低视点、微表情、局部肢体细节和安静留白上的风格归纳。",
+    "source_type": "official_product",
+    "source_notes": "以京都动画作品页作为山田尚子代表作的首批公开锚点。",
+    "confidence_level": "high",
+    "last_reviewed_at": "2026-04-19"
+  },
+  {
+    "machine_id": "director_ref_06",
+    "director_machine_id": "director_06",
+    "代表作品": ["ピンポン THE ANIMATION", "DEVILMAN crybaby", "犬王"],
+    "公开锚点": [
+      "https://www.pingpong-anime.tv/",
+      "https://www.pingpong-anime.tv/staff-cast/"
+    ],
+    "用途说明": "用于支撑汤浅政明在意识流变形、情绪外化、线条弹性和主观感受层上的风格归纳。",
+    "source_type": "official_product",
+    "source_notes": "以《乒乓》官方站和 staff 页面作为首批公开锚点。",
+    "confidence_level": "medium",
+    "last_reviewed_at": "2026-04-19"
+  },
+  {
+    "machine_id": "director_ref_07",
+    "director_machine_id": "director_07",
+    "代表作品": ["PERFECT BLUE", "千年女優", "東京ゴッドファーザーズ", "パプリカ"],
+    "公开锚点": [
+      "https://konstone.s-kon.net/",
+      "https://konstone.s-kon.net/modules/works/index.php?content_id=1",
+      "https://www.madhouse.co.jp/special/mhpf/mhpf_no035.html"
+    ],
+    "用途说明": "用于支撑今敏在现实/幻觉接缝、镜像反射、匹配剪接和认知错位上的风格归纳。",
+    "source_type": "official_product",
+    "source_notes": "以 KON'S TONE 官方站和 MADHOUSE People File 作为首批公开锚点。",
+    "confidence_level": "high",
+    "last_reviewed_at": "2026-04-19"
+  },
+  {
+    "machine_id": "director_ref_08",
+    "director_machine_id": "director_08",
+    "代表作品": ["雾山五行", "哪吒之魔童降世", "哪吒之魔童闹海"],
+    "公开锚点": [
+      "https://bgm.tv/subject/305515",
+      "https://m.1905.com/m/film/feature/2243707.shtml",
+      "https://finance.sina.cn/2025-02-07/detail-ineirmwe0752856.d.html?vt=4",
+      "docs/seedance2-v108-director-style-web-research-2026-04-23.md"
+    ],
+    "用途说明": "用于支撑国风武侠/仙侠动作在轻功纵向运动、兵器连续性、屋檐追逐、竹林对峙和爆发落点上的内部镜头语言归纳。",
+    "source_type": "web_research_public_sources",
+    "source_notes": "公开链接仅作为研究锚点；不创建外部 reference handles、资产 URL、产品提示词或真实导演模仿指令。",
+    "confidence_level": "medium",
+    "last_reviewed_at": "2026-04-23"
+  },
+  {
+    "machine_id": "director_ref_09",
+    "director_machine_id": "director_09",
+    "代表作品": ["长安三万里", "哪吒之魔童闹海"],
+    "公开锚点": [
+      "https://cinephilia.net/84772/",
+      "https://news.bjd.com.cn/2023/07/14/10495943.shtml",
+      "https://finance.sina.cn/2025-02-07/detail-ineirmwe0752856.d.html?vt=4",
+      "docs/seedance2-v108-director-style-web-research-2026-04-23.md"
+    ],
+    "用途说明": "用于支撑国漫史诗群像/战争场面在城楼誓师、军阵纵深、旗帜桥接、战鼓节奏和大规模冲阵上的内部镜头语言归纳。",
+    "source_type": "web_research_public_sources",
+    "source_notes": "公开链接仅作为研究锚点；不创建外部 reference handles、资产 URL、产品提示词或真实导演模仿指令。",
+    "confidence_level": "medium",
+    "last_reviewed_at": "2026-04-23"
+  },
+  {
+    "machine_id": "director_ref_10",
+    "director_machine_id": "director_10",
+    "代表作品": ["灵笼", "灵笼 第二季"],
+    "公开锚点": [
+      "https://www.sohu.com/a/921231673_121620820",
+      "https://k.sina.com.cn/article_7857201856_1d45362c001902wz2k.html",
+      "https://www.hb.chinanews.com.cn/news/2025/0525/417311.html",
+      "docs/seedance2-v108-director-style-web-research-2026-04-23.md"
+    ],
+    "用途说明": "用于支撑都市末世/工业压迫在地铁断电、高架废墟、撤离阻塞、警报声场和基础设施压迫上的内部镜头语言归纳。",
+    "source_type": "web_research_public_sources",
+    "source_notes": "公开链接仅作为研究锚点；不创建外部 reference handles、资产 URL、产品提示词或真实导演模仿指令。",
+    "confidence_level": "medium",
+    "last_reviewed_at": "2026-04-23"
+  },
+  {
+    "machine_id": "director_ref_11",
+    "director_machine_id": "director_11",
+    "代表作品": ["天官赐福 全新动画短片：太子悦神·惊鸿一瞥", "我为歌狂之旋律重启"],
+    "公开锚点": [
+      "https://www.bilibili.com/opus/1031137468618899457",
+      "https://bgm.tv/ep/1418982",
+      "https://www.bilibili.com/bangumi/media/md28223062/",
+      "https://bgm.tv/subject/219141",
+      "https://sh.people.com.cn/n2/2020/1211/c350122-34468870.html",
+      "docs/seedance2-v108-director-style-web-research-2026-04-23.md"
+    ],
+    "用途说明": "用于支撑国潮舞台/原创表演在舞台轴线、聚光灯、同步群舞、音乐拍点、表演入场和最终定格上的内部镜头语言归纳。",
+    "source_type": "web_research_public_sources",
+    "source_notes": "公开链接仅作为研究锚点；不创建外部 reference handles、资产 URL、产品提示词或真实导演模仿指令。",
+    "confidence_level": "medium",
+    "last_reviewed_at": "2026-04-23"
+  }
+]

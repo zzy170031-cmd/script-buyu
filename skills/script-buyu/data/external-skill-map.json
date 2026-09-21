@@ -1,0 +1,224 @@
+{
+  "commit": "50825325b3940a17f032129851f5c83382863000",
+  "license_scope": "MIT only for upstream original work; NOTICE retained",
+  "records": [
+    {
+      "skill": "chekhov-dramaturgy",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/chekhov-dramaturgy/SKILL.md",
+      "source_sha256": "1baaec90da04dce0f7d1e3d798843850660ca7bccc804c5ea0c5c1486e6191b6",
+      "disposition": "deferred_specialist_or_outside_scope",
+      "target": null,
+      "reason": "不扩展到行业商务/戏曲专项或特定作品模仿；需要时另行评估"
+    },
+    {
+      "skill": "ozu-screenplay-style",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/ozu-screenplay-style/SKILL.md",
+      "source_sha256": "b17c23abb6e9c48c8149fa312bc57139774b786563d662a267a4d93ba6043f98",
+      "disposition": "deferred_specialist_or_outside_scope",
+      "target": null,
+      "reason": "不扩展到行业商务/戏曲专项或特定作品模仿；需要时另行评估"
+    },
+    {
+      "skill": "succession-series-writing",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/succession-series-writing/SKILL.md",
+      "source_sha256": "76cb8e3a1e24c22037e5ad148b4d12bdcedf7c834019f954c11d8ecfb3355bed",
+      "disposition": "deferred_specialist_or_outside_scope",
+      "target": null,
+      "reason": "不扩展到行业商务/戏曲专项或特定作品模仿；需要时另行评估"
+    },
+    {
+      "skill": "sw-american-case-studies",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-american-case-studies/SKILL.md",
+      "source_sha256": "a136e1232a3b2d9996e05df1259d17eb370720f4ac4532387de2c10b02ed6aa4",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-character-conflict",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-character-conflict/SKILL.md",
+      "source_sha256": "eec1ede6394ae995137e819d33775df5598851aed03734d45e02693f5fcfedaf",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-chinese-opera-banqiang",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-chinese-opera-banqiang/SKILL.md",
+      "source_sha256": "aca8dca57eab7fba869ec0fe209fdf20bcd4cd8f4c22f08513de16424ae17131",
+      "disposition": "deferred_specialist_or_outside_scope",
+      "target": null,
+      "reason": "不扩展到行业商务/戏曲专项或特定作品模仿；需要时另行评估"
+    },
+    {
+      "skill": "sw-chinese-opera-banqiang-cases",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-chinese-opera-banqiang-cases/SKILL.md",
+      "source_sha256": "12ada8f21042421b49a3baae9d6b06141d42d50bffbb534a5b9bede7776cc4fe",
+      "disposition": "deferred_specialist_or_outside_scope",
+      "target": null,
+      "reason": "不扩展到行业商务/戏曲专项或特定作品模仿；需要时另行评估"
+    },
+    {
+      "skill": "sw-chinese-opera-qupai",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-chinese-opera-qupai/SKILL.md",
+      "source_sha256": "3e4fc19ae09ce20c9c6289b55c9f2578702d9b0a39056bc1943b8ab3cdc4509b",
+      "disposition": "deferred_specialist_or_outside_scope",
+      "target": null,
+      "reason": "不扩展到行业商务/戏曲专项或特定作品模仿；需要时另行评估"
+    },
+    {
+      "skill": "sw-chinese-opera-qupai-cases",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-chinese-opera-qupai-cases/SKILL.md",
+      "source_sha256": "e39b2b298b50bacdddd4d18456c49328d517212ed393f30470fa75cc973e873a",
+      "disposition": "deferred_specialist_or_outside_scope",
+      "target": null,
+      "reason": "不扩展到行业商务/戏曲专项或特定作品模仿；需要时另行评估"
+    },
+    {
+      "skill": "sw-chinese-series-practice",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-chinese-series-practice/SKILL.md",
+      "source_sha256": "2bd4a2a1286801070d7d09667b8dc6e029090b7f1ee96bfab9e66a370b9bc753",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-dialogue",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-dialogue/SKILL.md",
+      "source_sha256": "c9f93e9d78dd137b1e8617289df947e54996ce82dad5db8f0f1936264ef95299",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-format-adaptation",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-format-adaptation/SKILL.md",
+      "source_sha256": "8e5b3459cb6adab0da67284b5200ef58e8c447d516e1cc1bab37852e7ffe8911",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-genre-anatomy",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-genre-anatomy/SKILL.md",
+      "source_sha256": "3893251ad8d7c3afdd12575a7033e120fc932b1f8227675ac516d165034708af",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-industry-business",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-industry-business/SKILL.md",
+      "source_sha256": "3266bd8da4eda1489ca2ab5ec9745108fdb3d224f1d3f55073a5f536fb4c09f8",
+      "disposition": "deferred_specialist_or_outside_scope",
+      "target": null,
+      "reason": "不扩展到行业商务/戏曲专项或特定作品模仿；需要时另行评估"
+    },
+    {
+      "skill": "sw-japanese-screenwriting",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-japanese-screenwriting/SKILL.md",
+      "source_sha256": "5a1ac0e976010308f02551de33c143048c403e403040c4af1f7fec83758b9726",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-korean-french-screenwriting",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-korean-french-screenwriting/SKILL.md",
+      "source_sha256": "6065e8df1603a454d5516bb4e5bda2234c6cfc110847161d3736cfc4b22aa0b2",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-premise-theme",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-premise-theme/SKILL.md",
+      "source_sha256": "1a715602130e43a14da78f700d4af757e856e4bd1466ae3d23ee7c91473259c5",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-scene-craft",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-scene-craft/SKILL.md",
+      "source_sha256": "8e17bd548c7b27e7c88d8bceb498cf7d61e545d567085efecb1e4818f4e0e902",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-series-case-studies",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-series-case-studies/SKILL.md",
+      "source_sha256": "d89f656ca8a243bb7c17bcad7f3d966da6006fa0f6b8d4a17caf572fd2030bc3",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-series-engine-bible",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-series-engine-bible/SKILL.md",
+      "source_sha256": "52428d6fb67f5a3fc87d99f4e0e5178709f5f6d81d5eb90779d29283305ab679",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-series-structure",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-series-structure/SKILL.md",
+      "source_sha256": "31303baba5cdc36931b42cac9b7ddc346e10c970596122c31b92b98227ef2cbf",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-sitcom-comedy",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-sitcom-comedy/SKILL.md",
+      "source_sha256": "d3e4c1f6cdb604e2f0b92d8797530306fea0b5033db8f891f565cb5cc6e6db6b",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-story-structure",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-story-structure/SKILL.md",
+      "source_sha256": "342aeeabd58cd40446d46673ca7ca8b7fadc38fe0ed8de518469ef8e87faa64a",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-truby-anatomy",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-truby-anatomy/SKILL.md",
+      "source_sha256": "e057bdd7ffc34e070b9ec3906b9563b3a2fac7c421e5d7ca2b600e799b58c102",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-workflow",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-workflow/SKILL.md",
+      "source_sha256": "1e51911c81123196dfcfe4a4a5712d09483745f626a75c832bda2188c53e24d8",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    },
+    {
+      "skill": "sw-writers-room",
+      "url": "https://github.com/jtydhr88/screenwriting-skills/blob/50825325b3940a17f032129851f5c83382863000/plugins/screenwriting/skills/sw-writers-room/SKILL.md",
+      "source_sha256": "4c9e6a563740698cd616582a8ec87ce6e038184ed3641e8734e86121e87944a9",
+      "disposition": "method_adaptation",
+      "target": "references/external-screenwriting.md",
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+    }
+  ],
+  "other_candidates": [
+    {
+      "url": "https://github.com/gaojesse999/ai-scripts/tree/main/skills/screenwriter-skill",
+      "disposition": "link_only_license_unverified"
+    },
+    {
+      "url": "https://github.com/0xhughs/director-skills",
+      "disposition": "link_only_broader_production_scope"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Preserve content-addressed knowledge bytes on Windows and Unix checkouts.
+skills/script-buyu/references/source-archive/** -text
+skills/script-buyu/data/*.json -text
+skills/script-buyu/data/image-prompts/** -text

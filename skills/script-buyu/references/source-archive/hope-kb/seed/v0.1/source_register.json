@@ -1,0 +1,202 @@
+{
+  "snapshot_version": "v0.1",
+  "register_name": "hope-kb-source-register",
+  "updated_at": "2026-04-19",
+  "sources": [
+    {
+      "source_id": "official_rule_adobe_storyboarding",
+      "source_type": "official_rule",
+      "label": "Adobe Animation Storyboarding",
+      "url": "https://www.adobe.com/creativecloud/animation/discover/animation-storyboarding.html",
+      "applies_to": [
+        "visual_language_terms",
+        "story_structure_templates",
+        "export_templates"
+      ],
+      "priority": 1,
+      "notes": "用于支撑 storyboard 作为脚本到成片之间视觉桥梁的规则层定义。"
+    },
+    {
+      "source_id": "official_rule_adobe_12_principles",
+      "source_type": "official_rule",
+      "label": "Adobe 12 Principles of Animation",
+      "url": "https://www.adobe.com/creativecloud/animation/discover/principles-of-animation.html",
+      "applies_to": [
+        "visual_language_terms",
+        "camera_work_vocabulary",
+        "continuity_rules"
+      ],
+      "priority": 1,
+      "notes": "用于动势、节奏、重量感和夸张等动画规则归纳。"
+    },
+    {
+      "source_id": "official_rule_sva_storyboarding",
+      "source_type": "official_rule",
+      "label": "SVA Storyboarding for Animation",
+      "url": "https://qa.sva.edu/academics/continuing-education/animation/courses/storyboarding-for-animation-26-cs-anc-1024-ol",
+      "applies_to": [
+        "camera_work_vocabulary",
+        "continuity_rules",
+        "story_structure_templates",
+        "prompt_templates"
+      ],
+      "priority": 1,
+      "notes": "用于支撑 narrative、dramatic beats、camera moves、transitions 等核心字段。"
+    },
+    {
+      "source_id": "official_rule_qwen_structured_output",
+      "source_type": "official_rule",
+      "label": "Qwen Structured Output",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-structured-output",
+      "applies_to": [
+        "prompt_templates",
+        "story_structure_templates"
+      ],
+      "priority": 1,
+      "notes": "用于冻结 Qwen-compatible 的 JSON 结构化输出纪律。"
+    },
+    {
+      "source_id": "official_rule_qwen_json_mode",
+      "source_type": "official_rule",
+      "label": "Qwen JSON Mode",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/json-mode",
+      "applies_to": [
+        "prompt_templates"
+      ],
+      "priority": 1,
+      "notes": "用于 Writer 和 Storyboard 落库层的 JSON 输出策略。"
+    },
+    {
+      "source_id": "official_product_jimeng",
+      "source_type": "official_product",
+      "label": "即梦 AI 官方入口",
+      "url": "https://jimeng.jianying.com/",
+      "applies_to": [
+        "export_templates"
+      ],
+      "priority": 2,
+      "notes": "用于确认中文 Prompt 外部消费目标和 benchmark 验证方向。"
+    },
+    {
+      "source_id": "official_product_kling",
+      "source_type": "official_product",
+      "label": "Kling VIDEO 3.0 Guide",
+      "url": "https://app.klingai.com/cn/quickstart/klingai-video-3-model-user-guide",
+      "applies_to": [
+        "export_templates",
+        "committee_handoff_rules"
+      ],
+      "priority": 2,
+      "notes": "用于多镜头、多角色一致性和外部验证策略参考。"
+    },
+    {
+      "source_id": "team_distillation_directors",
+      "source_type": "team_distillation",
+      "label": "导演风格团队归纳",
+      "url": "",
+      "applies_to": [
+        "director_profiles",
+        "director_scene_affinity",
+        "committee_style_merge_rules"
+      ],
+      "priority": 3,
+      "notes": "只用于风格归纳层，必须配 source_notes 和 confidence_level。"
+    },
+    {
+      "source_id": "official_director_reference_sets",
+      "source_type": "official_product",
+      "label": "导演公开作品锚点",
+      "url": "",
+      "applies_to": [
+        "director_reference_sets",
+        "director_profiles"
+      ],
+      "priority": 2,
+      "notes": "通过导演代表作品的官方作品页、官方站或官方个人站，为团队风格归纳提供公开锚点。"
+    },
+    {
+      "source_id": "team_distillation_handoff",
+      "source_type": "team_distillation",
+      "label": "委员会切换经验归纳",
+      "url": "",
+      "applies_to": [
+        "committee_handoff_rules"
+      ],
+      "priority": 3,
+      "notes": "只用于 handoff 经验层，不能伪装成官方规则。"
+    },
+    {
+      "source_id": "internal_benchmark_examples",
+      "source_type": "internal_example",
+      "label": "内部 benchmark 与经典案例",
+      "url": "",
+      "applies_to": [
+        "classic_case_examples"
+      ],
+      "priority": 3,
+      "notes": "用于 45s、10min、60min benchmark 和经典段落示例，不作为官方规则来源。"
+    },
+    {
+      "source_id": "internal_degraded_input_examples",
+      "source_type": "internal_example",
+      "label": "degraded-input 回归样例",
+      "url": "",
+      "applies_to": [
+        "degraded_input_examples"
+      ],
+      "priority": 3,
+      "notes": "用于把 failure -> repair template -> validator 的闭环回归样例固化为种子资产，不伪装成官方规则来源。"
+    },
+    {
+      "source_id": "team_distillation_runtime_consume_contracts",
+      "source_type": "team_distillation",
+      "label": "runtime consume contract 鍥㈤槦褰掔撼",
+      "url": "",
+      "applies_to": [
+        "runtime_consume_contracts",
+        "export_templates",
+        "degraded_input_examples"
+      ],
+      "priority": 2,
+      "notes": "鐢ㄤ簬鎶?hope 涓荤嚎绋嬫秷璐?snapshot 鐨?runtime-consumer 鎺ュ叆杈圭晫鍥哄寲涓?KB contract锛屼笉鍏佽浜у搧渚ч潬鏈湴鐗瑰垽琛ュ瓧娈点€?
+    },
+    {
+      "source_id": "team_distillation_failure_library",
+      "source_type": "team_distillation",
+      "label": "系统级失败模式库",
+      "url": "",
+      "applies_to": [
+        "failure_pattern_library",
+        "prompt_templates",
+        "export_templates"
+      ],
+      "priority": 3,
+      "notes": "用于沉淀 style drift、continuity break、hard_lock_loss、export drift 等系统失败模式。"
+    },
+    {
+      "source_id": "team_distillation_scene_taxonomy",
+      "source_type": "team_distillation",
+      "label": "场景分类与调度 taxonomy",
+      "url": "",
+      "applies_to": [
+        "scene_taxonomy",
+        "director_scene_affinity",
+        "committee_handoff_rules"
+      ],
+      "priority": 2,
+      "notes": "用于统一 Hope 运行时的 scene_type 命名，支撑分派、切段和 handoff。"
+    },
+    {
+      "source_id": "team_distillation_repair_mapping",
+      "source_type": "team_distillation",
+      "label": "失败模式到修复模板映射",
+      "url": "",
+      "applies_to": [
+        "failure_pattern_library",
+        "prompt_templates"
+      ],
+      "priority": 2,
+      "notes": "用于把 validator 失败模式和 repair pass 模板显式对齐，减少 repair 阶段的漂移。"
+    }
+  ]
+}

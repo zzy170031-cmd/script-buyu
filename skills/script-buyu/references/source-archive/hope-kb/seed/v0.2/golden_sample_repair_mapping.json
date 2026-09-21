@@ -1,0 +1,3052 @@
+{
+    "schema_version": "golden_sample_repair_mapping.v0.2",
+    "asset_name": "golden_sample_repair_mapping",
+    "generated_at": "2026-04-24",
+    "source_context": {
+        "primary_source_id": "seedance2_v120_safe_plus_final_xlsx_2026_04_24",
+        "comparison_source_id": "seedance2_v108_raw_xlsx_2026_04_23"
+    },
+    "record_count": 152,
+    "records": [
+        {
+            "mapping_id": "gs_repair_plan_gs_7",
+            "sample_id": "GS-7",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs_7",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。把离别或试探压进视线停顿和双光源层次里。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_1",
+            "sample_id": "GS-1",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "negative_fixture_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs_1",
+            "planned_repair_inputs": {
+                "missed_points": "保留反例教学价值，不进入首轮 promoted 白名单；仅用于 few-shot 对照和错误模式训练。",
+                "teaching_note": "差档反例。训练校园相遇镜头里的视线交换和轻微错身。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "相遇表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "validator_negative_fixture_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_8",
+            "sample_id": "GS-8",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs_8",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练低动作密度镜头中的听觉触发与微表情响应。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "相遇表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_3",
+            "sample_id": "GS-3",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_3",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练校园相遇镜头里的视线交换和轻微错身。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_4",
+            "sample_id": "GS-4",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_4",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练独白型镜头里的静态构图和细碎动作叙事。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_5",
+            "sample_id": "GS-5",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_5",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_2",
+            "sample_id": "GS-2",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "negative_fixture_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs_2",
+            "planned_repair_inputs": {
+                "missed_points": "保留反例教学价值，不进入首轮 promoted 白名单；仅用于 few-shot 对照和错误模式训练。",
+                "teaching_note": "差档反例。把离别或试探压进视线停顿和双光源层次里。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "其他",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "validator_negative_fixture_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_6",
+            "sample_id": "GS-6",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_6",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "场域追逐",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_15",
+            "sample_id": "GS-15",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs_15",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_13",
+            "sample_id": "GS-13",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_13",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_10",
+            "sample_id": "GS-10",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "negative_fixture_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs_10",
+            "planned_repair_inputs": {
+                "missed_points": "保留反例教学价值，不进入首轮 promoted 白名单；仅用于 few-shot 对照和错误模式训练。",
+                "teaching_note": "差档反例。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "热血打斗",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "validator_negative_fixture_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_16",
+            "sample_id": "GS-16",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs_16",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练校园相遇镜头里的视线交换和轻微错身。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "相遇表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_12",
+            "sample_id": "GS-12",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_12",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "其他",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_11",
+            "sample_id": "GS-11",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_11",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。把离别或试探压进视线停顿和双光源层次里。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_14",
+            "sample_id": "GS-14",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_14",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练校园相遇镜头里的视线交换和轻微错身。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "场域追逐",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_9",
+            "sample_id": "GS-9",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "negative_fixture_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs_9",
+            "planned_repair_inputs": {
+                "missed_points": "保留反例教学价值，不进入首轮 promoted 白名单；仅用于 few-shot 对照和错误模式训练。",
+                "teaching_note": "差档反例。训练校园相遇镜头里的视线交换和轻微错身。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "相遇表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "validator_negative_fixture_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_20",
+            "sample_id": "GS-20",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_20",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练独白型镜头里的静态构图和细碎动作叙事。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_22",
+            "sample_id": "GS-22",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_22",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "场域追逐",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_21",
+            "sample_id": "GS-21",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_21",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_23",
+            "sample_id": "GS-23",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs_23",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。把离别或试探压进视线停顿和双光源层次里。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_17",
+            "sample_id": "GS-17",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "negative_fixture_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs_17",
+            "planned_repair_inputs": {
+                "missed_points": "保留反例教学价值，不进入首轮 promoted 白名单；仅用于 few-shot 对照和错误模式训练。",
+                "teaching_note": "差档反例。训练校园相遇镜头里的视线交换和轻微错身。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "其他",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "validator_negative_fixture_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_18",
+            "sample_id": "GS-18",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "negative_fixture_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs_18",
+            "planned_repair_inputs": {
+                "missed_points": "保留反例教学价值，不进入首轮 promoted 白名单；仅用于 few-shot 对照和错误模式训练。",
+                "teaching_note": "差档反例。把离别或试探压进视线停顿和双光源层次里。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "其他",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "validator_negative_fixture_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_24",
+            "sample_id": "GS-24",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs_24",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练低动作密度镜头中的听觉触发与微表情响应。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "相遇表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_19",
+            "sample_id": "GS-19",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_19",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练校园相遇镜头里的视线交换和轻微错身。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_25",
+            "sample_id": "GS-25",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "negative_fixture_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs_25",
+            "planned_repair_inputs": {
+                "missed_points": "保留反例教学价值，不进入首轮 promoted 白名单；仅用于 few-shot 对照和错误模式训练。",
+                "teaching_note": "差档反例。训练校园相遇镜头里的视线交换和轻微错身。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "其他",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "validator_negative_fixture_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_29",
+            "sample_id": "GS-29",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_29",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_26",
+            "sample_id": "GS-26",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "negative_fixture_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs_26",
+            "planned_repair_inputs": {
+                "missed_points": "保留反例教学价值，不进入首轮 promoted 白名单；仅用于 few-shot 对照和错误模式训练。",
+                "teaching_note": "差档反例。把离别或试探压进视线停顿和双光源层次里。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "其他",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "validator_negative_fixture_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_27",
+            "sample_id": "GS-27",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_27",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练校园相遇镜头里的视线交换和轻微错身。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_30",
+            "sample_id": "GS-30",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_30",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "场域追逐",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_28",
+            "sample_id": "GS-28",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_28",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练独白型镜头里的静态构图和细碎动作叙事。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_32",
+            "sample_id": "GS-32",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs_32",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练低动作密度镜头中的听觉触发与微表情响应。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "相遇表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_31",
+            "sample_id": "GS-31",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs_31",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。把离别或试探压进视线停顿和双光源层次里。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_36",
+            "sample_id": "GS-36",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_36",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练独白型镜头里的静态构图和细碎动作叙事。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_39",
+            "sample_id": "GS-39",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs_39",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。把离别或试探压进视线停顿和双光源层次里。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_35",
+            "sample_id": "GS-35",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_35",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练校园相遇镜头里的视线交换和轻微错身。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_34",
+            "sample_id": "GS-34",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "negative_fixture_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs_34",
+            "planned_repair_inputs": {
+                "missed_points": "保留反例教学价值，不进入首轮 promoted 白名单；仅用于 few-shot 对照和错误模式训练。",
+                "teaching_note": "差档反例。把离别或试探压进视线停顿和双光源层次里。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "其他",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "validator_negative_fixture_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_37",
+            "sample_id": "GS-37",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_37",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "情绪对话",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_40",
+            "sample_id": "GS-40",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs_40",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练低动作密度镜头中的听觉触发与微表情响应。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "相遇表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_33",
+            "sample_id": "GS-33",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "negative_fixture_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs_33",
+            "planned_repair_inputs": {
+                "missed_points": "保留反例教学价值，不进入首轮 promoted 白名单；仅用于 few-shot 对照和错误模式训练。",
+                "teaching_note": "差档反例。训练校园相遇镜头里的视线交换和轻微错身。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "其他",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "validator_negative_fixture_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs_38",
+            "sample_id": "GS-38",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs_38",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "基础迁移",
+                "scene_category": "场域追逐",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_041",
+            "sample_id": "GS108-041",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_041",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练海上少年群像的空间层次、卡通物理回弹和队形调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "群像表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_042",
+            "sample_id": "GS108-042",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_042",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练屋顶追逐、短促结印和残影快切的日漫动作语法。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "热血打斗",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_043",
+            "sample_id": "GS108-043",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_043",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练屋顶追逐、短促结印和残影快切的日漫动作语法。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "场域追逐",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_044",
+            "sample_id": "GS108-044",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_044",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练大场面群像调度和从誓师到冲阵的整体节拍。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "群像表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_045",
+            "sample_id": "GS108-045",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_045",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练屋顶追逐、短促结印和残影快切的日漫动作语法。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "热血打斗",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_046",
+            "sample_id": "GS108-046",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_046",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练群像同步、站位和灯光时机的协调控制。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "群像表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_048",
+            "sample_id": "GS108-048",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_048",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "热血打斗",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_049",
+            "sample_id": "GS108-049",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_049",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "热血打斗",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_050",
+            "sample_id": "GS108-050",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_050",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "热血打斗",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_051",
+            "sample_id": "GS108-051",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_051",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练校园相遇镜头里的视线交换和轻微错身。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "场域追逐",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_054",
+            "sample_id": "GS108-054",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_054",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练国风对峙中从静到动的前摇控制和刀光爆发。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_055",
+            "sample_id": "GS108-055",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_055",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练国风对峙中从静到动的前摇控制和刀光爆发。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_056",
+            "sample_id": "GS108-056",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_056",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练不良人式夜城追杀、长兵器路径和逆光剪影的国漫镜头语法。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_057",
+            "sample_id": "GS108-057",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_057",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练国风对峙中从静到动的前摇控制和刀光爆发。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_058",
+            "sample_id": "GS108-058",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_058",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练国风对峙中从静到动的前摇控制和刀光爆发。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_059",
+            "sample_id": "GS108-059",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_059",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练末世工业追逐与撤离镜头的负重感、红光节奏和群像调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_060",
+            "sample_id": "GS108-060",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_060",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练末世工业追逐与撤离镜头的负重感、红光节奏和群像调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_061",
+            "sample_id": "GS108-061",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_061",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练大场面群像调度和从誓师到冲阵的整体节拍。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_062",
+            "sample_id": "GS108-062",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_062",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练大场面群像调度和从誓师到冲阵的整体节拍。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_063",
+            "sample_id": "GS108-063",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_063",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练大场面群像调度和从誓师到冲阵的整体节拍。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_067",
+            "sample_id": "GS108-067",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_067",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练不良人式夜城追杀、长兵器路径和逆光剪影的国漫镜头语法。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "美漫",
+                "scene_category": "其他",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_068",
+            "sample_id": "GS108-068",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_068",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "美漫",
+                "scene_category": "场域追逐",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_069",
+            "sample_id": "GS108-069",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_069",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "美漫",
+                "scene_category": "场域追逐",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_070",
+            "sample_id": "GS108-070",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_070",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练末世工业追逐与撤离镜头的负重感、红光节奏和群像调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "其他",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_071",
+            "sample_id": "GS108-071",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_071",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "美漫",
+                "scene_category": "热血打斗",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_072",
+            "sample_id": "GS108-072",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_072",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "美漫",
+                "scene_category": "热血打斗",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_073",
+            "sample_id": "GS108-073",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_073",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练末世工业追逐与撤离镜头的负重感、红光节奏和群像调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_075",
+            "sample_id": "GS108-075",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "negative_fixture_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_075",
+            "planned_repair_inputs": {
+                "missed_points": "保留反例教学价值，不进入首轮 promoted 白名单；仅用于 few-shot 对照和错误模式训练。",
+                "teaching_note": "差档反例。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "美漫",
+                "scene_category": "其他",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "validator_negative_fixture_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_076",
+            "sample_id": "GS108-076",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_076",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练群像同步、站位和灯光时机的协调控制。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "原创",
+                "scene_category": "群像表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_077",
+            "sample_id": "GS108-077",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_077",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练群像同步、站位和灯光时机的协调控制。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "原创",
+                "scene_category": "群像表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_078",
+            "sample_id": "GS108-078",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_078",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练群像同步、站位和灯光时机的协调控制。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "原创",
+                "scene_category": "群像表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_079",
+            "sample_id": "GS108-079",
+            "core": "full_stack_single_shot_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_079",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练群像同步、站位和灯光时机的协调控制。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "原创",
+                "scene_category": "群像表演",
+                "sample_type": "single_shot",
+                "sequence_id": "",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_080",
+            "sample_id": "GS108-080",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_080",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练海上少年群像的空间层次、卡通物理回弹和队形调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "JPSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_081",
+            "sample_id": "GS108-081",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_081",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练海上少年群像的空间层次、卡通物理回弹和队形调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "JPSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_082",
+            "sample_id": "GS108-082",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_082",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练海上少年群像的空间层次、卡通物理回弹和队形调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "JPSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_083",
+            "sample_id": "GS108-083",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_083",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练海上少年群像的空间层次、卡通物理回弹和队形调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "JPSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_084",
+            "sample_id": "GS108-084",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_084",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练屋顶追逐、短促结印和残影快切的日漫动作语法。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "JPSEQ02",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_085",
+            "sample_id": "GS108-085",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_085",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练屋顶追逐、短促结印和残影快切的日漫动作语法。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "JPSEQ02",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_086",
+            "sample_id": "GS108-086",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_086",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练屋顶追逐、短促结印和残影快切的日漫动作语法。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "JPSEQ02",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_087",
+            "sample_id": "GS108-087",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_087",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "JPSEQ02",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_088",
+            "sample_id": "GS108-088",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_088",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练群像同步、站位和灯光时机的协调控制。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "JPSEQ03",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_089",
+            "sample_id": "GS108-089",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_089",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练群像同步、站位和灯光时机的协调控制。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "JPSEQ03",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_090",
+            "sample_id": "GS108-090",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_090",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练群像同步、站位和灯光时机的协调控制。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "JPSEQ03",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_091",
+            "sample_id": "GS108-091",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_091",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练群像同步、站位和灯光时机的协调控制。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "日漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "JPSEQ03",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_092",
+            "sample_id": "GS108-092",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_092",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练国风对峙中从静到动的前摇控制和刀光爆发。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_093",
+            "sample_id": "GS108-093",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_093",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练国风对峙中从静到动的前摇控制和刀光爆发。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_094",
+            "sample_id": "GS108-094",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_094",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练国风对峙中从静到动的前摇控制和刀光爆发。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_095",
+            "sample_id": "GS108-095",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_095",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练国风对峙中从静到动的前摇控制和刀光爆发。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_096",
+            "sample_id": "GS108-096",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_096",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练末世工业追逐与撤离镜头的负重感、红光节奏和群像调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ02",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_097",
+            "sample_id": "GS108-097",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_097",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练末世工业追逐与撤离镜头的负重感、红光节奏和群像调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ02",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_098",
+            "sample_id": "GS108-098",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_098",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练末世工业追逐与撤离镜头的负重感、红光节奏和群像调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ02",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_099",
+            "sample_id": "GS108-099",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_099",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练末世工业追逐与撤离镜头的负重感、红光节奏和群像调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ02",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_100",
+            "sample_id": "GS108-100",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_100",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练海上少年群像的空间层次、卡通物理回弹和队形调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ03",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_101",
+            "sample_id": "GS108-101",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_101",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练大场面群像调度和从誓师到冲阵的整体节拍。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ03",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_102",
+            "sample_id": "GS108-102",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_102",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练大场面群像调度和从誓师到冲阵的整体节拍。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ03",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_103",
+            "sample_id": "GS108-103",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_103",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练大场面群像调度和从誓师到冲阵的整体节拍。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ03",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_104",
+            "sample_id": "GS108-104",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_104",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "美漫",
+                "scene_category": "其他",
+                "sample_type": "sequence_shot",
+                "sequence_id": "USSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_105",
+            "sample_id": "GS108-105",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_105",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "美漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "USSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_106",
+            "sample_id": "GS108-106",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_106",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "美漫",
+                "scene_category": "其他",
+                "sample_type": "sequence_shot",
+                "sequence_id": "USSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_107",
+            "sample_id": "GS108-107",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_107",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。兜底模板，用来补齐无明确场景时的生成稳定性。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "美漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "USSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_108",
+            "sample_id": "GS108-108",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_108",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练末世工业追逐与撤离镜头的负重感、红光节奏和群像调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "USSEQ02",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_109",
+            "sample_id": "GS108-109",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_109",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练末世工业追逐与撤离镜头的负重感、红光节奏和群像调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "USSEQ02",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_110",
+            "sample_id": "GS108-110",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_110",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练末世工业追逐与撤离镜头的负重感、红光节奏和群像调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "美漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "USSEQ02",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_111",
+            "sample_id": "GS108-111",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_111",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练末世工业追逐与撤离镜头的负重感、红光节奏和群像调度。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "美漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "USSEQ02",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_112",
+            "sample_id": "GS108-112",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_112",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练群像同步、站位和灯光时机的协调控制。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "原创",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "MIXSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_113",
+            "sample_id": "GS108-113",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_113",
+            "planned_repair_inputs": {
+                "missed_points": "需通过首轮实测确认 reference handle 稳定性，再决定是否 promoted。",
+                "teaching_note": "好档候选。训练群像同步、站位和灯光时机的协调控制。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "原创",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "MIXSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_114",
+            "sample_id": "GS108-114",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "gap_repair_reference",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_114",
+            "planned_repair_inputs": {
+                "missed_points": "作为对照档可用；建议补强空气感、二级动画或更细的同步点后再 promoted。",
+                "teaching_note": "中档对照。训练群像同步、站位和灯光时机的协调控制。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "原创",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "MIXSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "coverage_gap_repair_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs108_115",
+            "sample_id": "GS108-115",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "positive_fewshot_candidate",
+            "linked_failure_mapping_id": "gs_failure_map_gs108_115",
+            "planned_repair_inputs": {
+                "missed_points": "无明显缺口；可进入 36-48 条 promoted 候选池。",
+                "teaching_note": "优档标杆。训练群像同步、站位和灯光时机的协调控制。 同时纳入 prompt_body、technical_profile、scene_performance_core、canonical handles 和 continuity_negative_core 的生产字段补齐。",
+                "style_cluster": "原创",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "MIXSEQ01",
+                "library_status": "official",
+                "reserve_reason": "",
+                "usable_for_fewshot": "Yes"
+            },
+            "future_repair_gate": "fewshot_retrieval_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_109",
+            "sample_id": "GS120-109",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_109",
+            "planned_repair_inputs": {
+                "missed_points": "已完成标杆级精修；当前保留 reserve 仅因为尚未完成主控确认与首轮实测，不再属于模板填充。",
+                "teaching_note": "V120 reserve 精修版。该镜已经从模板级提升为标杆级建立镜，重点训练夜城屋檐的高度差、长兵器威胁线和同向追击链。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ04",
+                "library_status": "reserve",
+                "reserve_reason": "新增国产序列扩编，待主控确认与 Seedance 首轮实测后 promoted。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_110",
+            "sample_id": "GS120-110",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_110",
+            "planned_repair_inputs": {
+                "missed_points": "已完成标杆级精修；当前保留 reserve 仅因为尚未完成主控确认与首轮实测，不再属于模板填充。",
+                "teaching_note": "V120 reserve 精修版。该镜聚焦长兵器擦檐借力，不再是泛化追逐模板，而是可直接 teaching 的动作中段样本。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ04",
+                "library_status": "reserve",
+                "reserve_reason": "新增国产序列扩编，待主控确认与 Seedance 首轮实测后 promoted。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_111",
+            "sample_id": "GS120-111",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_111",
+            "planned_repair_inputs": {
+                "missed_points": "已完成标杆级精修；当前保留 reserve 仅因为尚未完成主控确认与首轮实测，不再属于模板填充。",
+                "teaching_note": "V120 reserve 精修版。该镜已经精修为 OTS+逆光跃脊标杆样本，核心价值在于空隙深度、回头半眼和动作单一性控制。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ04",
+                "library_status": "reserve",
+                "reserve_reason": "新增国产序列扩编，待主控确认与 Seedance 首轮实测后 promoted。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_112",
+            "sample_id": "GS120-112",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_112",
+            "planned_repair_inputs": {
+                "missed_points": "已完成标杆级精修；当前保留 reserve 仅因为尚未完成主控确认与首轮实测，不再属于模板填充。",
+                "teaching_note": "V120 reserve 精修版。该镜已精修为完整收束镜，重点不再是泛泛追逐，而是把封路、顶住和尾态对峙落到物理可见层。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ04",
+                "library_status": "reserve",
+                "reserve_reason": "新增国产序列扩编，待主控确认与 Seedance 首轮实测后 promoted。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_113",
+            "sample_id": "GS120-113",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_113",
+            "planned_repair_inputs": {
+                "missed_points": "已完成标杆级精修；当前保留 reserve 仅因为尚未完成主控确认与首轮实测，不再属于模板填充。",
+                "teaching_note": "V120 reserve 精修版。该镜已精修为末世工业撤离建立镜，重点是五人队形、伤员负重和红光节奏，不再是笼统群像模板。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ05",
+                "library_status": "reserve",
+                "reserve_reason": "新增国产序列扩编，待主控确认与 Seedance 首轮实测后 promoted。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_114",
+            "sample_id": "GS120-114",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_114",
+            "planned_repair_inputs": {
+                "missed_points": "已完成标杆级精修；当前保留 reserve 仅因为尚未完成主控确认与首轮实测，不再属于模板填充。",
+                "teaching_note": "V120 reserve 精修版。该镜已精修为末世工业窄空间折返样本，重点训练团队协作、蒸汽压迫和拖脚负重的连续完成。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ05",
+                "library_status": "reserve",
+                "reserve_reason": "新增国产序列扩编，待主控确认与 Seedance 首轮实测后 promoted。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_115",
+            "sample_id": "GS120-115",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_115",
+            "planned_repair_inputs": {
+                "missed_points": "已完成标杆级精修；当前保留 reserve 仅因为尚未完成主控确认与首轮实测，不再属于模板填充。",
+                "teaching_note": "V120 reserve 精修版。该镜已精修为高架跃车标杆镜，核心是“先送伤员、再跟跳”的动作顺序和重量逻辑。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ05",
+                "library_status": "reserve",
+                "reserve_reason": "新增国产序列扩编，待主控确认与 Seedance 首轮实测后 promoted。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_116",
+            "sample_id": "GS120-116",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_116",
+            "planned_repair_inputs": {
+                "missed_points": "已完成标杆级精修；当前保留 reserve 仅因为尚未完成主控确认与首轮实测，不再属于模板填充。",
+                "teaching_note": "V120 reserve 精修版。该镜已精修为完整收束镜，重点训练内红外冷的空间切换、运伤员出门和桥面重组尾态。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ05",
+                "library_status": "reserve",
+                "reserve_reason": "新增国产序列扩编，待主控确认与 Seedance 首轮实测后 promoted。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_117",
+            "sample_id": "GS120-117",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_117",
+            "planned_repair_inputs": {
+                "missed_points": "已完成标杆级精修；当前保留 reserve 仅因为尚未完成主控确认与首轮实测，不再属于模板填充。",
+                "teaching_note": "V120 reserve 精修版。该镜已精修为水墨武侠建立镜，重点不在开打，而在先把留白、纸纹、墨弧和人物站位的规则立住。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ06",
+                "library_status": "reserve",
+                "reserve_reason": "新增国产序列扩编，待主控确认与 Seedance 首轮实测后 promoted。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_118",
+            "sample_id": "GS120-118",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_118",
+            "planned_repair_inputs": {
+                "missed_points": "已完成标杆级精修；当前保留 reserve 仅因为尚未完成主控确认与首轮实测，不再属于模板填充。",
+                "teaching_note": "V120 reserve 精修版。该镜已精修为负片压刃中段样本，核心是接触点、负片范围和卸力方向的精确控制。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ06",
+                "library_status": "reserve",
+                "reserve_reason": "新增国产序列扩编，待主控确认与 Seedance 首轮实测后 promoted。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_119",
+            "sample_id": "GS120-119",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_119",
+            "planned_repair_inputs": {
+                "missed_points": "已完成标杆级精修；当前保留 reserve 仅因为尚未完成主控确认与首轮实测，不再属于模板填充。",
+                "teaching_note": "V120 reserve 精修版。该镜已精修为极近景标杆镜，重点是手眼同步、元素先后顺序和微声级材质变化。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ06",
+                "library_status": "reserve",
+                "reserve_reason": "新增国产序列扩编，待主控确认与 Seedance 首轮实测后 promoted。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_120",
+            "sample_id": "GS120-120",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_120",
+            "planned_repair_inputs": {
+                "missed_points": "已完成标杆级精修；当前保留 reserve 仅因为尚未完成主控确认与首轮实测，不再属于模板填充。",
+                "teaching_note": "V120 reserve 精修版。该镜已精修为完整终镜，重点是留白、余势回落和 0.4 秒能站住的尾态。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNSEQ06",
+                "library_status": "reserve",
+                "reserve_reason": "新增国产序列扩编，待主控确认与 Seedance 首轮实测后 promoted。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_001",
+            "sample_id": "GS120-CAND-001",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_001",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的军阵组织、秒点动作、风向/人数/兵器轨迹和旗面负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：建立国战开场的空间、阵营和压迫关系，让后续攻防有可信起点。。内部双锚点会审只保留抽象能力：主锚点负责军阵秩序、阵营压迫和旗面层次，辅锚点负责尘土重量、鼓点节拍和队列呼吸。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ01",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_002",
+            "sample_id": "GS120-CAND-002",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_002",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的军阵组织、秒点动作、风向/人数/兵器轨迹和旗面负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把军阵从静态展示推进到行动状态，服务命令即将传递的故事节拍。。内部双锚点会审只保留抽象能力：主锚点负责军阵秩序、阵营压迫和旗面层次，辅锚点负责尘土重量、鼓点节拍和队列呼吸。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ01",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_003",
+            "sample_id": "GS120-CAND-003",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_003",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的军阵组织、秒点动作、风向/人数/兵器轨迹和旗面负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把军阵组织转成可读的战术变化，让观众知道局势正在收紧。。内部双锚点会审只保留抽象能力：主锚点负责军阵秩序、阵营压迫和旗面层次，辅锚点负责尘土重量、鼓点节拍和队列呼吸。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ01",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_004",
+            "sample_id": "GS120-CAND-004",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_004",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的军阵组织、秒点动作、风向/人数/兵器轨迹和旗面负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：收束建立序列，让战事从排列进入执行，为后续高光或攻城留入口。。内部双锚点会审只保留抽象能力：主锚点负责军阵秩序、阵营压迫和旗面层次，辅锚点负责尘土重量、鼓点节拍和队列呼吸。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ01",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_005",
+            "sample_id": "GS120-CAND-005",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_005",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的高光出场、突阵轨迹、兵器弧线、收势停顿和战场负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：先让主将站住气场，再把后续突阵动作建立为可信延伸。。内部双锚点会审只保留抽象能力：主锚点负责人物高光和兵器重量，辅锚点负责泥尘冲击、跟拍速度和收势停顿。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ02",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_006",
+            "sample_id": "GS120-CAND-006",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_006",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的高光出场、突阵轨迹、兵器弧线、收势停顿和战场负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把高光人物从亮相推进到真实可感的突阵动作，建立一骑破阵的说服力。。内部双锚点会审只保留抽象能力：主锚点负责人物高光和兵器重量，辅锚点负责泥尘冲击、跟拍速度和收势停顿。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ02",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_007",
+            "sample_id": "GS120-CAND-007",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_007",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的高光出场、突阵轨迹、兵器弧线、收势停顿和战场负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把高光从速度推进到命中重量，证明人物不是只会摆姿态。。内部双锚点会审只保留抽象能力：主锚点负责人物高光和兵器重量，辅锚点负责泥尘冲击、跟拍速度和收势停顿。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ02",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_008",
+            "sample_id": "GS120-CAND-008",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_008",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的高光出场、突阵轨迹、兵器弧线、收势停顿和战场负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把人物高光收束成可记忆的尾态，为下一个序列留下情绪余量。。内部双锚点会审只保留抽象能力：主锚点负责人物高光和兵器重量，辅锚点负责泥尘冲击、跟拍速度和收势停顿。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ02",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_009",
+            "sample_id": "GS120-CAND-009",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_009",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的朝堂权谋结构、席位人数、甩镜反应、拍案重量和器物负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：建立军政决策空间，让后续发言、急报和军令都有权力基础。。内部双锚点会审只保留抽象能力：主锚点负责权谋空间、席位秩序和视线压迫，辅锚点负责甩镜节奏、拍案重量和群像反应层次。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "情绪对话",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ03",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_010",
+            "sample_id": "GS120-CAND-010",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_010",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的朝堂权谋结构、席位人数、甩镜反应、拍案重量和器物负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把权谋重心从空间转到发言者，让决策冲突真正启动。。内部双锚点会审只保留抽象能力：主锚点负责权谋空间、席位秩序和视线压迫，辅锚点负责甩镜节奏、拍案重量和群像反应层次。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "情绪对话",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ03",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_011",
+            "sample_id": "GS120-CAND-011",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_011",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的朝堂权谋结构、席位人数、甩镜反应、拍案重量和器物负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：用群臣哗然把前一镜的话语杀伤力落成可见冲击。。内部双锚点会审只保留抽象能力：主锚点负责权谋空间、席位秩序和视线压迫，辅锚点负责甩镜节奏、拍案重量和群像反应层次。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "情绪对话",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ03",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_012",
+            "sample_id": "GS120-CAND-012",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_012",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的朝堂权谋结构、席位人数、甩镜反应、拍案重量和器物负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把权谋辩论收束成真正的命令执行，让序列完成闭环。。内部双锚点会审只保留抽象能力：主锚点负责权谋空间、席位秩序和视线压迫，辅锚点负责甩镜节奏、拍案重量和群像反应层次。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ03",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_013",
+            "sample_id": "GS120-CAND-013",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_013",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的攻城组织、器械推进、城门受击、守城旗面和攻防负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：建立守城方已经感知到攻城压力，让后续梯具逼近有先兆。。内部双锚点会审只保留抽象能力：主锚点负责攻城几何、梯具压迫和旗面落点，辅锚点负责城墙受击、烟尘节拍和守军反应层次。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ04",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_014",
+            "sample_id": "GS120-CAND-014",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_014",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的攻城组织、器械推进、城门受击、守城旗面和攻防负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把攻城威胁从远景预警推进到真实贴近城墙的压迫。。内部双锚点会审只保留抽象能力：主锚点负责攻城几何、梯具压迫和旗面落点，辅锚点负责城墙受击、烟尘节拍和守军反应层次。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ04",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_015",
+            "sample_id": "GS120-CAND-015",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_015",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的攻城组织、器械推进、城门受击、守城旗面和攻防负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把攻城从逼近推进到真正破防，让守城压力具象化。。内部双锚点会审只保留抽象能力：主锚点负责攻城几何、梯具压迫和旗面落点，辅锚点负责城墙受击、烟尘节拍和守军反应层次。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "热血打斗",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ04",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_016",
+            "sample_id": "GS120-CAND-016",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_016",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的攻城组织、器械推进、城门受击、守城旗面和攻防负向清单；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把攻守序列收束在“城还守得住”的状态，为后续更大规模攻防留接口。。内部双锚点会审只保留抽象能力：主锚点负责攻城几何、梯具压迫和旗面落点，辅锚点负责城墙受击、烟尘节拍和守军反应层次。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "CNWARSEQ04",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_017",
+            "sample_id": "GS120-CAND-017",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_017",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的沙盘视口、边界点亮、行军轨迹和穿入切换能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：建立策略视口的世界关系，让后续关隘聚焦和斥候入画有空间依据。。内部双锚点会审只保留抽象能力：主锚点负责沙盘视口、地形比例和边界可读性，辅锚点负责轨迹节拍、镜头穿入和 UI 呼吸感。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "其他",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ01",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_018",
+            "sample_id": "GS120-CAND-018",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_018",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的沙盘视口、边界点亮、行军轨迹和穿入切换能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把全局视图收束到真正影响局势的要冲位置，服务后续行动线。。内部双锚点会审只保留抽象能力：主锚点负责沙盘视口、地形比例和边界可读性，辅锚点负责轨迹节拍、镜头穿入和 UI 呼吸感。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "其他",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ01",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_019",
+            "sample_id": "GS120-CAND-019",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_019",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的沙盘视口、边界点亮、行军轨迹和穿入切换能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把策略视口从静态地图推进成真正可推演的行动网络。。内部双锚点会审只保留抽象能力：主锚点负责沙盘视口、地形比例和边界可读性，辅锚点负责轨迹节拍、镜头穿入和 UI 呼吸感。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ01",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_020",
+            "sample_id": "GS120-CAND-020",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_020",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的沙盘视口、边界点亮、行军轨迹和穿入切换能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把斥候与行军信息重新归回全局，让这一组视口建立完整闭环。。内部双锚点会审只保留抽象能力：主锚点负责沙盘视口、地形比例和边界可读性，辅锚点负责轨迹节拍、镜头穿入和 UI 呼吸感。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "其他",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ01",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_021",
+            "sample_id": "GS120-CAND-021",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_021",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的多路线出征、补给受阻、联盟合围和撤退线提示能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把出征从单一路线升级成真正可读的多线推进，为后续阻断和合围埋下逻辑。。内部双锚点会审只保留抽象能力：主锚点负责多路线调度、补给节点和联盟合围逻辑，辅锚点负责光轨密度、攻城器械权重和撤退线提示。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ02",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_022",
+            "sample_id": "GS120-CAND-022",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_022",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的多路线出征、补给受阻、联盟合围和撤退线提示能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：让观众清楚看到推进为什么卡住，而不是只知道战线忽然不动。。内部双锚点会审只保留抽象能力：主锚点负责多路线调度、补给节点和联盟合围逻辑，辅锚点负责光轨密度、攻城器械权重和撤退线提示。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "其他",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ02",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_023",
+            "sample_id": "GS120-CAND-023",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_023",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的多路线出征、补给受阻、联盟合围和撤退线提示能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把多线推进收束为真正的包围优势，让战局进入压城阶段。。内部双锚点会审只保留抽象能力：主锚点负责多路线调度、补给节点和联盟合围逻辑，辅锚点负责光轨密度、攻城器械权重和撤退线提示。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ02",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_024",
+            "sample_id": "GS120-CAND-024",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_024",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的多路线出征、补给受阻、联盟合围和撤退线提示能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把战局从合围推进到风险管理，让观众知道哪些线还能安全退出。。内部双锚点会审只保留抽象能力：主锚点负责多路线调度、补给节点和联盟合围逻辑，辅锚点负责光轨密度、攻城器械权重和撤退线提示。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "场域追逐",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ02",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_025",
+            "sample_id": "GS120-CAND-025",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_025",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的开荒立桩、筑墙升级、资源反馈和昼夜季节能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：先把一片空地变成可施工的秩序面，为后续升级建立逻辑。。内部双锚点会审只保留抽象能力：主锚点负责城建演进、光影时间流逝和材质升级，辅锚点负责夯石节拍、资源反馈和昼夜季节变化。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "其他",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ03",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_026",
+            "sample_id": "GS120-CAND-026",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_026",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的开荒立桩、筑墙升级、资源反馈和昼夜季节能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：让建设进度可视化，把资源投入转成真正看得见的城防成长。。内部双锚点会审只保留抽象能力：主锚点负责城建演进、光影时间流逝和材质升级，辅锚点负责夯石节拍、资源反馈和昼夜季节变化。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "其他",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ03",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_027",
+            "sample_id": "GS120-CAND-027",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_027",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的开荒立桩、筑墙升级、资源反馈和昼夜季节能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把建设成果转成真正的收益反馈，让城建不只是在长墙，而是在形成系统循环。。内部双锚点会审只保留抽象能力：主锚点负责城建演进、光影时间流逝和材质升级，辅锚点负责夯石节拍、资源反馈和昼夜季节变化。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "其他",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ03",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_028",
+            "sample_id": "GS120-CAND-028",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_028",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的开荒立桩、筑墙升级、资源反馈和昼夜季节能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：让一组城建镜头收束成完整成长时间线，证明这座城在持续演进。。内部双锚点会审只保留抽象能力：主锚点负责城建演进、光影时间流逝和材质升级，辅锚点负责夯石节拍、资源反馈和昼夜季节变化。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "其他",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ03",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_029",
+            "sample_id": "GS120-CAND-029",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_029",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的卷轴揭示、兵损反馈、倒计时和战报收束能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：建立战报入口，让后续兵损和资源信息有可信的信息框架。。内部双锚点会审只保留抽象能力：主锚点负责战报 UI、兵损反馈和倒计时结构，辅锚点负责卷轴揭示、数据层次和收束闭环。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ04",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_030",
+            "sample_id": "GS120-CAND-030",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_030",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的卷轴揭示、兵损反馈、倒计时和战报收束能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把结果从“输了多少”整理成观众能立刻读懂的代价结构。。内部双锚点会审只保留抽象能力：主锚点负责战报 UI、兵损反馈和倒计时结构，辅锚点负责卷轴揭示、数据层次和收束闭环。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "其他",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ04",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_031",
+            "sample_id": "GS120-CAND-031",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_031",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的卷轴揭示、兵损反馈、倒计时和战报收束能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把结果压力从静态数字推进成时间驱动的决策紧迫感。。内部双锚点会审只保留抽象能力：主锚点负责战报 UI、兵损反馈和倒计时结构，辅锚点负责卷轴揭示、数据层次和收束闭环。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "其他",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ04",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        },
+        {
+            "mapping_id": "gs_repair_plan_gs120_cand_032",
+            "sample_id": "GS120-CAND-032",
+            "core": "full_stack_sequence_sample",
+            "repair_planning_mode": "reserve_holdout_exclude_from_positive_fewshot",
+            "linked_failure_mapping_id": "gs_failure_map_gs120_cand_032",
+            "planned_repair_inputs": {
+                "missed_points": "已吸收 safe-plus 的卷轴揭示、兵损反馈、倒计时和战报收束能力；当前仍保留 reserve，仅作为能力池候选，不进入 official/Yes。",
+                "teaching_note": "V120 safe-plus reserve 精修。故事功能：把一组信息镜头收成真正可投放的战报闭环，让观众带着结论离开。。内部双锚点会审只保留抽象能力：主锚点负责战报 UI、兵损反馈和倒计时结构，辅锚点负责卷轴揭示、数据层次和收束闭环。。本镜继续只作为内部能力池候选，不进入 official / Yes。",
+                "style_cluster": "国漫",
+                "scene_category": "群像表演",
+                "sample_type": "sequence_shot",
+                "sequence_id": "SLGSEQ04",
+                "library_status": "reserve",
+                "reserve_reason": "V120专项增强候选池：国产动漫 × 三国SLG × 导演会议增强候选，全部待实测后再晋级。",
+                "usable_for_fewshot": "No"
+            },
+            "future_repair_gate": "reserve_sequence_review_gate",
+            "planning_only": true
+        }
+    ]
+}

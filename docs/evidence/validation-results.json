@@ -1,0 +1,35 @@
+{
+  "unittest": {
+    "run": 59,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  "structure": {
+    "status": "structural_checks_passed",
+    "sources": 3,
+    "methods": 12,
+    "candidate_entries": 12,
+    "limitations": "Does not prove Agent routing, literary quality, source freshness or rendered layout."
+  },
+  "integrity": {
+    "status": "integrity_and_pointers_passed",
+    "archive_files": 127,
+    "index_records": 326,
+    "categories": {
+      "golden": 152,
+      "craft": 149,
+      "wiki": 25
+    },
+    "limits": "Does not certify literary quality, rights of third-party originals, or live agent routing."
+  },
+  "standalone": {
+    "exit_code": 0,
+    "returned": 1,
+    "source_inside_bundle": true
+  },
+  "fixture": {
+    "text_roundtrip": true,
+    "portrait": "synthetic software fixture, not character identity acceptance"
+  }
+}

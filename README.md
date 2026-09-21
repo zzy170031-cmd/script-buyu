@@ -1,6 +1,6 @@
 # 不语剧本创作 Skill
 
-从故事梗概或已有文档，产出可阅读、可修订的完整动画或漫剧故事剧本。默认只交付一个 DOCX，交付后停止，等待用户确认或修改。
+专门创作、扩写、改编和修订故事剧本，产出可阅读、可修订的完整故事。默认只交付一个 DOCX，人物表增加“人物形象提示词与参考图”一列，按剧本设计并生成对应人物图；交付后停止。每部作品自行选择合适的画风、题材和结构，不固定现实玩家与游戏沙盘的形式。
 
 ## 能力边界
 
@@ -8,7 +8,9 @@
 
 保留人物对立、人物弧线、不同题材的表现方法、现实与虚拟世界的因果穿插、分集标注、时长预算及修订回读。具体主角、游戏、集数、比例和时长都由当前用户需求确定，不预置旧项目。
 
-**本仓库止于故事剧本。** 不输出人物画像提示词、参考图生成任务、分镜、运镜、镜头合同、模型参数、图像或视频生成提示词、制作 JSON、Excel。用户提供带这些内容的混合文档时，只把它们作为输入资料辨识；不静默丢弃，也不直接带入本 Skill 的输出。
+**本仓库服务故事剧本及其人物形象。** 人物提示词与一人一张参考图纳入人物表；不延伸到分镜、运镜、镜头合同、模型参数、视频生成提示词、制作 JSON 或 Excel。混合参考文档保留有助于剧本与人物设计的内容，不静默修改原件。《铁城风云X414》只说明成稿完整度，不是固定故事模板。
+
+新增图像提示词资料来自 [YouMind-OpenLab/ai-image-prompts-skill](https://github.com/YouMind-OpenLab/ai-image-prompts-skill)，MIT 许可原文随数据保留。固定快照含11类、22,744条分类记录，实测15,127个唯一ID、14,831条不同提示词全文；上游清单标称15,670，与实测不一致，已记录。数据支持离线按题材检索，示例图片仅保留来源链接；上游脚本、自动同步与交互流程不执行。详见 `skills/script-buyu/references/character-visuals.md` 及 `data/image-prompts/snapshot.json`。
 
 这是一套供 AI Agent 使用的 Skill，不是网页前端，也不是独立调用模型的服务。创作与联网检索由调用它的 Agent 完成；Python 工具只负责文档读取、结构验证、排版与回读，不会把梗概自动变成剧本。
 
@@ -18,7 +20,7 @@ Skill 位于 `skills/script-buyu`，名称为 `$script-buyu`。通过可用的 S
 
 调用示例：
 
-> 使用 $script-buyu。根据我提供的故事文档创作完整分集故事剧本，保留核心人物和背景。先分析题材与事实边界，写清人物对立和逐场动作对白，最终给我一个 DOCX 待确认，不要生成镜头或提示词。
+> 使用 $script-buyu。根据我的故事文档创作完整分集故事剧本，保留核心人物和背景，写清逐场动作对白。按本剧内容选择画风，人物表加入形象提示词和对应参考图，最终给我一个 DOCX 待确认。
 
 用户不需要编写 JSON。内部 `screenplay.json` 是 Agent 的工作数据，不是默认交付件。用户在 Word 中的修改必须以实际可见正文为准，不能被旧 JSON 覆盖。
 
@@ -31,6 +33,9 @@ python skills/script-buyu/scripts/read_source_docx.py --input inputs/source.docx
 python skills/script-buyu/scripts/generate_story_docx.py --input work/screenplay.json --output deliverables/story-v1.docx
 python skills/script-buyu/scripts/extract_story_docx.py --input deliverables/story-v1.docx --output work/revised-story.json
 python skills/script-buyu/scripts/validate_skill.py
+python skills/script-buyu/scripts/query_knowledge.py --query "对白" --limit 3
+python skills/script-buyu/scripts/verify_knowledge.py
+python skills/script-buyu/scripts/embed_character_images.py --input deliverables/story-v1.docx --images work/character-images.json --output deliverables/story-v1-with-images.docx
 python -m unittest discover -s skills/script-buyu/tests -v
 ```
 
@@ -38,7 +43,7 @@ python -m unittest discover -s skills/script-buyu/tests -v
 
 DOCX 需要在可用的文档渲染器中逐页检查；程序结构通过不等于排版或编剧质量通过。当前仓库的测试是公开的原创微型故事和边界测试，不代表任何用户项目已确认。
 
-2026年9月20日本地验证：47项回归测试及仓库自带结构检查通过。宿主官方快速检查因缺少 PyYAML 未完成，DOCX 页面渲染因缺少宿主配套 LibreOffice 未完成；不能据此宣称视觉排版已验收。当前发布的是可检查、可继续测试的 Skill 源码，不附已经视觉验收的示例成稿。实际调用仍需 Agent 执行创作评审和排版检查。
+验证记录与限制见 `docs/J20-整合审计.md`。程序检查、独立代理审查、真实写作结果和排版验收分别记录，不能互相替代。含图版本需通用读取与视觉核对，严格纯文字回读不会静默丢弃图片。
 
 ## 专家资料的真实边界
 
@@ -48,6 +53,15 @@ DOCX 需要在可用的文档渲染器中逐页检查；程序结构通过不等
 
 ## 来源与拆分说明
 
-从用户授权的 `ai-buyu` 项目中抽取故事分析、领域贴合、研究边界、完整剧本与可见正文回读原则；重新隔离运行代码，不依赖该项目本地路径、后续制作模块或 hope-kb 的安装。未复制私人故事、图片和研究日志。
+原版从用户授权的 `ai-buyu` 项目中抽取故事分析、研究边界、完整剧本与可见正文回读原则。本次整合 Hope KB 和 PWA 的写作相关内容，保持单目录自包含，不依赖其他仓库安装。未复制用户私人故事正文或人物画像提示词。
 
-打包结构参考 [OpenAI 官方 Skill 文档](https://learn.chatgpt.com/docs/build-skills)。方法出处和当前证据限制随资料保存。第三方网页仅链接和简述，不附原文、剧照或受保护的样板剧本。本次没有新增第三方材料的授权声明。
+新增资料入口见 [知识库用法](skills/script-buyu/references/knowledge-library.md)、[输出规范](skills/script-buyu/references/output-contract.md) 和 [来源清单](skills/script-buyu/data/source-manifest.json)。
+
+- Hope KB 内容来自 `codex/contracts-freeze` 分支 `7212eb6168fce040f593e5629e8a9275b9f358f4`；main 只有框架。
+- 当前种子库 152 条黄金记录；V108 原始工作簿/说明、115 条历史规范化记录、早期 CSV/40 条记录保留溯源，版本重叠不相加。
+- 收录 149 条可检索写作及相邻连续性记录、25 篇相关 wiki、21 类场景导航；PWA 83 个规则包有逐项写作适配或仅归档去向。
+- 联网检索 [screenwriting-skills](https://github.com/jtydhr88/screenwriting-skills)，将 18 个模块的方向适配为按需中文编剧方法，其他专项保留取舍。上游 MIT 只覆盖原创内容，LICENSE/NOTICE 随库保存，不复制整套出版书籍及剧本引文。
+
+“黄金”是上游库名，负例、储备和候选状态保留，未宣称全部已被独立验收为优秀剧本。PWA 的 prototype/partial 和源占位 hash 也不被提升为正式通过。原始混合资料仅被动归档，生产字段不成为本技能的操作能力。
+
+知识更新是维护任务，遵循 [同步说明](skills/script-buyu/references/source-sync.md)，普通创作不自动同步、安装或发布。克隆或修改仓库不代表已全局安装或推送。

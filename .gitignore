@@ -17,4 +17,6 @@ __pycache__/
 *.jpeg
 *.mp4
 *.xlsx
+!skills/script-buyu/references/source-archive/hope-kb/golden-samples/**/*.xlsx
+!skills/script-buyu/references/source-archive/hope-kb/golden-samples/**/*.docx
 ~$*

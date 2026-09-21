@@ -1,0 +1,673 @@
+{
+  "upstream_adapter_state": {
+    "adapter_status": "prototype",
+    "scene_catalog_status": "partial",
+    "source_snapshot_hash": "sha256:sample-runtime-kb-snapshot-v0.2-batch1-visual-prompt-rules"
+  },
+  "records": [
+    {
+      "id": "wg-continuity-core",
+      "group": "writingRulePacks",
+      "name": "Writing continuity core",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "wg-scene-expression-visible-action",
+      "group": "writingRulePacks",
+      "name": "Scene expression visible action",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "wg-intent-to-story-task-routing",
+      "group": "writingRulePacks",
+      "name": "Intent to story task routing",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "wg-dialogue-narration-allocation-rules",
+      "group": "writingRulePacks",
+      "name": "Dialogue narration writing support",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "wg-accepted-body-to-style-profile",
+      "group": "writingRulePacks",
+      "name": "Accepted body to style profile",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "wg-pwa-21-scene-three-layer-routing",
+      "group": "writingRulePacks",
+      "name": "PWA 21 scene three layer routing",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "wg-writing-group-scene-rewrite-profile",
+      "group": "writingRulePacks",
+      "name": "Writing group scene rewrite profile",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "wg-scene-type-plot-beat-variation-matrix",
+      "group": "writingRulePacks",
+      "name": "Scene type plot beat variation matrix",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "wg-slg-scene-visual-narrative-patterns",
+      "group": "writingRulePacks",
+      "name": "SLG scene writing pattern",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "wg-writer-director-bidirectional-routing",
+      "group": "writingRulePacks",
+      "name": "Writer director bidirectional routing",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "wg-director-intent-feeds-writing-rewrite",
+      "group": "writingRulePacks",
+      "name": "Director intent feeds writing rewrite",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "wg-scene-type-writer-director-interlock",
+      "group": "writingRulePacks",
+      "name": "Scene type writer director interlock",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "wg-pwa21-scene-profile-matrix",
+      "group": "writingRulePacks",
+      "name": "PWA21 scene profile matrix",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "dg-director-scheduling-core",
+      "group": "directorRulePacks",
+      "name": "Director scheduling support",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-shot-intent-taxonomy",
+      "group": "directorRulePacks",
+      "name": "Shot intent taxonomy",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-duration-density",
+      "group": "directorRulePacks",
+      "name": "Duration density rules",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "dg-prompt-text-boundary",
+      "group": "directorRulePacks",
+      "name": "Prompt text director boundary",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-visual-master-consistency",
+      "group": "directorRulePacks",
+      "name": "Visual master consistency",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-camera-language-grammar",
+      "group": "directorRulePacks",
+      "name": "Camera language grammar",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-material-light-air-physicality",
+      "group": "directorRulePacks",
+      "name": "Material light air physicality",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-expression-physicalization",
+      "group": "directorRulePacks",
+      "name": "Expression physicalization",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "dg-transition-motion-dynamics",
+      "group": "directorRulePacks",
+      "name": "Transition motion dynamics",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-preproduction-storyboard-guide",
+      "group": "directorRulePacks",
+      "name": "Preproduction storyboard guide",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-seedance2-storyboard-field-discipline",
+      "group": "directorRulePacks",
+      "name": "Seedance2 storyboard field discipline",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-ensemble-action-layering",
+      "group": "directorRulePacks",
+      "name": "Ensemble action layering",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "dg-anime-key-pose-silhouette-priority",
+      "group": "directorRulePacks",
+      "name": "Anime key pose silhouette priority",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-storyboard-splitting-by-content-beat",
+      "group": "directorRulePacks",
+      "name": "Storyboard splitting director support",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-single-shot-preservation-for-existing-fields",
+      "group": "directorRulePacks",
+      "name": "Single shot preservation director support",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-prompt-load-and-shot-plan-boundary",
+      "group": "directorRulePacks",
+      "name": "Prompt load director support",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-intent-to-story-task-routing",
+      "group": "directorRulePacks",
+      "name": "Intent routing director support",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "dg-scene-spatial-prop-continuity-anchor",
+      "group": "directorRulePacks",
+      "name": "Scene spatial prop continuity anchor",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "dg-layout-staging-attention-path",
+      "group": "directorRulePacks",
+      "name": "Layout staging attention path",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-color-script-emotional-continuity",
+      "group": "directorRulePacks",
+      "name": "Color script emotional continuity",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "dg-scene-driven-style-routing",
+      "group": "directorRulePacks",
+      "name": "Scene driven style routing",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "dg-accepted-body-to-style-profile",
+      "group": "directorRulePacks",
+      "name": "Accepted body style profile director support",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "dg-style-to-field-projection",
+      "group": "directorRulePacks",
+      "name": "Style to field projection",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-chinese-heritage-style-scene-routing",
+      "group": "directorRulePacks",
+      "name": "Chinese heritage style scene routing",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-retrofuture-punk-style-scene-routing",
+      "group": "directorRulePacks",
+      "name": "Retrofuture punk style scene routing",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-visual-master-board-from-confirmed-rows",
+      "group": "directorRulePacks",
+      "name": "Visual master board from confirmed rows",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-multipanel-layout-boundary",
+      "group": "directorRulePacks",
+      "name": "Multipanel layout director support",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-pwa-21-scene-three-layer-routing",
+      "group": "directorRulePacks",
+      "name": "PWA 21 scene director routing",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-director-group-scene-shot-profile",
+      "group": "directorRulePacks",
+      "name": "Director group scene shot profile",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "dg-scene-type-image2-sheet-focus-matrix",
+      "group": "directorRulePacks",
+      "name": "Scene type Image2 sheet focus matrix",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "dg-slg-scene-visual-narrative-patterns",
+      "group": "directorRulePacks",
+      "name": "SLG scene visual narrative patterns",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "dg-writer-director-bidirectional-routing",
+      "group": "directorRulePacks",
+      "name": "Writer director director-side routing",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "dg-scene-type-writer-director-interlock",
+      "group": "directorRulePacks",
+      "name": "Scene type director interlock",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "dg-pwa21-scene-profile-matrix",
+      "group": "directorRulePacks",
+      "name": "PWA21 scene profile director matrix",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "dg-golden-sample-as-quality-expectation",
+      "group": "directorRulePacks",
+      "name": "Golden sample director expectation",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "vg-prompt-text-boundary",
+      "group": "validationRulePacks",
+      "name": "Prompt text boundary",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-no-pseudo-success",
+      "group": "validationRulePacks",
+      "name": "No pseudo success",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-no-leakage",
+      "group": "validationRulePacks",
+      "name": "Validation no leakage",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-duration-integrity",
+      "group": "validationRulePacks",
+      "name": "Duration integrity",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "vg-field-aware-entity",
+      "group": "validationRulePacks",
+      "name": "Person identity lock",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-dialogue-evidence-lock",
+      "group": "validationRulePacks",
+      "name": "Dialogue evidence lock",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "vg-anime-key-pose-field-boundary",
+      "group": "validationRulePacks",
+      "name": "Anime key pose field boundary",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-anime-translation-failure-guard",
+      "group": "validationRulePacks",
+      "name": "Anime translation failure guard",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-storyboard-splitting-by-content-beat",
+      "group": "validationRulePacks",
+      "name": "Storyboard splitting by content beat",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-single-shot-preservation-for-existing-fields",
+      "group": "validationRulePacks",
+      "name": "Single shot preservation for existing fields",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-prompt-load-and-shot-plan-boundary",
+      "group": "validationRulePacks",
+      "name": "Prompt load and shot plan boundary",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-intent-to-story-task-routing",
+      "group": "validationRulePacks",
+      "name": "Intent routing validation",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "vg-character-visual-continuity-anchor",
+      "group": "validationRulePacks",
+      "name": "Character visual continuity anchor",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "vg-scene-spatial-prop-continuity-anchor",
+      "group": "validationRulePacks",
+      "name": "Scene spatial prop continuity validation",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "vg-layout-staging-attention-path",
+      "group": "validationRulePacks",
+      "name": "Layout staging attention validation",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-dialogue-narration-allocation-rules",
+      "group": "validationRulePacks",
+      "name": "Dialogue narration allocation rules",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "vg-field-level-failure-repair-routing",
+      "group": "validationRulePacks",
+      "name": "Field level failure repair routing",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-scene-driven-style-routing",
+      "group": "validationRulePacks",
+      "name": "Scene driven style routing validation",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "vg-accepted-body-to-style-profile",
+      "group": "validationRulePacks",
+      "name": "Accepted body style profile validation",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "vg-style-contamination-guard",
+      "group": "validationRulePacks",
+      "name": "Style contamination guard",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "vg-style-to-field-projection",
+      "group": "validationRulePacks",
+      "name": "Style to field projection validation",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-chinese-heritage-style-scene-routing",
+      "group": "validationRulePacks",
+      "name": "Chinese heritage style routing validation",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-retrofuture-punk-style-scene-routing",
+      "group": "validationRulePacks",
+      "name": "Retrofuture punk style routing validation",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-storyboard-image-prompt-export",
+      "group": "validationRulePacks",
+      "name": "Storyboard image prompt export",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-visual-master-board-from-confirmed-rows",
+      "group": "validationRulePacks",
+      "name": "Visual master board fact validation",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-multipanel-layout-boundary",
+      "group": "validationRulePacks",
+      "name": "Multipanel layout boundary",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-image-video-tool-handoff-boundary",
+      "group": "validationRulePacks",
+      "name": "Image video tool handoff boundary",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-image2-structured-quality-prompt",
+      "group": "validationRulePacks",
+      "name": "Image2 structured quality prompt",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-image2-quality-preset-boundary",
+      "group": "validationRulePacks",
+      "name": "Image2 quality preset boundary",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-pwa-21-scene-three-layer-routing",
+      "group": "validationRulePacks",
+      "name": "PWA 21 scene stale routing guard",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-slg-scene-visual-narrative-patterns",
+      "group": "validationRulePacks",
+      "name": "SLG scene boundary guard",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "vg-pwa-generation-bidirectional-trace",
+      "group": "validationRulePacks",
+      "name": "PWA generation bidirectional trace",
+      "disposition": "archive_only_production",
+      "application": null,
+      "reason": "镜头/提示词/图像等生产规则不激活"
+    },
+    {
+      "id": "vg-pwa21-scene-profile-matrix",
+      "group": "validationRulePacks",
+      "name": "PWA21 scene profile matrix guard",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "vg-golden-sample-as-quality-expectation",
+      "group": "validationRulePacks",
+      "name": "Golden sample as quality expectation",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    },
+    {
+      "id": "vg-scene-switch-stale-body-detection",
+      "group": "validationRulePacks",
+      "name": "Scene switch stale body detection",
+      "disposition": "story_principle_only",
+      "application": "references/scene-routing.md",
+      "reason": "受创作/忠实改写模式、事实锁和剧本边界约束；源固定镜头/时长/禁新对白不作通则"
+    }
+  ]
+}

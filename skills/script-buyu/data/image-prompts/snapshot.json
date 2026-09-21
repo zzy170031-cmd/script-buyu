@@ -1,0 +1,100 @@
+{
+  "source_repository": "https://github.com/YouMind-OpenLab/ai-image-prompts-skill",
+  "commit": "f06c94d36a4194f881c2d27063b418ea78a99896",
+  "retrieved_date": "2026-09-21",
+  "license": "MIT",
+  "observed": {
+    "category_count": 11,
+    "category_entries": 22744,
+    "unique_ids": 15127,
+    "unique_prompt_texts": 14831,
+    "empty_content_count": 0,
+    "conflicting_id_count": 0,
+    "upstream_declared_total": 15670,
+    "warnings": [
+      "Upstream manifest total differs from observed unique IDs"
+    ],
+    "errors": [],
+    "verified": true
+  },
+  "files": [
+    {
+      "file": "app-web-design.json",
+      "size_bytes": 367134,
+      "sha256": "1f0843ac0c3f8aa5e2d1a09f8ce86fd37a2f145587b161ef8cf298f87676eb03",
+      "git_blob_sha1": "c566a6c5320b8c863ea0bba1c6ae52b631d9dd31"
+    },
+    {
+      "file": "comic-storyboard.json",
+      "size_bytes": 1014593,
+      "sha256": "cd6640e765887f71e8a1021cfc07c6c97f5ccb8b8fa669452412ace6b650d920",
+      "git_blob_sha1": "f3b240d1e7d722bd33d0bfa55662576107dc501b"
+    },
+    {
+      "file": "ecommerce-main-image.json",
+      "size_bytes": 1082067,
+      "sha256": "adb4595f60b64afd38b0ae0d5aa456ba1811b1a0cabf0bc4f30f3095cfbe089d",
+      "git_blob_sha1": "26b4e4860320b58c9e40bd582c18d2844b8c9279"
+    },
+    {
+      "file": "game-asset.json",
+      "size_bytes": 1109269,
+      "sha256": "17a049451ac1b97a6ef537d3bd6aaaa31d99d4f47f14f896c85a4fc4b6df5d42",
+      "git_blob_sha1": "f09d9b269f3a435c937e16174631cffa57499536"
+    },
+    {
+      "file": "infographic-edu-visual.json",
+      "size_bytes": 913720,
+      "sha256": "bd71a68fba50851b0f3bfe32596a3d3d223d874bb3f5745931d96cfc65c3983c",
+      "git_blob_sha1": "1245cdeb5877f43da80a7a4c1e697138fcd78912"
+    },
+    {
+      "file": "manifest.json",
+      "size_bytes": 1622,
+      "sha256": "3324f71efd707ba5adcd15d7939636e46a64201f8a310c86d6d33101720b1bd9",
+      "git_blob_sha1": "697422d27686b6d99658a5551b184e027ae41565"
+    },
+    {
+      "file": "others.json",
+      "size_bytes": 1251602,
+      "sha256": "6ad054135ce53ee46a33827dcbae75a9833dfe52578d4c53fd915c695ac34274",
+      "git_blob_sha1": "6f48870a17628382d8132cee5653bbadf4272d01"
+    },
+    {
+      "file": "poster-flyer.json",
+      "size_bytes": 1873233,
+      "sha256": "a07492200ce36823eab79b5fb2a4eca54b1ddfa93d7613d15af452e592b01d79",
+      "git_blob_sha1": "de7da6468cf0a9316144532a9da07e222fe0922a"
+    },
+    {
+      "file": "product-marketing.json",
+      "size_bytes": 13297988,
+      "sha256": "0f0097b2425b3c9bc721052acef77f3690f61943c638fe6edf0c67578592e1cc",
+      "git_blob_sha1": "6863473363776f9225661f51d4e02ac5f8f8c84d"
+    },
+    {
+      "file": "profile-avatar.json",
+      "size_bytes": 4435615,
+      "sha256": "ffce9cc963b6c181ed178c2cd5a987a63973bce17a80b14052843c0e6f9be389",
+      "git_blob_sha1": "f68ac237c3fb5b567c3c341c162b2ff7feb1cea1"
+    },
+    {
+      "file": "social-media-post.json",
+      "size_bytes": 22217791,
+      "sha256": "889b08e315da1ce7d4ca0a08b9dff25088f977e4cedd1dcf1e8724e2dc115877",
+      "git_blob_sha1": "9c471744d00e348b8ead199fae770714f6625bd1"
+    },
+    {
+      "file": "youtube-thumbnail.json",
+      "size_bytes": 373488,
+      "sha256": "32485388ef57da61dbdd0f3a78e48267b86578700dd6801b391eb429265ed634",
+      "git_blob_sha1": "c205a2cf05a0cb0b3a7b9e6af8ba828ddb08db3b"
+    },
+    {
+      "file": "LICENSE",
+      "size_bytes": 1072,
+      "sha256": "b6439b5e2296aa1951ec1dd147d61928289aa1f4c231b3ecad2b454a861e9274"
+    }
+  ],
+  "scope": "Data-only snapshot. Upstream scripts and SKILL instructions are not installed or executed. Image URLs are source metadata, not current character assets."
+}
