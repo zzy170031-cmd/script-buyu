@@ -117,6 +117,7 @@ class GenreMethodsTests(unittest.TestCase):
             validate_index(self.index, self.library)
 
     def test_planned_and_unknown_genres_do_not_masquerade_as_ready(self):
+        next(g for g in self.index['genres'] if g['label'] == '武侠')['status'] = 'planned'
         result = search(self.index, self.library, '武侠')
         self.assertEqual(result['status'], 'planned')
         self.assertEqual(result['results'], [])
@@ -145,6 +146,72 @@ class GenreMethodsTests(unittest.TestCase):
             validate_index(self.index, self.library)
         with self.assertRaisesRegex(ContractError, 'unknown stage'):
             search(self.index, self.library, '动作', stage='anything')
+
+    def test_all_core_genres_have_qualified_coverage(self):
+        coverage = validate_index(self.index, self.library)
+        self.assertEqual(len(coverage), 26)
+        self.assertTrue(all(r['status'] == 'source_ready' and r['new_people'] >= 10 for r in coverage))
+        self.assertEqual(len(self.index['routes']), 31)
+
+    def test_unqualified_candidates_are_neither_counted_nor_returned(self):
+        for entry, status in zip(self.romance['entries'][:2], ('candidate', 'rejected')):
+            entry['qualification']['status'] = status
+        result = search(self.index, self.library, '爱情', limit=20)
+        self.assertEqual(result['coverage']['new_people'], 8)
+        self.assertEqual(len(result['results']), 8)
+
+    def test_documented_qualification_requires_evidence(self):
+        self.romance['entries'][0]['qualification'].pop('role_evidence')
+        with self.assertRaisesRegex(ContractError, 'qualification evidence'):
+            validate_index(self.index, self.library)
+
+    def test_shared_origin_withdrawal_removes_both_people(self):
+        first = next(e for e in self.romance['entries'] if e['person_id'] == 'park-chan-wook')
+        origin_id = self.source(first['source_id'])['origin_id']
+        affected = {e['person_id'] for e in self.romance['entries']
+                    if self.source(e['source_id'])['origin_id'] == origin_id}
+        self.assertEqual(len(affected), 2)
+        next(o for o in self.library['source_origins'] if o['origin_id'] == origin_id)['availability'] = 'isolated'
+        result = search(self.index, self.library, '爱情', limit=20)
+        self.assertEqual(result['coverage']['new_people'], 8)
+        self.assertFalse(affected & {r['person_id'] for r in result['results']})
+        self.assertEqual(search(self.index, self.library, '枪战')['coverage']['status'], 'source_ready')
+
+    def test_unknown_origin_is_rejected(self):
+        self.source(self.romance['entries'][0]['source_id'])['origin_id'] = 'unknown'
+        with self.assertRaisesRegex(ContractError, 'unknown source origin'):
+            validate_index(self.index, self.library)
+
+    def test_composite_navigation_is_bounded_and_deduplicated(self):
+        for route in self.index['routes']:
+            result = search(self.index, self.library, route['route_id'], limit=3)
+            self.assertEqual(result['scope'], 'composite_navigation_not_separate_coverage')
+            self.assertLessEqual(len(result['results']), 3)
+            self.assertEqual(len({r['person_id'] for r in result['results']}), len(result['results']))
+            self.assertTrue(all(r['qualification']['status'] == 'documented' for r in result['results']))
+
+    def test_composite_retains_query_and_stage_filters(self):
+        route = self.index['routes'][0]['route_id']
+        self.assertEqual(search(self.index, self.library, route, query='NORESULT987654')['results'], [])
+        for row in search(self.index, self.library, route, stage='confirmed_translation', limit=20)['results']:
+            self.assertFalse(row['method']['method_id'].startswith('X'))
+            self.assertEqual(row['method']['steps'], self.method(row['method']['method_id'])['confirmed_steps'])
+
+    def test_composite_alias_and_reference_errors_are_rejected(self):
+        self.index['routes'][0]['aliases'].append('爱情')
+        with self.assertRaisesRegex(ContractError, 'ambiguous route alias'):
+            validate_index(self.index, self.library)
+        self.index['routes'][0]['aliases'].pop()
+        self.index['routes'][0]['genre_ids'].append('missing')
+        with self.assertRaisesRegex(ContractError, 'composite genre references'):
+            validate_index(self.index, self.library)
+
+    def test_primary_work_analysis_is_distinguished_from_creator_claims(self):
+        methods = [m for m in self.library['methods'] if m.get('method_basis') == 'primary_work_analysis']
+        self.assertEqual(len(methods), 3)
+        for genre in self.index['genres']:
+            result = search(self.index, self.library, genre['genre_id'], stage='confirmed_translation', limit=20)
+            self.assertTrue(all(not r['method']['method_id'].startswith('X') for r in result['results']))
 
 
 if __name__ == '__main__':

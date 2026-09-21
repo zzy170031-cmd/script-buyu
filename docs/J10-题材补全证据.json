@@ -1,0 +1,145 @@
+{
+  "audit": "J10",
+  "date": "2026-09-21",
+  "baseline": "f4db75b1e91495c905b8090a41942989e940726d",
+  "decision": "allow_this_candidate_commit_and_sync",
+  "allowed_scope": "method sources, genre lookup, screenplay coherence and textual teaching adaptations; no filming or production",
+  "controller": "/root",
+  "read_only_reviewers": {
+    "/root/fullgenre_editor": [
+      "Q04",
+      "Q05",
+      "Q07"
+    ],
+    "/root/fullgenre_world": [
+      "Q01",
+      "Q02",
+      "Q06"
+    ],
+    "/root/fullgenre_spectacle": [
+      "Q08",
+      "Q09"
+    ],
+    "/root/fullgenre_culture": [
+      "Q03",
+      "Q10"
+    ]
+  },
+  "independent_verifier": "/root/fullgenre_verifier",
+  "process": "Independent blind answers, one counterexample exchange per unit, root integration, independent actual candidate review; later academy/coherence steering rechecked within affected units.",
+  "stats": {
+    "baseline": "f4db75b1e91495c905b8090a41942989e940726d",
+    "core_genres": 26,
+    "routes": 31,
+    "new_people_this_commit": 93,
+    "new_sources": 134,
+    "new_methods": 134,
+    "new_bindings": 227,
+    "all_people": 156,
+    "new_people_since_original": 140,
+    "all_sources": 199,
+    "all_methods": 209,
+    "unique_source_containers": 185,
+    "primary_work_analysis_cards": 3,
+    "coverage": {
+      "悬疑": 11,
+      "爱情": 10,
+      "动作": 13,
+      "枪战": 10,
+      "科幻": 10,
+      "惊悚": 10,
+      "喜剧": 13,
+      "家庭": 17,
+      "历史": 10,
+      "战争": 10,
+      "奇幻": 21,
+      "武侠": 10,
+      "犯罪": 10,
+      "青春成长": 13,
+      "恐怖": 10,
+      "冒险": 10,
+      "职场": 11,
+      "体育竞技": 10,
+      "灾难": 10,
+      "神话": 10,
+      "仙侠玄幻": 10,
+      "生活治愈": 12,
+      "音乐歌舞": 10,
+      "西部": 10,
+      "传记人物": 10,
+      "社会现实": 10
+    },
+    "skipped_duplicate_bindings": []
+  },
+  "validation": {
+    "root_full_regression": {
+      "tests": 94,
+      "passed": true,
+      "initial_sandbox_temp_access_denied": true,
+      "same_scope_permission_rerun_passed": true
+    },
+    "independent_genre_regression": {
+      "tests": 27,
+      "passed": true
+    },
+    "custom_skill_structure": "passed",
+    "official_skill_quick_validate": "passed",
+    "local_document_links": {
+      "documents": 11,
+      "links": 70,
+      "missing": 0
+    },
+    "git_diff_whitespace": "passed",
+    "independent_extra_case": "Payne/Hemingson shared origin isolation: workplace 11 -> 9, partial, both excluded"
+  },
+  "independent_source_sample": [
+    "Guan Pingchao",
+    "Wang Yu",
+    "Ovid / Io passage",
+    "Gina Prince-Bythewood",
+    "Alexander Payne",
+    "David Hemingson",
+    "Tony Kushner",
+    "David Webb Peoples",
+    "AFI SCR 662 / 691",
+    "USC Animation learning objectives"
+  ],
+  "corrections": [
+    "Weak genre fits removed rather than counted",
+    "Kushner reported Spielberg requirement kept attributed",
+    "Different film interview sources split per work",
+    "Shared-origin meaning limited to normalized URL container",
+    "Academy dynamic tryouts and fixed counts removed",
+    "Current manuscript and per-project narrative basis govern every suggestion"
+  ],
+  "open_release_blockers": [],
+  "limits": [
+    "Research covers relevant passages, not necessarily entire books, films or courses",
+    "Independent external review is risk sample, not all 134 records",
+    "School outlines are inspirations for our text checks, not endorsement or completed training",
+    "No audience, literary or finished-screen effect validated",
+    "31 composite routes are not separate ten-person pools",
+    "185 URL containers are not 185 independently corroborating upstream sources",
+    "Worked miniature explicitly leaves S03 routing dependency to authorized follow-up"
+  ],
+  "rollback": "Revert this commit or isolate affected origins/methods/bindings; never force-push or overwrite user screenplays.",
+  "release_result_rule": "After commit and push, verify remote refs/heads/main equals local HEAD. This pre-commit record is not that network verification.",
+  "hash_scope": "SHA256 of actual reviewed worktree bytes; Git checkout line-ending normalization may change byte hashes, so commit identity is checked separately.",
+  "candidate_sha256": {
+    "README.md": "e999775c312f78a866e96e796bdffbf65eb03231f2f8dd3ea6f170b8bc0f09eb",
+    "skills/script-buyu/SKILL.md": "6ee28ee7823fdcfa3f590af7d861f2101a258fe7c25a14702cee8961f1cde9dd",
+    "skills/script-buyu/data/genre-index.json": "e288300c98a5769e5e716652d8adaaa065cb3f2b2f5fa7cc8e166a7cead94a2f",
+    "skills/script-buyu/data/story-methods.json": "b4282888d9b828317d599b3bb4a159452a9515bb26affb7ee9e436efafeb92b8",
+    "skills/script-buyu/references/academic-methods.md": "3ae925b71b97bd3777e6c8baaeb42fbcc78ce229ddc4a35ccb243d866ac7a99d",
+    "skills/script-buyu/references/ensemble-writing.md": "7fa697da45c27ce18c3a050793f902a87536bf8b30f79377472b729550e242b3",
+    "skills/script-buyu/references/expert-groups.md": "32fbe53bf6504984ab261a8426745bf9bec254c2e4b26c3ee52cb1bd41f0a75a",
+    "skills/script-buyu/references/genre-methods.md": "7995a1c6942119bad9cfd923eb660ea8967ed61d26dc2a0ae755cec1c14cf28b",
+    "skills/script-buyu/references/scene-methods.md": "8fa16a8ca4e1f38b4129090d019c2d85229aa07c72caf9a7f566782fd59712e8",
+    "skills/script-buyu/references/workflow.md": "8dad41a17938665a187eb200157f209f4be2c5679187d457518fd617f278039f",
+    "skills/script-buyu/scripts/query_methods.py": "53ad53ca8a0c5cdec14394a3af1dd1b272db1ecd846ad39226c9261e25f1d81b",
+    "skills/script-buyu/tests/test_genre_methods.py": "a307181c074f2f86c4c248357f1bbfd3d52a2cf2ae4c583bec1081b326d05bee",
+    "docs/多方法统稿一致性演练.md": "1bfe00b8c4e202c112c0cd97397a2c2b8e20fed5da1c4341f00011cf7a592289",
+    "docs/题材与人物全目录.md": "6314d31e5ed403649f3d82a70d503f89cdda4e8a72ff5e85521af66468c6de75",
+    "docs/J10-题材补全与多方法一致性审查.md": "e1b66eca8c52f53277691c64a0567c024abeac002b8442663216c94d43141cd7"
+  }
+}
