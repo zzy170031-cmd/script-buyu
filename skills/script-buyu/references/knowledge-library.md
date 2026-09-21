@@ -2,6 +2,8 @@
 
 这是编剧参考库，不是作品设定库。入口索引为 [knowledge-index](../data/knowledge-index.json)，来源与逐文件取舍为 [source-manifest](../data/source-manifest.json)。资料已随 skill 打包，创作时不依赖原仓库路径或在线服务。
 
+两个来源的具体本地副本、版本和独立使用入口见 [内置资料说明](bundled-sources.md)。安装本Skill目录即可带上这些写作资料，无需另装Hope KB或Hope Web PWA。
+
 ## 按当前问题读取
 
 先明确用户要创作、忠实改写、局部修订还是诊断。用当前问题检索，通常先读一到三个匹配条目；不足再扩展。不能只凭标题或截断的搜索片段说已经读完原件。
