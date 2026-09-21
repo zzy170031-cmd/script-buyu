@@ -1,23 +1,857 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "non_participation_notice": "Public methods and editorial heuristics only. No person or organization participates in or endorses current projects.",
   "sources": [
-    {"source_id":"SRC-MAZIN-403","entity_id":"CRAIG-MAZIN","name":"Craig Mazin","entity_type":"person","professional_role":"screenwriter and Scriptnotes speaker","project_evidence":"Scriptnotes episode 403, How to Write a Movie","url":"https://johnaugust.com/2019/scriptnotes-ep-403-how-to-write-a-movie-transcript","source_type":"original speaker transcript hosted by the podcast co-host","published_at":"2019-06-13","accessed_at":"2026-09-20","read_status":"relevant_body_read","locator":"Paragraphs discussing structure as a result of character change; internal, interpersonal and external state; thematic action","evidence_summary":"Mazin links dramatic structure to changing character beliefs, relationships and external circumstances.","confidence":"direct_support_for_described_idea_not_quality_certification","limitations":"One writer's theory, not a universal structure or required scene count."},
-    {"source_id":"SRC-DISNEY-STORY","entity_id":"DISNEY-STORY","name":"Walt Disney Animation Studios Story department","entity_type":"team","professional_role":"animation story artists working with writers and editors","project_evidence":"Official Filmmaking Process Story page; Once Upon a Snowman examples","url":"https://www.disneyanimation.com/process/story/","source_type":"official studio process page","published_at":null,"accessed_at":"2026-09-20","read_status":"body_read","locator":"Opening two paragraphs and script-thumbnail development description","evidence_summary":"Story work combines narrative, character, world, emotion and timing, with iterative collaboration.","confidence":"direct_support_for_process_summary_not_entire_pipeline","limitations":"Page describes visual story development; this Skill adapts only narrative clarity checks, not its storyboard tools."},
-    {"source_id":"SRC-TAG-EDITOR","entity_id":"ANIMATION-GUILD","name":"The Animation Guild","entity_type":"team","professional_role":"animation industry role guidance","project_evidence":"What is a Story Editor position in animation, Kim Fay","url":"https://animationguild.org/helpie_faq/what-is-a-story-editor-position-in-animation/","source_type":"official professional organization article","published_at":"2025-05-21","accessed_at":"2026-09-20","read_status":"body_read","locator":"Paragraph beginning In most animation rooms","evidence_summary":"Animation story editors commonly coordinate writers, assign work, give draft notes and rewrite.","confidence":"direct_support_for_role_description","limitations":"Not every studio uses identical titles; it does not establish any individual's rank or availability."}
+    {
+      "source_id": "SRC-MAZIN-403",
+      "entity_id": "CRAIG-MAZIN",
+      "name": "Craig Mazin",
+      "entity_type": "person",
+      "professional_role": "screenwriter and Scriptnotes speaker",
+      "project_evidence": "Scriptnotes episode 403, How to Write a Movie",
+      "url": "https://johnaugust.com/2019/scriptnotes-ep-403-how-to-write-a-movie-transcript",
+      "source_type": "original speaker transcript hosted by the podcast co-host",
+      "published_at": "2019-06-13",
+      "accessed_at": "2026-09-20",
+      "read_status": "relevant_body_read",
+      "locator": "Paragraphs discussing structure as a result of character change; internal, interpersonal and external state; thematic action",
+      "evidence_summary": "Mazin links dramatic structure to changing character beliefs, relationships and external circumstances.",
+      "confidence": "direct_support_for_described_idea_not_quality_certification",
+      "limitations": "One writer's theory, not a universal structure or required scene count."
+    },
+    {
+      "source_id": "SRC-DISNEY-STORY",
+      "entity_id": "DISNEY-STORY",
+      "name": "Walt Disney Animation Studios Story department",
+      "entity_type": "team",
+      "professional_role": "animation story artists working with writers and editors",
+      "project_evidence": "Official Filmmaking Process Story page; Once Upon a Snowman examples",
+      "url": "https://www.disneyanimation.com/process/story/",
+      "source_type": "official studio process page",
+      "published_at": null,
+      "accessed_at": "2026-09-20",
+      "read_status": "body_read",
+      "locator": "Opening two paragraphs and script-thumbnail development description",
+      "evidence_summary": "Story work combines narrative, character, world, emotion and timing, with iterative collaboration.",
+      "confidence": "direct_support_for_process_summary_not_entire_pipeline",
+      "limitations": "Page describes visual story development; this Skill adapts only narrative clarity checks, not its storyboard tools."
+    },
+    {
+      "source_id": "SRC-TAG-EDITOR",
+      "entity_id": "ANIMATION-GUILD",
+      "name": "The Animation Guild",
+      "entity_type": "team",
+      "professional_role": "animation industry role guidance",
+      "project_evidence": "What is a Story Editor position in animation, Kim Fay",
+      "url": "https://animationguild.org/helpie_faq/what-is-a-story-editor-position-in-animation/",
+      "source_type": "official professional organization article",
+      "published_at": "2025-05-21",
+      "accessed_at": "2026-09-20",
+      "read_status": "body_read",
+      "locator": "Paragraph beginning In most animation rooms",
+      "evidence_summary": "Animation story editors commonly coordinate writers, assign work, give draft notes and rewrite.",
+      "confidence": "direct_support_for_role_description",
+      "limitations": "Not every studio uses identical titles; it does not establish any individual's rank or availability."
+    },
+    {
+      "source_id": "SRC-W01",
+      "entity_id": "作家-Ursula K. Le Guin",
+      "name": "Ursula K. Le Guin",
+      "entity_type": "person",
+      "professional_role": "作家",
+      "project_evidence": "Steering the Craft；官方叙事问答",
+      "url": "https://www.ursulakleguin.com/bvc-navigating-the-ocean-of-story-session-2-round-1",
+      "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
+      "published_at": "2016-02-29",
+      "accessed_at": "2026-09-21",
+      "locator": "Q2、Q3关于结尾偏好与冲突",
+      "evidence_summary": "本人不把冲突或某一种结尾视为所有故事的必要条件。",
+      "read_status": "direct_body_read",
+      "confidence": "支持对应方法摘要，不证明通用质量效果",
+      "limitations": "不能删除用户要求的对抗、谜底或高潮；补强H05，不强制人物转变。"
+    },
+    {
+      "source_id": "SRC-W02",
+      "entity_id": "剧作家-Harold Pinter",
+      "name": "Harold Pinter",
+      "entity_type": "person",
+      "professional_role": "剧作家",
+      "project_evidence": "The Homecoming；Old Times",
+      "url": "https://www.nobelprize.org/prizes/literature/2005/pinter/lecture/",
+      "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
+      "published_at": "2005-12-07",
+      "accessed_at": "2026-09-21",
+      "locator": "Most of the plays及两部戏的起笔段",
+      "evidence_summary": "本人讲述从话语或画面出发，逐步发现人物关系的创作经验。",
+      "read_status": "official_search_relevant_body_read_direct_open_403",
+      "confidence": "支持对应方法摘要，不证明通用质量效果",
+      "limitations": "只适用草稿或授权改写；不能推翻已定身份，不能在确认后删改原话；停顿和敌意不是必选。"
+    },
+    {
+      "source_id": "SRC-W03",
+      "entity_id": "作家-莫言",
+      "name": "莫言",
+      "entity_type": "person",
+      "professional_role": "作家",
+      "project_evidence": "诺奖讲稿；透明的红萝卜；蛙",
+      "url": "https://www.nobelprize.org/prizes/literature/2012/yan/lecture/",
+      "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
+      "published_at": "2012-12-07",
+      "accessed_at": "2026-09-21",
+      "locator": "给母亲复述故事、故乡经验与虚构人物段",
+      "evidence_summary": "本人讲述口头复述、生活经验以及对真实人物进行文学改造。",
+      "read_status": "official_search_relevant_body_read_direct_open_failed",
+      "confidence": "支持对应方法摘要，不证明通用质量效果",
+      "limitations": "这些步骤为我方适配，不是魔幻现实主义公式；历史及游戏事实不能为戏剧效果伪造，虚构经历不冒称真人事迹。"
+    },
+    {
+      "source_id": "SRC-W04",
+      "entity_id": "科幻作家-刘慈欣",
+      "name": "刘慈欣",
+      "entity_type": "person",
+      "professional_role": "科幻作家",
+      "project_evidence": "三体；本人创作访谈",
+      "url": "https://www.chinawriter.com.cn/n1/2017/1117/c405057-29653052.html",
+      "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
+      "published_at": "2017-11-22",
+      "accessed_at": "2026-09-21",
+      "locator": "将现实作为切入点；软硬平衡与可读性段",
+      "evidence_summary": "本人谈到以现实生活作为进入未来的途径，技术内容不能损害故事可读性。",
+      "read_status": "direct_body_read_original_interview_republished",
+      "confidence": "支持对应方法摘要，不证明通用质量效果",
+      "limitations": "来源为中国作家网转载张君成的本人采访，网页显示日期不同于URL日期；不强制现实开场、硬科幻或科学预测。"
+    },
+    {
+      "source_id": "SRC-W05",
+      "entity_id": "作家-Svetlana Alexievich",
+      "name": "Svetlana Alexievich",
+      "entity_type": "person",
+      "professional_role": "作家",
+      "project_evidence": "2015诺奖讲稿；口述写作实践",
+      "url": "https://www.nobelprize.org/prizes/literature/2015/alexievich/lecture/",
+      "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
+      "published_at": "2015-12-07",
+      "accessed_at": "2026-09-21",
+      "locator": "human ear；little histories；不同讲述者段",
+      "evidence_summary": "本人强调倾听个体声音，通过普通人的小历史呈现时代。",
+      "read_status": "official_search_relevant_body_read",
+      "confidence": "支持对应方法摘要，不证明通用质量效果",
+      "limitations": "不把虚构对白称为真实证言，不要求每人独白或人人受创；来源方法不证明材料真实性。"
+    },
+    {
+      "source_id": "SRC-W06",
+      "entity_id": "编剧与导演-Richard Curtis",
+      "name": "Richard Curtis",
+      "entity_type": "person",
+      "professional_role": "编剧与导演",
+      "project_evidence": "Four Weddings and a Funeral；Notting Hill",
+      "url": "https://static.bafta.org/uploads_pre_202411/transcripts/30_sept_2013_screenwriters_lecture_by_richard_curtis.pdf",
+      "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
+      "published_at": "2013-09-30",
+      "accessed_at": "2026-09-21",
+      "locator": "第2页个人经验与情感；第4页关于爱情喜剧类型的段落",
+      "evidence_summary": "本人从熟悉的经验和情感出发，不把关于爱情的喜剧锁成一种类型配方。",
+      "read_status": "official_transcript_read",
+      "confidence": "支持对应方法摘要，不证明通用质量效果",
+      "limitations": "步骤是我方适配，不是原讲座的笑点公式；不强制爱情、英式幽默或圆满结尾，不能拿笑点抹去既有损失。"
+    },
+    {
+      "source_id": "SRC-D01",
+      "entity_id": "导演-Alfred Hitchcock",
+      "name": "Alfred Hitchcock",
+      "entity_type": "person",
+      "professional_role": "导演",
+      "project_evidence": "Blackmail；Sabotage；本人文章My own methods",
+      "url": "https://www.bfi.org.uk/sight-and-sound/features/alfred-hitchcock-my-own-methods",
+      "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
+      "published_at": "1937",
+      "accessed_at": "2026-09-21",
+      "locator": "Blackmail观众知情；Sabotage手眼刀及反应",
+      "evidence_summary": "本人讨论观众知情与细节、反应镜头对注意力的组织。",
+      "read_status": "direct_body_read",
+      "confidence": "支持对应方法摘要，不证明通用质量效果",
+      "limitations": "文章提到的Blackmail理想结局没有按其设想拍成；不是所有悬疑都应提前揭谜。"
+    },
+    {
+      "source_id": "SRC-D02",
+      "entity_id": "导演-是枝裕和",
+      "name": "是枝裕和",
+      "entity_type": "person",
+      "professional_role": "导演",
+      "project_evidence": "步履不停；The Rumpus原始采访",
+      "url": "https://therumpus.net/2009/06/11/the-rumpus-interview-with-hirokazu-koreeda/",
+      "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
+      "published_at": "2009-06-11",
+      "accessed_at": "2026-09-21",
+      "locator": "What about camera angles问答",
+      "evidence_summary": "本人以狭小空间中的多人实际行动解释机位和调度选择。",
+      "read_status": "same_domain_search_relevant_qa_read_direct_open_failed",
+      "confidence": "支持对应方法摘要，不证明通用质量效果",
+      "limitations": "小津式机位是采访者概括，不是本人固定规则；不硬添喝茶或把追逐改慢戏。"
+    },
+    {
+      "source_id": "SRC-D03",
+      "entity_id": "编剧与导演-奉俊昊",
+      "name": "奉俊昊",
+      "entity_type": "person",
+      "professional_role": "编剧与导演",
+      "project_evidence": "寄生虫；BAFTA2019编剧讲座",
+      "url": "https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2019-bong-joon-ho/",
+      "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
+      "published_at": "2019-12-13",
+      "accessed_at": "2026-09-21",
+      "locator": "人物与情境；家人不同反应；类型惯例与韩国现实",
+      "evidence_summary": "本人谈到通过行动与情境形成角色，以及现实条件如何改变类型惯例。",
+      "read_status": "official_search_relevant_body_read_direct_open_failed",
+      "confidence": "支持对应方法摘要，不证明通用质量效果",
+      "limitations": "部分讲座内容由Translator转述；不是固定社会讽刺法，不随机插笑料。"
+    },
+    {
+      "source_id": "SRC-D04",
+      "entity_id": "编剧与导演-Christopher Nolan",
+      "name": "Christopher Nolan",
+      "entity_type": "person",
+      "professional_role": "编剧与导演",
+      "project_evidence": "Dunkirk；DGA2017采访",
+      "url": "https://www.dga.org/craft/dgaq/issues/1703-summer-2017/wwii-dunkirk",
+      "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
+      "published_at": "2017 Summer",
+      "accessed_at": "2026-09-21",
+      "locator": "various geographies and time frames；elongating time、compressing it",
+      "evidence_summary": "本人介绍不同地理与时间视点，以及为悬念伸缩呈现时间。",
+      "read_status": "publisher_search_relevant_body_read_direct_open_failed",
+      "confidence": "支持对应方法摘要，不证明通用质量效果",
+      "limitations": "不照搬三条时间线，不把多线当自动升级；确认后不得重新排序剧情或改变信息揭示。"
+    },
+    {
+      "source_id": "SRC-D05",
+      "entity_id": "动画导演-宫崎骏",
+      "name": "宫崎骏",
+      "entity_type": "person",
+      "professional_role": "动画导演",
+      "project_evidence": "Spirited Away；Roger Ebert本人采访",
+      "url": "https://www.rogerebert.com/interviews/hayao-miyazaki-interview",
+      "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
+      "published_at": "2012-12-14 (网页归档；采访为2002年)",
+      "accessed_at": "2026-09-21",
+      "locator": "ma及连续紧张造成麻木的问答",
+      "evidence_summary": "本人解释有意留下动作间隙，并强调持续的情绪联系。",
+      "read_status": "original_interview_relevant_body_read",
+      "confidence": "支持对应方法摘要，不证明通用质量效果",
+      "limitations": "不绑定吉卜力画风、儿童题材或手绘媒介；留白长度按当前剧情决定。"
+    },
+    {
+      "source_id": "SRC-D06",
+      "entity_id": "动画导演-今敏",
+      "name": "今敏",
+      "entity_type": "person",
+      "professional_role": "动画导演",
+      "project_evidence": "Paprika；Midnight Eye本人采访",
+      "url": "https://www.midnighteye.com/interviews/satoshi-kon-2/",
+      "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
+      "published_at": "2006-11-20",
+      "accessed_at": "2026-09-21",
+      "locator": "将小说心理文字转成parade视觉意象的问答",
+      "evidence_summary": "本人解释以游行意象表达小说心理内容，并让其逐步进入现实空间。",
+      "read_status": "original_interview_relevant_body_read",
+      "confidence": "支持对应方法摘要，不证明通用质量效果",
+      "limitations": "不照搬游行图像，不随机拼梦；确认后不能将隐喻变成新的真实事件或添超能力。"
+    },
+    {
+      "source_id": "SRC-D07",
+      "entity_id": "编剧与导演-James Cameron",
+      "name": "James Cameron",
+      "entity_type": "person",
+      "professional_role": "编剧与导演",
+      "project_evidence": "Aliens；DGA2008本人采访",
+      "url": "https://www.dga.org/craft/dgaq/issues/0802-summer-2008/dga-interview-james-cameron",
+      "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
+      "published_at": "2008 Summer",
+      "accessed_at": "2026-09-21",
+      "locator": "what does this scene demand；Aliens克服恐惧采取行动；多人覆盖",
+      "evidence_summary": "本人强调场景的叙事需要、人物情感连接与群戏中注意力分配。",
+      "read_status": "original_interview_relevant_body_read",
+      "confidence": "支持对应方法摘要，不证明通用质量效果",
+      "limitations": "不强制英雄克服恐惧或高成本奇观；来源不支持万能动作地理公式。"
+    },
+    {
+      "source_id": "SRC-D08",
+      "entity_id": "RUSSO-BROTHERS",
+      "name": "Joe Russo / Anthony Russo",
+      "entity_type": "team",
+      "professional_role": "导演搭档",
+      "project_evidence": "Captain America: The Winter Soldier；DGA2019本人采访",
+      "url": "https://www.dga.org/craft/dgaq/issues/1902-spring-2019/dga-interview-joe-russo-anthony-russo",
+      "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
+      "published_at": "2019 Spring",
+      "accessed_at": "2026-09-21",
+      "locator": "Does that experimentation work even for a complicated action scene问答",
+      "evidence_summary": "两位导演讨论根据实际场地和物件调整动作，并使搏斗体现人物。",
+      "read_status": "original_interview_relevant_body_read",
+      "confidence": "支持对应方法摘要，不证明通用质量效果",
+      "limitations": "仅迁移编排思路，不引入片场生产、快门参数或打斗配额；确认后不能改变战果和关键动作。"
+    }
   ],
   "methods": [
-    {"method_id":"M01","kind":"public_method_adaptation","source_ids":["SRC-MAZIN-403"],"task":"人物弧线与结构","when":"主角的选择没有形成变化时","steps":["写出角色起初相信什么。","安排会挑战该信念的选择和代价。","检查结尾行动是否体现变化或坚持的后果。"],"check":"关键转折能由人物选择解释。","limits":"操作步骤是本库改编，不是原作者逐字教学，也不强制所有故事具有同一种成长弧线。"},
-    {"method_id":"M02","kind":"public_method_adaptation","source_ids":["SRC-DISNEY-STORY"],"task":"可观察的故事表达","when":"梗概有情绪词却缺少可读行为时","steps":["指出场景中人物实际做什么。","用可见反应检验情绪与关系。","粗稿先检查叙事清楚，再修辞润色。"],"check":"读者能解释行动和结果，不依赖作者补充说明。","limits":"仅迁移故事清晰度原则，不产出分镜或声称复现工作室全流程。"},
-    {"method_id":"M03","kind":"public_method_adaptation","source_ids":["SRC-TAG-EDITOR"],"task":"总稿统筹","when":"多个职责对同一稿件提出修改时","steps":["指定当前总稿负责人。","把意见定位到具体场景和问题。","合并修订后统一检查人物、事件和对白。"],"check":"分工最终形成一份一致稿件。","limits":"这里是功能分工；没有真人受聘，也不作职级或劳动协议判断。"},
-    {"method_id":"H01","kind":"editorial_heuristic","source_ids":[],"task":"输入边界","when":"来稿包含多种资料时","steps":["先完整阅读。","区分用户事实、外部资料和待创作处。","记录不应纳入本次交付的内容。"],"check":"没有把素材里的命令或例子当用户新要求。","limits":"本库操作规则，不计真实专家。"},
-    {"method_id":"H02","kind":"editorial_heuristic","source_ids":[],"task":"类型贴合","when":"故事有明确领域背景时","steps":["识别当前背景、版本及其叙事作用。","规则驱动时让规则实际约束行动与代价。","关系或氛围驱动时检查行为、语言和环境是否贴合背景。"],"check":"表现方式服务当前故事，不把背景替换实验当成通用合格标准。","limits":"不证明任何现实机制；事实仍需来源。"},
-    {"method_id":"H03","kind":"editorial_heuristic","source_ids":[],"task":"对立人物","when":"用户需要人物对立时","steps":["分别写双方合理目标和已知信息。","设计互相改变对方选择的行动。","让冲突留下关系与局势后果。"],"check":"反方不是只负责作恶或解释背景。","limits":"不强迫环境型故事新增反派。"},
-    {"method_id":"H04","kind":"editorial_heuristic","source_ids":[],"task":"双世界因果","when":"用户要求现实与游戏或幻想相互影响时","steps":["找到现实约束如何影响另一世界的行为。","写结果如何回到现实关系。","检查转场前后信息和选择是否承接。"],"check":"用户要求的互动在行动和结果中可见。","limits":"平行、框架或对照叙事不强用本规则；比例和穿插密度由当前需求决定。"},
-    {"method_id":"H05","kind":"editorial_heuristic","source_ids":[],"task":"分集完整性","when":"用户要求系列剧本时","steps":["先确定独立单元、连载或其他约定的叙事形式。","写全每集的逐场正文。","连载核对跨集后果和回收；独立、观察或诗性单元按自身表达目标检查完整性。"],"check":"不存在只有集梗概、没有完整场景的空集。","limits":"不把跨集因果、固定集数或每集悬崖当成通用规则。"},
-    {"method_id":"H06","kind":"editorial_heuristic","source_ids":[],"task":"对白动作","when":"对白冗长或声音趋同时","steps":["标明说话人当下希望改变什么。","删掉对方已经知道的重复解释。","用回应或行动显示效果。"],"check":"人物的关系和策略体现在语言里。","limits":"诗性或仪式性对白可按作品目标保留。"},
-    {"method_id":"H07","kind":"editorial_heuristic","source_ids":[],"task":"连续性","when":"修订涉及时间、道具或秘密时","steps":["记录人物进入场景时知道什么。","记录新增知识和物件状态。","检查后续是否无因恢复旧状态。"],"check":"人物不会提前知道信息，事件后果不会消失。","limits":"非线性叙事需要显式说明顺序。"},
-    {"method_id":"H08","kind":"editorial_heuristic","source_ids":[],"task":"时长预算","when":"用户限定片长或内容比例时","steps":["分配各集预算。","按场景记录动作对白的预计时间。","检查加总并记录混合内容的计量口径。"],"check":"预算与用户目标一致且没有重复计时。","limits":"未读演或实测不能声称精确成片时长。"},
-    {"method_id":"H09","kind":"editorial_heuristic","source_ids":[],"task":"文档与视觉方向确认","when":"整理或回读用户修订时","steps":["以可见正文和人物提示词为准，比较新旧版本。","DOCX不嵌图；文外展示少量代表人物示例。","分别绑定真实剧本确认和视觉方向确认，两项齐备后衔接已约定的批量人物图及Excel。"],"check":"没有暗中恢复旧稿、把样本满意当批准、或未经对应确认提前批量生成。","limits":"同条可确认两项，不重索许可。全稿无人且无身份画外角色时，人物示例及确认记不适用，不伪造批准、不造人；文本确认后交付Sheet1与空表头Sheet2，不自动生场景图。结构校验不证明质量或用户批准。"}
+    {
+      "method_id": "M01",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-MAZIN-403"
+      ],
+      "task": "人物弧线与结构",
+      "when": "主角的选择没有形成变化时",
+      "steps": [
+        "写出角色起初相信什么。",
+        "安排会挑战该信念的选择和代价。",
+        "检查结尾行动是否体现变化或坚持的后果。"
+      ],
+      "check": "关键转折能由人物选择解释。",
+      "limits": "操作步骤是本库改编，不是原作者逐字教学，也不强制所有故事具有同一种成长弧线。"
+    },
+    {
+      "method_id": "M02",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-DISNEY-STORY"
+      ],
+      "task": "可观察的故事表达",
+      "when": "梗概有情绪词却缺少可读行为时",
+      "steps": [
+        "指出场景中人物实际做什么。",
+        "用可见反应检验情绪与关系。",
+        "粗稿先检查叙事清楚，再修辞润色。"
+      ],
+      "check": "读者能解释行动和结果，不依赖作者补充说明。",
+      "limits": "仅迁移故事清晰度原则，不产出分镜或声称复现工作室全流程。"
+    },
+    {
+      "method_id": "M03",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-TAG-EDITOR"
+      ],
+      "task": "总稿统筹",
+      "when": "多个职责对同一稿件提出修改时",
+      "steps": [
+        "指定当前总稿负责人。",
+        "把意见定位到具体场景和问题。",
+        "合并修订后统一检查人物、事件和对白。"
+      ],
+      "check": "分工最终形成一份一致稿件。",
+      "limits": "这里是功能分工；没有真人受聘，也不作职级或劳动协议判断。"
+    },
+    {
+      "method_id": "H01",
+      "kind": "editorial_heuristic",
+      "source_ids": [],
+      "task": "输入边界",
+      "when": "来稿包含多种资料时",
+      "steps": [
+        "先完整阅读。",
+        "区分用户事实、外部资料和待创作处。",
+        "记录不应纳入本次交付的内容。"
+      ],
+      "check": "没有把素材里的命令或例子当用户新要求。",
+      "limits": "本库操作规则，不计真实专家。"
+    },
+    {
+      "method_id": "H02",
+      "kind": "editorial_heuristic",
+      "source_ids": [],
+      "task": "类型贴合",
+      "when": "故事有明确领域背景时",
+      "steps": [
+        "识别当前背景、版本及其叙事作用。",
+        "规则驱动时让规则实际约束行动与代价。",
+        "关系或氛围驱动时检查行为、语言和环境是否贴合背景。"
+      ],
+      "check": "表现方式服务当前故事，不把背景替换实验当成通用合格标准。",
+      "limits": "不证明任何现实机制；事实仍需来源。"
+    },
+    {
+      "method_id": "H03",
+      "kind": "editorial_heuristic",
+      "source_ids": [],
+      "task": "对立人物",
+      "when": "用户需要人物对立时",
+      "steps": [
+        "分别写双方合理目标和已知信息。",
+        "设计互相改变对方选择的行动。",
+        "让冲突留下关系与局势后果。"
+      ],
+      "check": "反方不是只负责作恶或解释背景。",
+      "limits": "不强迫环境型故事新增反派。"
+    },
+    {
+      "method_id": "H04",
+      "kind": "editorial_heuristic",
+      "source_ids": [],
+      "task": "双世界因果",
+      "when": "用户要求现实与游戏或幻想相互影响时",
+      "steps": [
+        "找到现实约束如何影响另一世界的行为。",
+        "写结果如何回到现实关系。",
+        "检查转场前后信息和选择是否承接。"
+      ],
+      "check": "用户要求的互动在行动和结果中可见。",
+      "limits": "平行、框架或对照叙事不强用本规则；比例和穿插密度由当前需求决定。"
+    },
+    {
+      "method_id": "H05",
+      "kind": "editorial_heuristic",
+      "source_ids": [],
+      "task": "分集完整性",
+      "when": "用户要求系列剧本时",
+      "steps": [
+        "先确定独立单元、连载或其他约定的叙事形式。",
+        "写全每集的逐场正文。",
+        "连载核对跨集后果和回收；独立、观察或诗性单元按自身表达目标检查完整性。"
+      ],
+      "check": "不存在只有集梗概、没有完整场景的空集。",
+      "limits": "不把跨集因果、固定集数或每集悬崖当成通用规则。"
+    },
+    {
+      "method_id": "H06",
+      "kind": "editorial_heuristic",
+      "source_ids": [],
+      "task": "对白动作",
+      "when": "对白冗长或声音趋同时",
+      "steps": [
+        "标明说话人当下希望改变什么。",
+        "删掉对方已经知道的重复解释。",
+        "用回应或行动显示效果。"
+      ],
+      "check": "人物的关系和策略体现在语言里。",
+      "limits": "诗性或仪式性对白可按作品目标保留。"
+    },
+    {
+      "method_id": "H07",
+      "kind": "editorial_heuristic",
+      "source_ids": [],
+      "task": "连续性",
+      "when": "修订涉及时间、道具或秘密时",
+      "steps": [
+        "记录人物进入场景时知道什么。",
+        "记录新增知识和物件状态。",
+        "检查后续是否无因恢复旧状态。"
+      ],
+      "check": "人物不会提前知道信息，事件后果不会消失。",
+      "limits": "非线性叙事需要显式说明顺序。"
+    },
+    {
+      "method_id": "H08",
+      "kind": "editorial_heuristic",
+      "source_ids": [],
+      "task": "时长预算",
+      "when": "用户限定片长或内容比例时",
+      "steps": [
+        "分配各集预算。",
+        "按场景记录动作对白的预计时间。",
+        "检查加总并记录混合内容的计量口径。"
+      ],
+      "check": "预算与用户目标一致且没有重复计时。",
+      "limits": "未读演或实测不能声称精确成片时长。"
+    },
+    {
+      "method_id": "H09",
+      "kind": "editorial_heuristic",
+      "source_ids": [],
+      "task": "文档与视觉方向确认",
+      "when": "整理或回读用户修订时",
+      "steps": [
+        "以可见正文和人物提示词为准，比较新旧版本。",
+        "DOCX不嵌图；文外展示少量代表人物示例。",
+        "分别绑定真实剧本确认和视觉方向确认，两项齐备后衔接已约定的批量人物图及Excel。"
+      ],
+      "check": "没有暗中恢复旧稿、把样本满意当批准、或未经对应确认提前批量生成。",
+      "limits": "同条可确认两项，不重索许可。全稿无人且无身份画外角色时，人物示例及确认记不适用，不伪造批准、不造人；文本确认后交付Sheet1与空表头Sheet2，不自动生场景图。结构校验不证明质量或用户批准。"
+    },
+    {
+      "method_id": "W01",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-W01"
+      ],
+      "task": "关系与观察叙事",
+      "scene_tags": [
+        "观察",
+        "关系",
+        "静默"
+      ],
+      "when": "观察、照护或并置片段被强套对抗与成长时",
+      "steps": [
+        "确定本场希望持续观察的关系或感受。",
+        "用等待、照护、发现等组织既有材料，按需要保留冲突。",
+        "检查片段是否服务本篇的表达目标，允许状态持续。"
+      ],
+      "check": "各片段关注点可辨，结尾回应本篇意图。",
+      "limits": "不能删除用户要求的对抗、谜底或高潮；补强H05，不强制人物转变。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "只修改本轮授权的故事正文；确认后仅诊断，不改原话与事实。"
+    },
+    {
+      "method_id": "W02",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-W02"
+      ],
+      "task": "从对白探索关系",
+      "scene_tags": [
+        "对白",
+        "谈判",
+        "关系"
+      ],
+      "when": "草稿中的关系或说话策略尚未成形时",
+      "steps": [
+        "让一句话对准一个具体对象和当下事情。",
+        "写对方根据自身关注点的回应或行动。",
+        "从互动中补足尚未确定的关系，区分已定事实与探索。"
+      ],
+      "check": "对白改变互动或呈现关系，不靠无依据的含混撑场。",
+      "limits": "只适用草稿或授权改写；不能推翻已定身份，不能在确认后删改原话；停顿和敌意不是必选。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "只修改本轮授权的故事正文；确认后仅诊断，不改原话与事实。"
+    },
+    {
+      "method_id": "W03",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-W03"
+      ],
+      "task": "生活素材与讲述视点",
+      "scene_tags": [
+        "口述",
+        "地方生活",
+        "回忆"
+      ],
+      "when": "地方故事空泛，叙述者与所讲事件没有具体联系时",
+      "steps": [
+        "选与本场有关的生活细节及讲述者所处位置。",
+        "区分亲历、转述和创作补写，再确定叙述者的取舍。",
+        "将材料改为本剧人物可行动的处境，而非堆风俗说明。"
+      ],
+      "check": "细节改变人物感受或行动，真实来源与虚构归属清楚。",
+      "limits": "这些步骤为我方适配，不是魔幻现实主义公式；历史及游戏事实不能为戏剧效果伪造，虚构经历不冒称真人事迹。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "只修改本轮授权的故事正文；确认后仅诊断，不改原话与事实。"
+    },
+    {
+      "method_id": "W04",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-W04"
+      ],
+      "task": "科幻设定的可读入口",
+      "scene_tags": [
+        "科幻",
+        "规则",
+        "世界观"
+      ],
+      "when": "设定说明挤占故事，观众不理解人物面对的规则时",
+      "steps": [
+        "从本剧可理解的生活需求或任务进入场景。",
+        "用一次行动呈现与当前问题相关的设定及后果。",
+        "仅补足理解选择所必需的信息，核对世界规则一致。"
+      ],
+      "check": "观众知道为何这样做、为何有此后果，无需先听完整百科。",
+      "limits": "来源为中国作家网转载张君成的本人采访，网页显示日期不同于URL日期；不强制现实开场、硬科幻或科学预测。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "只修改本轮授权的故事正文；确认后仅诊断，不改原话与事实。"
+    },
+    {
+      "method_id": "W05",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-W05"
+      ],
+      "task": "群像中的不同声音",
+      "scene_tags": [
+        "群像",
+        "口述",
+        "时代"
+      ],
+      "when": "多人围绕同一事件却说着同一种话时",
+      "steps": [
+        "分别记录人物亲历什么、没见到什么以及在意什么。",
+        "让他们通过不同生活细节讲述同一事件，不强行统一感受。",
+        "由统筹区分事实矛盾、有限视点与记忆偏差。"
+      ],
+      "check": "声音可区分，人物知识没有越界，共同事件的可核事实不冲突。",
+      "limits": "不把虚构对白称为真实证言，不要求每人独白或人人受创；来源方法不证明材料真实性。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "只修改本轮授权的故事正文；确认后仅诊断，不改原话与事实。"
+    },
+    {
+      "method_id": "W06",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-W06"
+      ],
+      "task": "喜剧中的具体情感",
+      "scene_tags": [
+        "喜剧",
+        "爱情",
+        "家庭"
+      ],
+      "when": "喜剧场景只有段子，没有人物真正关心的事时",
+      "steps": [
+        "写明本场人物想维持或得到的关系及具体处境。",
+        "从该人物的表达、失误或体面需求找可笑之处。",
+        "去掉笑料后检查情感仍成立，再保留不损害人物的笑点。"
+      ],
+      "check": "笑点属于此人此境，不需要角色突然降智或改变动机。",
+      "limits": "步骤是我方适配，不是原讲座的笑点公式；不强制爱情、英式幽默或圆满结尾，不能拿笑点抹去既有损失。",
+      "stages": [
+        "draft",
+        "authorized_revision"
+      ],
+      "field_scope": "只修改本轮授权的故事正文；确认后仅诊断，不改原话与事实。"
+    },
+    {
+      "method_id": "D01",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-D01"
+      ],
+      "task": "信息差与注意力组织",
+      "scene_tags": [
+        "悬念",
+        "秘密",
+        "反应"
+      ],
+      "when": "观众不知道该关注什么，或场景压力不清时",
+      "steps": [
+        "列明观众和各角色已知信息。",
+        "选择本场必须注意的既有细节。",
+        "在允许的揭示时点内组织细节与反应。"
+      ],
+      "check": "理解与压力来自本剧的信息安排，秘密不提前泄露。",
+      "limits": "文章提到的Blackmail理想结局没有按其设想拍成；不是所有悬疑都应提前揭谜。",
+      "stages": [
+        "draft",
+        "authorized_revision",
+        "confirmed_translation"
+      ],
+      "field_scope": "草稿按授权调整表达；确认后仅动作描述、主画面、运镜等转译字段，保护事件、台词、旁白与揭示时点。"
+    },
+    {
+      "method_id": "D02",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-D02"
+      ],
+      "task": "生活行为与空间调度",
+      "scene_tags": [
+        "家庭",
+        "空间",
+        "日常"
+      ],
+      "when": "关系写在说明里，人物活动与空间没有联系时",
+      "steps": [
+        "找一个已有生活行为承载关系。",
+        "核对人物与物件路线及谁能看到谁。",
+        "安排能读懂行为的构图与机位。"
+      ],
+      "check": "调度显出关系而不遮挡必要信息。",
+      "limits": "小津式机位是采访者概括，不是本人固定规则；不硬添喝茶或把追逐改慢戏。",
+      "stages": [
+        "draft",
+        "authorized_revision",
+        "confirmed_translation"
+      ],
+      "field_scope": "草稿按授权调整表达；确认后仅动作描述、主画面、运镜等转译字段，保护事件、台词、旁白与揭示时点。"
+    },
+    {
+      "method_id": "D03",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-D03"
+      ],
+      "task": "人物反应与类型转折",
+      "scene_tags": [
+        "类型变化",
+        "群像",
+        "黑色幽默"
+      ],
+      "when": "人物反应雷同，紧张与幽默切换缺乏原因时",
+      "steps": [
+        "让不同人物面对同一具体阻碍。",
+        "依据各自目标与处境写不同回应。",
+        "检查幽默或紧张的变化是否保留本场风险。"
+      ],
+      "check": "类型变化可由人物行动追踪，损失与风险没有被清零。",
+      "limits": "部分讲座内容由Translator转述；不是固定社会讽刺法，不随机插笑料。",
+      "stages": [
+        "draft",
+        "authorized_revision",
+        "confirmed_translation"
+      ],
+      "field_scope": "草稿按授权调整表达；确认后仅动作描述、主画面、运镜等转译字段，保护事件、台词、旁白与揭示时点。"
+    },
+    {
+      "method_id": "D04",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-D04"
+      ],
+      "task": "多视点与时间压力",
+      "scene_tags": [
+        "多线",
+        "时间",
+        "救援"
+      ],
+      "when": "多线各自精彩却缺乏交汇，或时间关系难懂时",
+      "steps": [
+        "先列实际事件时间，再列各线呈现顺序与知情范围。",
+        "围绕共同事件选择交汇点及必要时间线索。",
+        "按情绪目标分配呈现长短，检查因果可还原。"
+      ],
+      "check": "观众可以追踪目标和交汇，真实时序与呈现顺序没有混淆。",
+      "limits": "不照搬三条时间线，不把多线当自动升级；确认后不得重新排序剧情或改变信息揭示。",
+      "stages": [
+        "draft",
+        "authorized_revision",
+        "confirmed_translation"
+      ],
+      "field_scope": "草稿按授权调整表达；确认后仅动作描述、主画面、运镜等转译字段，保护事件、台词、旁白与揭示时点。"
+    },
+    {
+      "method_id": "D05",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-D05"
+      ],
+      "task": "留白与情绪节奏",
+      "scene_tags": [
+        "动画",
+        "静默",
+        "节奏"
+      ],
+      "when": "连续动作或解释使观众疲劳，情绪没有停留空间时",
+      "steps": [
+        "找本场需要观众感受的情绪。",
+        "在合适处用既有观察或动作余波留出呼吸。",
+        "检查停留是否仍与人物情绪和本剧时长相连。"
+      ],
+      "check": "停顿有情绪依据，既不机械塞空镜，也不切断紧迫任务。",
+      "limits": "不绑定吉卜力画风、儿童题材或手绘媒介；留白长度按当前剧情决定。",
+      "stages": [
+        "draft",
+        "authorized_revision",
+        "confirmed_translation"
+      ],
+      "field_scope": "草稿按授权调整表达；确认后仅动作描述、主画面、运镜等转译字段，保护事件、台词、旁白与揭示时点。"
+    },
+    {
+      "method_id": "D06",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-D06"
+      ],
+      "task": "将心理意象转成可见动作",
+      "scene_tags": [
+        "心理",
+        "梦境",
+        "主观"
+      ],
+      "when": "内心独白过多，主观感受难以用画面表达时",
+      "steps": [
+        "找本剧已有且与人物相关的意象。",
+        "赋予意象可描述的动作及空间关系，说明它属于现实、记忆或想象。",
+        "检查变化是否遵循本剧视点和世界规则。"
+      ],
+      "check": "意象表达可辨的心理问题，观众是否应分清虚实由本剧约定。",
+      "limits": "不照搬游行图像，不随机拼梦；确认后不能将隐喻变成新的真实事件或添超能力。",
+      "stages": [
+        "draft",
+        "authorized_revision",
+        "confirmed_translation"
+      ],
+      "field_scope": "草稿按授权调整表达；确认后仅动作描述、主画面、运镜等转译字段，保护事件、台词、旁白与揭示时点。"
+    },
+    {
+      "method_id": "D07",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-D07"
+      ],
+      "task": "大场面中的人物选择",
+      "scene_tags": [
+        "动作",
+        "灾难",
+        "群戏"
+      ],
+      "when": "大场面只有规模，关键选择与关系被淹没时",
+      "steps": [
+        "明确本场谁必须做选择及其依据。",
+        "把注意力放在选择、行动和他人反应上，分配必要覆盖。",
+        "检查景观与危险是否支持故事后果。"
+      ],
+      "check": "读者能指出谁做了什么选择及代价，多人不必平均分镜。",
+      "limits": "不强制英雄克服恐惧或高成本奇观；来源不支持万能动作地理公式。",
+      "stages": [
+        "draft",
+        "authorized_revision",
+        "confirmed_translation"
+      ],
+      "field_scope": "草稿按授权调整表达；确认后仅动作描述、主画面、运镜等转译字段，保护事件、台词、旁白与揭示时点。"
+    },
+    {
+      "method_id": "D08",
+      "kind": "public_method_adaptation",
+      "source_ids": [
+        "SRC-D08"
+      ],
+      "task": "动作与场地、人物相适应",
+      "scene_tags": [
+        "追逐",
+        "搏斗",
+        "空间"
+      ],
+      "when": "动作像通用招式表，没有利用场地或体现人物时",
+      "steps": [
+        "列双方当下目标、位置、障碍及可用物件。",
+        "让动作利用既有环境并体现能力与选择，写清起点和结果。",
+        "沿人物移动路线回看下一动作是否可发生。"
+      ],
+      "check": "动作有空间与人物依据，不瞬移、不凭空添工具，损伤和物件状态连续。",
+      "limits": "仅迁移编排思路，不引入片场生产、快门参数或打斗配额；确认后不能改变战果和关键动作。",
+      "stages": [
+        "draft",
+        "authorized_revision",
+        "confirmed_translation"
+      ],
+      "field_scope": "草稿按授权调整表达；确认后仅动作描述、主画面、运镜等转译字段，保护事件、台词、旁白与揭示时点。"
+    },
+    {
+      "method_id": "H10",
+      "kind": "editorial_heuristic",
+      "source_ids": [],
+      "task": "AI漫剧观看节奏与情绪回报",
+      "when": "本剧面向AI漫剧观看，需要开场吸引、持续推进和期待兑现时",
+      "steps": [
+        "从本剧题材和观众确定核心看点及适合的回报类型。",
+        "检查开场看点、中段推进、关键回报及其铺垫，精简无效重复，保留必要蓄势与余波。",
+        "回查人物、规则、因果、伏笔与跨场状态；确认后只在授权转译字段内调整。"
+      ],
+      "check": "看点与回报可感且有依据，节奏加快没有破坏故事连续性；不承诺爆款或未测量的留存率。",
+      "limits": "本库编辑归纳，详见references/audience-rhythm.md；不固定秒数、反转数、打脸套路或视觉风格，不改变既有DOCX与两表Excel交付。"
+    }
   ]
 }

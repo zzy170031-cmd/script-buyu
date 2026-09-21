@@ -50,7 +50,13 @@ class StoryTests(unittest.TestCase):
             validate_story(data)
 
     def test_skill_structure(self):
-        self.assertEqual(validate_skill()["sources"], 3)
+        result = validate_skill()
+        self.assertEqual(result["status"], "structural_checks_passed")
+        library = read_json(ROOT / "data/story-methods.json")
+        sources = {source["source_id"] for source in library["sources"]}
+        referenced = {sid for method in library["methods"] for sid in method["source_ids"]}
+        self.assertTrue(sources)
+        self.assertEqual(sources, referenced)
 
     def test_valid_contract(self):
         validate_story(story())
