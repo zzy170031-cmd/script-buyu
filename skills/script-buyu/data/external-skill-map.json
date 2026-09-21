@@ -32,7 +32,15 @@
       "source_sha256": "a136e1232a3b2d9996e05df1259d17eb370720f4ac4532387de2c10b02ed6aa4",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-american-case-studies.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        150,
+        153,
+        158,
+        170
+      ]
     },
     {
       "skill": "sw-character-conflict",
@@ -40,7 +48,14 @@
       "source_sha256": "eec1ede6394ae995137e819d33775df5598851aed03734d45e02693f5fcfedaf",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-character-conflict.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        148,
+        151,
+        153
+      ]
     },
     {
       "skill": "sw-chinese-opera-banqiang",
@@ -80,7 +95,14 @@
       "source_sha256": "2bd4a2a1286801070d7d09667b8dc6e029090b7f1ee96bfab9e66a370b9bc753",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-chinese-series-practice.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        244,
+        251,
+        253
+      ]
     },
     {
       "skill": "sw-dialogue",
@@ -88,7 +110,14 @@
       "source_sha256": "c9f93e9d78dd137b1e8617289df947e54996ce82dad5db8f0f1936264ef95299",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-dialogue.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        137,
+        144,
+        147
+      ]
     },
     {
       "skill": "sw-format-adaptation",
@@ -96,7 +125,14 @@
       "source_sha256": "8e5b3459cb6adab0da67284b5200ef58e8c447d516e1cc1bab37852e7ffe8911",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-format-adaptation.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        189,
+        192,
+        208
+      ]
     },
     {
       "skill": "sw-genre-anatomy",
@@ -104,7 +140,14 @@
       "source_sha256": "3893251ad8d7c3afdd12575a7033e120fc932b1f8227675ac516d165034708af",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-genre-anatomy.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        345,
+        347,
+        350
+      ]
     },
     {
       "skill": "sw-industry-business",
@@ -120,7 +163,13 @@
       "source_sha256": "5a1ac0e976010308f02551de33c143048c403e403040c4af1f7fec83758b9726",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-japanese-screenwriting.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        120,
+        124
+      ]
     },
     {
       "skill": "sw-korean-french-screenwriting",
@@ -128,7 +177,14 @@
       "source_sha256": "6065e8df1603a454d5516bb4e5bda2234c6cfc110847161d3736cfc4b22aa0b2",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-korean-french-screenwriting.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        129,
+        139,
+        143
+      ]
     },
     {
       "skill": "sw-premise-theme",
@@ -136,7 +192,14 @@
       "source_sha256": "1a715602130e43a14da78f700d4af757e856e4bd1466ae3d23ee7c91473259c5",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-premise-theme.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        125,
+        126,
+        128
+      ]
     },
     {
       "skill": "sw-scene-craft",
@@ -144,7 +207,15 @@
       "source_sha256": "8e17bd548c7b27e7c88d8bceb498cf7d61e545d567085efecb1e4818f4e0e902",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-scene-craft.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        119,
+        123,
+        126,
+        128
+      ]
     },
     {
       "skill": "sw-series-case-studies",
@@ -152,7 +223,14 @@
       "source_sha256": "d89f656ca8a243bb7c17bcad7f3d966da6006fa0f6b8d4a17caf572fd2030bc3",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-series-case-studies.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        273,
+        280,
+        286
+      ]
     },
     {
       "skill": "sw-series-engine-bible",
@@ -160,7 +238,14 @@
       "source_sha256": "52428d6fb67f5a3fc87d99f4e0e5178709f5f6d81d5eb90779d29283305ab679",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-series-engine-bible.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        252,
+        252,
+        258
+      ]
     },
     {
       "skill": "sw-series-structure",
@@ -168,7 +253,14 @@
       "source_sha256": "31303baba5cdc36931b42cac9b7ddc346e10c970596122c31b92b98227ef2cbf",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-series-structure.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        257,
+        261,
+        262
+      ]
     },
     {
       "skill": "sw-sitcom-comedy",
@@ -176,7 +268,14 @@
       "source_sha256": "d3e4c1f6cdb604e2f0b92d8797530306fea0b5033db8f891f565cb5cc6e6db6b",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-sitcom-comedy.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        252,
+        257,
+        257
+      ]
     },
     {
       "skill": "sw-story-structure",
@@ -184,7 +283,13 @@
       "source_sha256": "342aeeabd58cd40446d46673ca7ca8b7fadc38fe0ed8de518469ef8e87faa64a",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-story-structure.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        214,
+        218
+      ]
     },
     {
       "skill": "sw-truby-anatomy",
@@ -192,7 +297,15 @@
       "source_sha256": "e057bdd7ffc34e070b9ec3906b9563b3a2fac7c421e5d7ca2b600e799b58c102",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-truby-anatomy.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        158,
+        161,
+        163,
+        166
+      ]
     },
     {
       "skill": "sw-workflow",
@@ -200,7 +313,13 @@
       "source_sha256": "1e51911c81123196dfcfe4a4a5712d09483745f626a75c832bda2188c53e24d8",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-workflow.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        228,
+        229
+      ]
     },
     {
       "skill": "sw-writers-room",
@@ -208,7 +327,14 @@
       "source_sha256": "4c9e6a563740698cd616582a8ec87ce6e038184ed3641e8734e86121e87944a9",
       "disposition": "method_adaptation",
       "target": "references/external-screenwriting.md",
-      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程"
+      "reason": "只保留通用剧本创作决策，不复制书籍/剧本引文及执行流程",
+      "local_source_excerpt": "references/source-archive/external/selected-skills/sw-writers-room.md",
+      "local_source_excerpt_scope": "Selected original workflow/checklist/index items only; passive evidence, active adaptation remains target.",
+      "source_excerpt_lines": [
+        202,
+        202,
+        202
+      ]
     }
   ],
   "other_candidates": [
@@ -220,5 +346,6 @@
       "url": "https://github.com/0xhughs/director-skills",
       "disposition": "link_only_broader_production_scope"
     }
-  ]
+  ],
+  "local_original_excerpt_count": 18
 }

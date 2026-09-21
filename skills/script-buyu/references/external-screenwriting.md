@@ -2,6 +2,8 @@
 
 本页是 `script-buyu` 的归纳适配，不是原书摘录或原 skill 的逐字复制。主要检索来源为 [screenwriting-skills](https://github.com/jtydhr88/screenwriting-skills)，固定版本与模块取舍见 [external-skill-map](../data/external-skill-map.json)。作者的原创工作流以 MIT 提供；[许可](../references/source-archive/external/LICENSE) 与 [版权说明](../references/source-archive/external/NOTICE) 同包保留。该许可不覆盖上游引用的书籍、剧本和译文。
 
+相关原始内容已另行复制到本Skill的 [18个模块节选文件](source-archive/external/selected-skills/)，共54项原始写作检查、工作步骤或分析索引。需要核对某模块时，从映射中的`local_source_excerpt`读取其本地正文及原行号；不需要原Skill安装目录。节选保留原话供核对，执行采用本页适配及本剧约束，不把源条目中的人物、结构或表达偏好变成通用硬规则。
+
 外部模块是可选方法，不因被收录就全部生效。不声称已核对其所引所有书籍，也不把作者自述当成专家资质或本稿质量证据。原作者/原作仅用于准确归属方法，不能据此假称真人参与。
 
 ## 从创意到可写的故事

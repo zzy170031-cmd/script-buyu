@@ -1,8 +1,8 @@
 {
   "date": "2026-09-21",
-  "baseline": "0210cca490eeb158fbd5874b07f7a79ce8cb5f2c",
-  "scope": "Packaging and documentation only; prior J10 reviewed methods and workflow unchanged.",
-  "standalone_copy": "E:\\skill类\\work\\script-buyu-standalone-rs1td3l8\\script-buyu",
+  "baseline": "93c8cdd0f712a19651d2225c63cac4ad52666d9d",
+  "scope": "Bundled selected original source excerpts and documentation; active writing and visual workflow unchanged.",
+  "standalone_copy": "E:\\skill类\\work\\script-buyu-standalone-ghx8u0xy\\script-buyu",
   "copy_contains_only": "skills/script-buyu; no Hope project checkout or outer repository docs copied",
   "source_snapshots": {
     "hope-kb": "7212eb6168fce040f593e5629e8a9275b9f358f4",
@@ -15,7 +15,7 @@
   },
   "knowledge": {
     "status": "integrity_and_pointers_passed",
-    "archive_files": 127,
+    "archive_files": 145,
     "index_records": 326,
     "categories": {
       "golden": 152,
@@ -28,7 +28,7 @@
   "unit_tests_passed": true,
   "official_skill_validation": "Skill is valid!",
   "structure_status": "structural_checks_passed",
-  "relative_active_reference_links_checked": 85,
+  "relative_active_reference_links_checked": 87,
   "relative_active_reference_links_outside_skill": 0,
   "smoke": {
     "golden": {
@@ -65,5 +65,13 @@
     "errors": [],
     "verified": true
   },
-  "external_screenwriting_local_adaptations": 18
+  "external_screenwriting_local_adaptations": 18,
+  "external_screenwriting_original_excerpt_modules": 18,
+  "external_screenwriting_original_excerpt_items": 54,
+  "image_prompt_full_text_readback": {
+    "id": 10075,
+    "characters": 2933,
+    "full_content": true,
+    "data_file": "data/image-prompts/profile-avatar.json"
+  }
 }

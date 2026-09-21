@@ -8,10 +8,10 @@
 | --- | --- | --- |
 | hope-kb，内容分支codex/contracts-freeze | 7212eb6168fce040f593e5629e8a9275b9f358f4 | [114个归档文件](source-archive/hope-kb/) |
 | hope-web-pwa | a875b02449b1f1dba0209ba7274def91feccb225 | [11个归档文件](source-archive/hope-web-pwa/) |
-| jtydhr88/screenwriting-skills | 50825325b3940a17f032129851f5c83382863000 | [18模块的中文写作适配正文](external-screenwriting.md)、[逐模块映射](../data/external-skill-map.json)、[LICENSE](source-archive/external/LICENSE)与[NOTICE](source-archive/external/NOTICE) |
+| jtydhr88/screenwriting-skills | 50825325b3940a17f032129851f5c83382863000 | [18模块的原始步骤节选](source-archive/external/selected-skills/)共54项、[中文写作适配正文](external-screenwriting.md)、[逐模块映射](../data/external-skill-map.json)、[LICENSE](source-archive/external/LICENSE)与[NOTICE](source-archive/external/NOTICE) |
 | YouMind-OpenLab/ai-image-prompts-skill | f06c94d36a4194f881c2d27063b418ea78a99896 | [图像提示词数据](../data/image-prompts/)、[快照清单](../data/image-prompts/snapshot.json)；11类22,744分类记录，15,127唯一ID及14,831不同提示词全文 |
 
-编剧模块已有可直接阅读使用的本地方法正文，外部URL仅用于核实来源。上游混有出版书籍、剧本和译文摘录；当前内置的是相关写作方法适配，不把未获同等许可的引文全集或跨Skill执行指令整体搬入。图像库保留提示词全文、来源与MIT许可，示例图片仍为链接；人物参考图按本剧需求和确认流程生成，不要求下载上游示例图才能检索提示词。
+编剧模块同时有可直接使用的本地方法适配和54项原始步骤节选，每条节选保留原文字句、行号及源文件校验值。外部URL仅用于核实来源。上游混有出版书籍、剧本和译文摘录；未将引文全集或跨Skill执行指令整体搬入。图像库保留提示词全文、来源与MIT许可，示例图片仍为链接；人物参考图按本剧需求和确认流程生成，不要求下载上游示例图才能检索提示词。
 
 逐文件来源、用途、固定版本和SHA-256见 [来源清单](../data/source-manifest.json)。已包含用于阅读溯源的原始表格/文档、规范化资料、写作与样本说明、PWA相关规则文件；无需到原仓库才能打开索引命中的资料。未收录的应用代码、治理和纯制作资料有取舍记录，不参与当前写作。
 
