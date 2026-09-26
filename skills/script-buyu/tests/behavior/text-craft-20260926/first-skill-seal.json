@@ -1,0 +1,21 @@
+{
+  "base": "a90b9933e6495e7448e6eaa3e72f8684f24c1cdb",
+  "files": {
+    "SKILL.md": "65942535ae56e00eb315183737b452bfad332a443a53a9e12a39cc7440e75fb4",
+    "data/story-methods.json": "94603b7de4e6e1b6437f035159a44a9f79b2e2af136ede128dd38afc58bf3dad",
+    "scripts/query_methods.py": "b0b5ebf2143901fa568091b9e7eb54502ce9a01a05054f7dd4f956dbce1d0c6d",
+    "tests/test_genre_methods.py": "e640a30d5b8297c5ed8626c3207725b9a62110596afe15cc39518cd5246bb3f8",
+    "references/genre-professional-support.md": "4d93335953054068a8a1e33f8206540caf910f97767291d0728da0509e880ac6",
+    "references/text-direction.md": "345703397e55128358279d70304aede2c3d61a5bf57f448ad7f84e0c90e33bd6",
+    "references/text-review.md": "382d68829f37da90198e759c765063115c19a0d55e71c71f2ffb472ee7a0d8e0",
+    "references/ensemble-writing.md": "f9f9993e30bb221b0ae0f3a5ed357dd002e56b5ab2312a649f8a24adf9c58f40",
+    "references/expert-groups.md": "30a4c29461917ac68a550c039a7d04e33bda1a145ce3383f7f6ef080371d6f19",
+    "references/research.md": "d88b488603285d966f7ac793aa59bb9faf0257758ed6f96f5d54891f60e25ec1",
+    "references/workflow.md": "6ef433192fce0a9859e489ff7ee20e49494f3109c9d169aacbaf9eb0751f88b9",
+    "references/dialogue-craft.md": "092eb7909c0876613a85a9e5971093fff44eda437381431214ebd81f25b9ebc5",
+    "references/genre-methods.md": "94be6be95426ef76352fb77a2bc32a752f8906430d87b2fed849dc993425ca90",
+    "references/continuity-evaluation.md": "b5fc6b0aa358ea388a7d9293a7409172207bc49c5a75fd6e4764c36f75cf8251",
+    "references/source-sync.md": "4c24c5f27b685d95dbbc437de5c97b357cd508b351955a04130b5165a172a22c"
+  },
+  "hash_policy": "SHA256 of author-workspace bytes before Git text normalization; identifies this trial, not a cross-platform archive integrity contract."
+}

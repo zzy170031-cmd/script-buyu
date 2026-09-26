@@ -46,6 +46,8 @@ python scripts/query_methods.py --genre 宫斗 --query "关系 选择" --limit 3
 
 draft/authorized_revision允许本轮授权的正文工作。阶段按具体方法内容判定，不能按作者是否导演授予。涉及新动机、故事重排、删改台词的正文构造方法不进入confirmed_translation结果。
 
-仅G006/G020/G024/G025/G028/G031提供独立confirmed_steps；确认后查询用这些步骤替换草稿步骤。新增X卡仅用于draft/authorized_revision；原作分析也无额外改写权限。需要改写时指出具体问题及影响，按当前授权处理。校验器拒绝允许确认后阶段却没有专用步骤的题材方法。
+题材检索中仅G006/G020/G024/G025/G028/G031提供独立confirmed_steps；确认后查询用这些步骤替换草稿步骤。手动选用的D01–D08也提供确认后专用步骤，按 [文本场面组织](text-direction.md) 使用，不因此新增题材检索结果或人数。新增X卡仅用于draft/authorized_revision；原作分析也无额外改写权限。需要改写时指出具体问题及影响，按当前授权处理。校验器对全部声明确认后阶段的卡检查专用步骤，不再只检查题材绑定。
+
+检索无结果时，输出fallback仅提供 [台词核心](dialogue-craft.md)、[专业支持](genre-professional-support.md) 和场景修订的手动入口，不是命中的方法或已核专家。未知题材仍明确报未登记并指向这些入口，不偷偷替换题材或放宽阶段。--list-genres分别报告去重总人数、writer、director和兼任人数；达标口径仍为合计十名且两类都有，不是两类各十名。
 
 DOCX仍含完整人物提示词且不嵌图，少量代表人物示例在文外展示。实际文本与视觉方向确认后，批量人物图进入两表Excel。新增资料不触发全员重画、第三张方法表或视频制作，不引入真人代理或自动多Agent会议。

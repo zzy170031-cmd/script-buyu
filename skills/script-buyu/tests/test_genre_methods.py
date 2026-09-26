@@ -116,6 +116,48 @@ class GenreMethodsTests(unittest.TestCase):
         with self.assertRaisesRegex(ContractError, 'dedicated executable steps'):
             validate_index(self.index, self.library)
 
+    def test_unbound_legacy_director_has_same_stage_gate(self):
+        method = self.method('D03')
+        self.assertTrue(method['confirmed_steps'])
+        self.assertFalse(any('D03' in entry['method_ids']
+                             for genre in self.index['genres'] for entry in genre['entries']))
+        method.pop('confirmed_steps')
+        with self.assertRaisesRegex(ContractError, 'dedicated executable steps'):
+            validate_index(self.index, self.library)
+
+    def test_confirmed_steps_must_be_real_nonempty_list(self):
+        for invalid in ('two characters', ['', ' '], [1, 2]):
+            with self.subTest(invalid=invalid):
+                self.method('D08')['confirmed_steps'] = invalid
+                with self.assertRaisesRegex(ContractError, 'dedicated executable steps'):
+                    validate_index(self.index, self.library)
+
+    def test_role_counts_deduplicate_dual_roles_and_track_isolation(self):
+        before = search(self.index, self.library, '爱情')['coverage']
+        self.assertEqual(before['new_people'], before['writers'] + before['directors'] - before['dual_role_people'])
+        entry = next(e for e in self.romance['entries'] if set(e['roles']) == {'writer', 'director'})
+        entry['availability'] = 'isolated'
+        after = search(self.index, self.library, '爱情')['coverage']
+        for field in ('new_people', 'writers', 'directors', 'dual_role_people'):
+            self.assertEqual(after[field], before[field] - 1)
+
+    def test_empty_lookup_preserves_stage_with_manual_routes(self):
+        for genre in ('爱情', self.index['routes'][0]['route_id']):
+            result = search(self.index, self.library, genre, 'NOMATCH876543', 'confirmed_translation')
+            self.assertEqual(result['results'], [])
+            self.assertEqual(result['stage'], 'confirmed_translation')
+            self.assertEqual(result['fallback']['scope'], 'manual_navigation_not_method_matches')
+            for key in ('dialogue', 'professional_support', 'scene_revision'):
+                self.assertTrue((ROOT / result['fallback'][key]).is_file())
+
+    def test_unknown_topic_stays_explicit_and_has_manual_navigation(self):
+        with self.assertRaises(ContractError) as caught:
+            search(self.index, self.library, 'UNREGISTERED-TOPIC', stage='confirmed_translation')
+        message = str(caught.exception)
+        self.assertIn('unknown genre', message)
+        self.assertIn('UNREGISTERED-TOPIC', message)
+        self.assertIn('references/genre-professional-support.md', message)
+
     def test_planned_and_unknown_genres_do_not_masquerade_as_ready(self):
         next(g for g in self.index['genres'] if g['label'] == '武侠')['status'] = 'planned'
         result = search(self.index, self.library, '武侠')

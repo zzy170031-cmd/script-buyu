@@ -45,6 +45,16 @@ def active(entry, sources, methods):
             and any(method_active(methods[mid], sources) for mid in entry['method_ids']))
 
 
+def fallback_routes():
+    return {
+        'scope': 'manual_navigation_not_method_matches',
+        'dialogue': 'references/dialogue-craft.md',
+        'professional_support': 'references/genre-professional-support.md',
+        'scene_revision': 'references/scene-methods.md',
+        'notice': 'Read only what fits the current problem. Keep the requested stage and story constraints; these links are not retrieved or qualified expert matches.'
+    }
+
+
 def validate_index(index, library):
     sources = source_records(library)
     methods = unique(library['methods'], 'method_id', 'method')
@@ -63,6 +73,15 @@ def validate_index(index, library):
         require(record.get('availability', 'active') in ('active', 'candidate', 'isolated'), 'invalid availability')
     for method in methods.values():
         require(set(method['source_ids']) <= set(sources), 'unknown method evidence source')
+        # Legacy and manually selected cards must obey the same stage boundary.
+        if 'stages' in method:
+            require(method['stages'] and set(method['stages']) <= {'draft', 'authorized_revision', 'confirmed_translation'}, 'missing or invalid stage scope')
+            require(method.get('field_scope'), 'missing editable field boundary')
+        if 'confirmed_translation' in method.get('stages', []):
+            steps = method.get('confirmed_steps')
+            require(isinstance(steps, list) and len(steps) >= 2
+                    and all(isinstance(step, str) and step.strip() for step in steps),
+                    'confirmed method lacks dedicated executable steps: ' + method['method_id'])
     aliases = {}
     people_names = {}
     for source in sources.values():
@@ -82,6 +101,7 @@ def validate_index(index, library):
         people = set()
         eligible = set()
         roles = set()
+        role_people = {'writer': set(), 'director': set()}
         for entry in genre['entries']:
             require(entry.get('availability', 'active') in ('active', 'candidate', 'isolated'), 'invalid binding availability')
             source = sources.get(entry['source_id'])
@@ -112,15 +132,19 @@ def validate_index(index, library):
                 require(entry['source_id'] in method['source_ids'], 'method is not supported by this source')
                 require(method.get('stages') and set(method['stages']) <= {'draft', 'authorized_revision', 'confirmed_translation'}, 'missing or invalid stage scope')
                 require(method.get('field_scope'), 'missing editable field boundary')
-                if 'confirmed_translation' in method['stages']:
-                    require(len(method.get('confirmed_steps', [])) >= 2 and all(method['confirmed_steps']), 'confirmed method lacks dedicated executable steps')
             people.add(entry['person_id'])
             if active(entry, sources, methods):
                 eligible.add(entry['person_id'])
                 roles.update(entry['roles'])
+                for role in entry['roles']:
+                    role_people[role].add(entry['person_id'])
         complete = len(eligible) >= minimum and roles == {'writer', 'director'}
         status = 'planned' if genre['status'] == 'planned' else ('source_ready' if complete else 'partial')
-        coverage.append({'genre_id': genre['genre_id'], 'label': genre['label'], 'status': status, 'new_people': len(eligible), 'target': minimum})
+        coverage.append({'genre_id': genre['genre_id'], 'label': genre['label'], 'status': status,
+                         'new_people': len(eligible), 'writers': len(role_people['writer']),
+                         'directors': len(role_people['director']),
+                         'dual_role_people': len(role_people['writer'] & role_people['director']),
+                         'target': minimum, 'target_basis': 'combined_unique_people_with_both_disciplines'})
     routes = unique(index.get('routes', []), 'route_id', 'composite route')
     for route in routes.values():
         require(route.get('genre_ids') and len(set(route['genre_ids'])) == len(route['genre_ids'])
@@ -156,12 +180,15 @@ def search(index, library, genre_name, query='', stage='draft', limit=3):
                 break
         return {'kind': 'composite_route', 'route': route['label'], 'scope': route['scope'],
                 'stage': stage, 'guidance': route['guidance'], 'genre_options': route['genre_ids'],
-                'results': results, 'notice': 'These are optional genre paths, not an independent ten-person pool or a requirement to combine all genres. No matches do not relax the requested stage.'}
+                'results': results, 'fallback': fallback_routes() if not results else None,
+                'notice': 'These are optional genre paths, not an independent ten-person pool or a requirement to combine all genres. No matches do not relax the requested stage.'}
     selected = [g for g in index['genres'] if normalized(genre_name) in {normalized(n) for n in [g['genre_id'], g['label']] + g.get('aliases', [])}]
-    require(len(selected) == 1, 'unknown genre: ' + genre_name)
+    require(len(selected) == 1, 'unknown genre: ' + genre_name
+            + '; keep this topic and stage, use references/genre-professional-support.md and references/scene-methods.md for manual research/writing; do not claim registered coverage')
     genre = selected[0]
     if genre['status'] == 'planned':
-        return {'genre': genre['label'], 'status': genre['status'], 'results': [], 'notice': 'Coverage is planned, not ready. General writing can continue; do not claim ten supported new people.'}
+        return {'genre': genre['label'], 'status': genre['status'], 'stage': stage, 'results': [],
+                'fallback': fallback_routes(), 'notice': 'Coverage is planned, not ready. General writing can continue; do not claim ten supported new people.'}
     sources = source_records(library)
     methods = {m['method_id']: m for m in library['methods']}
     words = query.casefold().split()
@@ -199,7 +226,9 @@ def search(index, library, genre_name, query='', stage='draft', limit=3):
         if len(results) >= limit:
             break
     state = next(c for c in coverage if c['genre_id'] == genre['genre_id'])
-    return {'genre': genre['label'], 'coverage': state, 'stage': stage, 'results': results, 'notice': 'Optional public-method adaptations, not real people participating. Search limit is not a writing quota; no matches do not authorize changing stage or genre. Source isolation reduces coverage without disabling independent cards.'}
+    return {'genre': genre['label'], 'coverage': state, 'stage': stage, 'results': results,
+            'fallback': fallback_routes() if not results else None,
+            'notice': 'Optional public-method adaptations, not real people participating. Search limit is not a writing quota; no matches do not authorize changing stage or genre. Source isolation reduces coverage without disabling independent cards.'}
 
 
 def main():

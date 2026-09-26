@@ -10,6 +10,10 @@
 
 **本仓库服务剧本与分镜脚本。** Word人物表第五列仅放完整提示词；少量人物示例在文档外直接展示，不先生成全员。用户可用同条回复确认剧情和视觉方向，不再追加生成许可。合格的同人物示例可复用，其他角色确认后生成。Excel保持七列分镜及第二表人物提示词／图片；范围不扩展到场景批量生图、模型配置或实际视频制作。历史样本只说明格式和质量，不固定风格。
 
+核心评价是文本能否让读者理解行动、相信人物并感受到情绪。[全题材专业支持](skills/script-buyu/references/genre-professional-support.md) 将26类现有作家/导演方法与项目所需的专业研究职责连接；专业意见由唯一主笔/统稿取舍，不能替角色决定剧情。[导演文本操作](skills/script-buyu/references/text-direction.md) 处理空间、动作、声音与知情，[文本试读](skills/script-buyu/references/text-review.md) 核验具体修订，不要求试拍、配音或成片测试。
+
+本次补强及实际文本样本的验证范围见 [文本创作补强与验证](docs/文本创作补强与验证.md)；程序通过、有限试用与长期写作效果分别记录。
+
 用户提供的 [脚本提示词原文](skills/script-buyu/references/script-prompt-original.txt) 完整归档，按 [脚本与Excel交付规则](skills/script-buyu/references/storyboard-excel.md) 使用。保留细致动作、画面及运镜，玄幻、热血、三渲二等按本剧选择；不为“短促”改写已确认台词。剧情确认或视觉确认只完成其一时，不能提前批量人物图或正式Excel。
 
 新增图像提示词资料来自 [YouMind-OpenLab/ai-image-prompts-skill](https://github.com/YouMind-OpenLab/ai-image-prompts-skill)，MIT 许可原文随数据保留。固定快照含11类、22,744条分类记录，实测15,127个唯一ID、14,831条不同提示词全文；上游清单标称15,670，与实测不一致，已记录。数据支持离线按题材检索，示例图片仅保留来源链接；上游脚本、自动同步与交互流程不执行。详见 `skills/script-buyu/references/character-visuals.md` 及 `data/image-prompts/snapshot.json`。
