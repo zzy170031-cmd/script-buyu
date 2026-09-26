@@ -70,6 +70,12 @@ DOCX 需要在可用的文档渲染器中逐页检查；程序结构通过不等
 
 本批DL/SC/EM/WM/WN是按Markdown入口读取的支持资料，未写入旧JSON人物库，数量不与上面的199份来源或人物数相加；query_methods.py不检索本批卡。采用同一统稿职责整合方法，保护知情、决定权、伏笔、语气与情绪余波，已确认台词继续按原文发生位置核对转Excel。接入范围及实际验证见[台词能力接入记录](docs/台词能力接入记录.md)。
 
+## 剧情连续性与版本修订
+
+[剧情状态与恢复](skills/script-buyu/references/continuity-control.md)接入主流程：保存当前源与确认范围，区分故事事实、人物信念、观众信息和未来计划；修改后既追已知依赖，也回读正文查漏，恢复任务时先核新来稿与未结项。内部记录不会进入两份用户交付。
+
+新增只读工具 `compare_story_versions.py` 比较前后结构化剧本，列出同revision内容变化、角色/事实/台词变化和发生顺序；它不判定语义、不自动确认，也不读取Excel。确认后分镜要求源稿与实际XLSX双向对应，并检查动作/画面是否偷偷改变因果与揭示。六份一手资料的已读范围、采用方法与限制见[研究依据](skills/script-buyu/references/continuity-research.md)，行为验证见[评测办法](skills/script-buyu/references/continuity-evaluation.md)。这些措施帮助检查具体错误，不构成无错误保证。本轮接入和实测范围见[补强研究与验证](docs/剧情一致性补强研究与验证.md)。
+
 ## 来源与拆分说明
 
 Hope KB与Hope Web PWA实际使用的内容已复制进本Skill的`references/source-archive/`，分别114和11个文件；版本、逐文件哈希与去向可查 [内置资料说明](skills/script-buyu/references/bundled-sources.md)。只安装`skills/script-buyu`也包含这些资料，写作检索不依赖另外两个项目的位置或服务。
