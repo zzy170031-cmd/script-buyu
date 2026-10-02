@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-02",
+  "baseline_commit": "0270a164f7a0a1abf30a6ef9b82b8bb584dd2e1e",
+  "purpose": "sync adopted Skill updates and preserve paused cross-device continuation",
+  "structural_validation": {
+    "command": "python skills/script-buyu/scripts/validate_skill.py",
+    "observed_status": "structural_checks_passed",
+    "source_records": 199,
+    "methods": 209,
+    "core_genres": 26
+  },
+  "git_diff_check_observed": "exit_0",
+  "local_markdown_links_exist": 107,
+  "example_sections": 14,
+  "portable_tasks_exact_copies": 3,
+  "saved_batch50_manuscript": false,
+  "goal_status": "paused",
+  "files": {
+    "skills/script-buyu/SKILL.md": {
+      "bytes_before_git_normalization": 10075,
+      "sha256_before_git_normalization": "be92b3b73d1198f059f75855939b1e3b81266cee3fb75cd61d129b55923ae049"
+    },
+    "skills/script-buyu/references/dialogue-craft.md": {
+      "bytes_before_git_normalization": 10573,
+      "sha256_before_git_normalization": "ef8381dacb3d92cf77d7a55b7f8c32ccf343841ae2f12a8e81dff2694d1618a7"
+    },
+    "skills/script-buyu/references/dialogue-examples.md": {
+      "bytes_before_git_normalization": 22395,
+      "sha256_before_git_normalization": "b6687fd0f4128809e98fc8b208dce8c4467fa42d207fb1763a3d12a77114b3b0"
+    },
+    "skills/script-buyu/references/expert-groups.md": {
+      "bytes_before_git_normalization": 4490,
+      "sha256_before_git_normalization": "2c27e25d976df71ff8a8b687cc1e1f4d81714f9831ac8b8ef935d6b1bc2e9e31"
+    },
+    "skills/script-buyu/references/scene-methods.md": {
+      "bytes_before_git_normalization": 9674,
+      "sha256_before_git_normalization": "d30c63b26ba96690da666fb94431b16cab5cfc26b2bd10792b541d5661b01f74"
+    },
+    "skills/script-buyu/references/scene-routing.md": {
+      "bytes_before_git_normalization": 2893,
+      "sha256_before_git_normalization": "3e9daa5b4bbf98f9e530f91a884fac5a4ad80b08eef12de60cfe3e14c730ac92"
+    },
+    "skills/script-buyu/references/text-direction.md": {
+      "bytes_before_git_normalization": 4038,
+      "sha256_before_git_normalization": "42a19431b5e0239199bd44020a074a17b88087a4444131f8fcf4398175f7c0bb"
+    },
+    "skills/script-buyu/references/writing-courses.md": {
+      "bytes_before_git_normalization": 13436,
+      "sha256_before_git_normalization": "765e4db86b499dbbe3d08b0b60d4f5247f47266c50074bc42bde052809b61dbe"
+    },
+    "README.md": {
+      "bytes_before_git_normalization": 9684,
+      "sha256_before_git_normalization": "7aafe8e3225bb79bb2192f2326a7620002186b08b01f5ccbf19b61ac93398c50"
+    },
+    "docs/研究暂停与设备接力-20261002.md": {
+      "bytes_before_git_normalization": 6637,
+      "sha256_before_git_normalization": "f8ea4ae60bfda3fbd7c71afcc975bfd216e7977e290b46f5b07c520dc03385c5"
+    },
+    "docs/research-handoff-20261002/开锣以后_原创任务.md": {
+      "bytes_before_git_normalization": 1941,
+      "sha256_before_git_normalization": "4e0675feffd47c8a80a8338de7d6e4b9c8398a3b0ba90799c6b490c51603428c"
+    },
+    "docs/research-handoff-20261002/文学首读任务.md": {
+      "bytes_before_git_normalization": 1330,
+      "sha256_before_git_normalization": "c73ee2fa409ce954900a1c1b54b64a306244196e1dd771239140d9e9f8573f1f"
+    },
+    "docs/research-handoff-20261002/必要条件首读任务.md": {
+      "bytes_before_git_normalization": 1343,
+      "sha256_before_git_normalization": "3850b75aeec000740fc34dd4618f29bd0f45b7795bd84b336db841a407a4d2e3"
+    }
+  },
+  "limits": "Structural and handoff checks only; no new literary test, broad regression, platform outcome or all-genre effect claim. Byte hashes describe this device before Git line-ending normalization."
+}
