@@ -84,12 +84,12 @@
       "url": "https://www.nobelprize.org/prizes/literature/2005/pinter/lecture/",
       "source_type": "公开本人讲述或原始采访（含明确标注的转载）",
       "published_at": "2005-12-07",
-      "accessed_at": "2026-09-21",
-      "locator": "Most of the plays及两部戏的起笔段",
+      "accessed_at": "2026-10-03",
+      "locator": "讲稿开头起笔概述；The Homecoming与Old Times例证；紧接的人物自主性及语言不确定性段落（2026-10-03浏览器树78—91）",
       "evidence_summary": "本人讲述从话语或画面出发，逐步发现人物关系的创作经验。",
-      "read_status": "official_search_relevant_body_read_direct_open_403",
+      "read_status": "official_web_relevant_contiguous_passages_read_pdf_not_verified",
       "confidence": "支持对应方法摘要，不证明通用质量效果",
-      "limitations": "只适用草稿或授权改写；不能推翻已定身份，不能在确认后删改原话；停顿和敌意不是必选。",
+      "limitations": "只适用草稿或授权改写；不能推翻已定身份，不能在确认后删改原话；停顿和敌意不是必选。2005-12-07已核为官方说明中的预录讲稿放映日期；网页首次发布日未独立确认。",
       "origin_id": "origin-86465b0b12abf22d"
     },
     {
@@ -5172,8 +5172,8 @@
       "task": "对白动作",
       "when": "对白冗长或声音趋同时",
       "steps": [
-        "标明说话人当下希望改变什么。",
-        "删掉对方已经知道的重复解释。",
+        "结合人物当下的关注，看整段交流起什么作用；普通回答或陪伴也可成立。",
+        "只试删无实际作用的重复，并比较人物、关系与节奏的得失；无实际收益就保留原稿。",
         "用回应或行动显示效果。"
       ],
       "check": "人物的关系和策略体现在语言里。",
@@ -5424,7 +5424,7 @@
       "steps": [
         "找一个已有生活行为承载关系。",
         "核对人物与物件路线及谁能看到谁。",
-        "安排能读懂行为的构图与机位。"
+        "写清理解行为所需的动作、位置与互见条件。"
       ],
       "check": "调度显出关系而不遮挡必要信息。",
       "limits": "小津式机位是采访者概括，不是本人固定规则；不硬添喝茶或把追逐改慢戏。",
