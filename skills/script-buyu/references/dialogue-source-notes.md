@@ -112,3 +112,15 @@ AI漫剧迁移仅为我方推断：身体、距离、物件与声音可分担表
 - **舒展进入群体活动：《爱乐之城》**。[Mandy Moore编舞解说转录](https://www.vanityfair.com/video/watch/la-la-land-s-choreographer-explains-the-freeway-dance-scene)，复核高速公路开场下车、伸臂、舞步及他人渐次加入段（L67–185）。可为愉悦场面比较从日常姿态进入共同活动的节奏；不因此强加对抗、统一愿望或群舞，不宣称全段一镜到底、实测时长或观众感受。
 
 网页行号仅为当次抽取定位，以文题、小节及上述段落主题回找。这里只保留来源明确支持的事实与限制；已有快乐、共同创造与群体收束例可另看本页相应补记，不据此要求所有作品含快乐、冲突或寓意。实际正文是否需要调整仍按[文本试读](text-review.md)和[场面组织](text-direction.md)取舍；确认后的图像与Excel边界沿用原约定。
+
+
+## 渠道、维持负担与检视的限定文本例证
+
+以下例证供已有知情、承诺、资源与场面组织问题按需选读。用途为我方文本分析，只针对所列稿窗，不是作者通用教学、固定剧情步骤或现实专业规范。
+
+- **私人关系进入机构渠道：《Line of Duty》第一集**。[BBC独立剧本](https://downloads.bbc.co.uk/writersroom/scripts/line-of-duty-episode-1.pdf)，转交稿头为Shooting Script18.08.11、71页，核读定位scene1/39–57／L500–1209。私人求助、渠道要求与实际CID接谈有各自连接；伪造痕迹属于腐败负例，不以完成转介美化。发现的转报不是撞击目击，关于证人/CCTV的否定概括不认证设备故障或所有资料不存在；实际接谈不等于如实完整说明或解决，私人角色的将来补救也不改成警员职责承诺。可按需比较信息来源与行动权限，不要求人物诚实、合规或立即接受机构渠道。 [研究链归档](https://github.com/zzy170031-cmd/script-buyu-research/tree/c71f954aa1101b3e830e9e67de6ad9f4721d0249/cloud-continuation/20261005/group02/successor-20261006/rep-police002-practice01)。
+- **防线的维持与残留用途：《The Boats of the Glen Carrig》**。[William Hope Hodgson小说，Project Gutenberg #10542](https://www.gutenberg.org/cache/epub/10542/pg10542-images.html)，1907作品；核读XIII／L661–718完整章及XII／L626–657有限器材背景。火曾实际退敌，续料不足才改变火堆与岗位；余烬可近身短时退敌，却未恢复整条防线，中央火增强也未消除外围风险。个人守位与后来集体搬运是不同任务安排，返岗后抓踝不能倒写成搬运离岗的后果，前次载线失败的弩也不是已成功救人的系统。只在正文已有维持负担时比较消耗、覆盖与残留作用，不强加所有物件和场面都有资源代价，不认证现实求生策略或未见的死亡。 [研究链归档](https://github.com/zzy170031-cmd/script-buyu-research/blob/ac0c3fb30ea8f01375507e02c95bdfc8a4738241/cloud-continuation/20261005/group03/acceptance02-REP003/acceptance-record.json)。
+- **已有标准与当场检视：《The Aviator》**。[John Logan剧本公开载本](https://assets.scriptslug.com/live/pdf/scripts/the-aviator-2004.pdf?v=1729115007)，164页，核读L933–1040完整H-1机库单元及L803–815前置小场；稿日及与成片的对应未核。前场表达的齐平标准在当场摸过铆钉、提出要求和工程师反应中显露；助手前场记下不自动授予后场他人知情，返回团队也不等于同意、修复或性能认证，另一交涉未认证成交。可按需让旧标准由已有表达、旧物或动作进入现在的具体选择；标准可以偏执或受挑战，不必每场交代前史，不把物质判断成立变成控制他人的资格，也不把局部处理等同于永久解决。 [研究链归档](https://github.com/zzy170031-cmd/script-buyu-research/blob/e1b766da3d4e4d9b56287896bd2d3b2bf5f1b91b/cloud-continuation/20261005/group05/batch51/REP005-parent-transmitted-full-review.md)。
+- **互许的后续用途与部分知情接收：《Le Jeu de l’amour et du hasard》**。[Marivaux戏剧Wikisource转写](https://fr.wikisource.org/wiki/Le_Jeu_de_l%E2%80%99amour_et_du_hasard/Texte_entier)，页标Nelson1915；独核I.8–III.7／L757–2715及I.2–4设定，未认证全三幕、书影或演出。I.8已有婚姻话语；II.5针对身份疑虑的互许在III.6揭露身份后被明确援引为继续接纳的依据，面貌等共同理由仍保留，不倒推吻手或身体兴奋首次产生婚愿。III.7向只知男方伪装的主人报告后，同一婚事被按误认与责任重新解释；美化转述不等于原对白，接收者无需全知或解释正确。可按需看既有许诺在条件变化后怎样被实际调用，不要求每场有伪装、婚约或重框，不把个人承诺直接变成许可或已兑现结果。 [研究链归档](https://github.com/zzy170031-cmd/script-buyu-research/blob/30af30016c14c1f7a00202b1a797a4f5082d7047/cloud-continuation/20261005/group06/batch67-Marivaux-acceptance/acceptance-record.json)。
+
+上述行号是原核读抽取定位，不是成片时码或全作品阅读；本次整理依据已归档研究与复核材料，未重新打开原PDF、网页或影片。实际写作仍按[连续性](continuity-control.md)、[场面组织](text-direction.md)与[文本试读](text-review.md)判断是否需要调整。
