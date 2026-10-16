@@ -65,7 +65,25 @@
 
 ## 如何使用
 
-将本仓库的`skills/script-buyu`完整目录安装到宿主支持的Skill位置，或使用可用的Skill安装器。仅克隆仓库不会自动全局安装。
+在支持 Codex Skill 的宿主中，把下面这句话交给 Codex：
+
+```text
+使用 $skill-installer 安装 https://github.com/zzy170031-cmd/script-buyu/tree/main/skills/script-buyu
+```
+
+安装器会从 GitHub 下载完整的 `skills/script-buyu` 目录。安装后在下一轮对话使用 `$script-buyu`，例如：
+
+```text
+使用 $script-buyu，把这个故事梗概扩写成完整剧本，先交付含人物提示词的 DOCX。
+```
+
+[Skill 安装入口](https://github.com/zzy170031-cmd/script-buyu/tree/main/skills/script-buyu) · [整个仓库 ZIP](https://github.com/zzy170031-cmd/script-buyu/archive/refs/heads/main.zip)
+
+其他支持 Skill 的宿主可从 ZIP 中安装完整 `skills/script-buyu` 文件夹，不能只取 `SKILL.md`。若已经安装同名版本，先让宿主备份旧版，再按宿主的更新方式替换；Codex 的安装器遇到已有目录会停止，不自动覆盖。
+
+写作资料与检索脚本已随 Skill 打包，普通使用无需维护者电脑、私有研究仓库或其他来源 Skill。DOCX 导出及严格回读需要宿主可用的 Python 3.10+ 与 `python-docx`（见 [requirements](skills/script-buyu/requirements.txt)）；缺少该依赖不影响阅读方法资料。联网查询、人物生图、XLSX 写入及视觉检查使用宿主提供的工具。宿主若缺少某项能力，执行者应保留已完成内容并说明缺口，不得声称已交付。此 Skill 由宿主中的 Agent 执行，不是独立应用程序。
+
+本次同步包含按写作问题发现案例的入口、对白与接收关系的取舍、续写/改编范围以及交付文件身份检查。案例摘要可离线使用；私人试稿、原作全文及研究缓存不随本次更新发布。程序校验通过不代表所有题材的文学质量或成片效果已经验证。
 
 > 使用 $script-buyu。根据我的想法写完整分集剧本，按故事选择题材、结构和语言。DOCX保留人物提示词，不嵌图；文外先展示少量代表人物示例。
 

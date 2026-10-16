@@ -14,6 +14,7 @@ from docx.text.paragraph import Paragraph
 
 from docx_io import package, visible_text, W
 from story_contract import ContractError, digest, require, validate_story, write_bytes_new
+from artifact_identity import PREFIX, story_purpose, receipt_path, write_receipt, artifact_purpose as source_purpose
 
 MARKER = "script-buyu/screenplay/1.0"
 META = [("project_id", "项目编号"), ("genre", "类型"), ("domain", "故事背景"),
@@ -97,8 +98,12 @@ def _bookmark(paragraph, identifier, serial):
     paragraph._p.append(end)
 
 
-def create_docx(story, output):
+def create_docx(story, output, artifact_purpose="auto", source=None):
     validate_story(story)
+    purpose = story_purpose(story,inherited=source_purpose(source) if source else "unknown",declared=artifact_purpose)
+    if Path(output).exists():
+        raise FileExistsError(str(output))
+    require(not receipt_path(output).exists(), "identity sidecar already exists; use a new output path")
     doc = Document()
     _style(doc)
     doc.core_properties.identifier = MARKER
@@ -106,6 +111,7 @@ def create_docx(story, output):
     doc.core_properties.author = ""
     doc.core_properties.last_modified_by = ""
     doc.core_properties.comments = ""
+    doc.core_properties.category = PREFIX + purpose
     doc.add_paragraph(story["project"]["title"], "Title")
     doc.add_paragraph("故事剧本供内容确认，确认范围为人物、情节、对白与分集安排。", "Subtitle")
     rows = [["项目资料", "内容"], ["版本", story["revision"]], ["状态", "待用户确认"]]
@@ -143,6 +149,7 @@ def create_docx(story, output):
     doc.save(data)
     require(digest(extract_docx(data)) == digest(story), "DOCX round trip changed story data")
     write_bytes_new(output, data.getvalue())
+    write_receipt(output,purpose,source=source,story=story)
 
 
 def _check_supported(parts):

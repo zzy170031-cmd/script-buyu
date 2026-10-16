@@ -40,9 +40,15 @@
 
 **案例分析**（sw-american-case-studies、sw-series-case-studies）：只提取需要验证的结构问题，例如铺垫何时足够、揭示如何改变判断、一次让步如何改变关系。记录适用条件和不适用之处，避免以成功作品名气替代本稿检查。不复制出版剧本全文及其译文。
 
-**格式与改编**（sw-format-adaptation）：先遵守用户所选交付格式，区分事件、动作、对白、旁白和必要声音。故事稿不自动增加摄影参数或制作任务。若改媒介，检查叙述信息是否需要转为动作、对白或必要旁白，不直接套“一页等于一分钟”。
+**格式与改编**（sw-format-adaptation）：先遵守用户所选交付格式，区分事件、动作、对白、旁白和必要声音。故事稿不自动增加摄影参数或制作任务。若改媒介，先识别原作片段在做什么，再决定保留、删除、合并、重排或新写如何承接本轮要保留的体验、关系、信息与因果；不是逐句换成动作。同一功能可由不同表达承担，小说心理也可按本作约定保留为旁白/叙述；不能暗加前史替代缺失功能。实际重组只在现有工作记录中保留必要对应，不给每次格式整理增加表格。文本成立、剧本可读与视听实现是不同证据；未有相应声画，不据设想断言某段已可删除，也不直接套“一页等于一分钟”。相关个人实践边界见 [改编补充来源](academic-methods.md#连续创作改编与专项问题的补充范围)。
 
 **跨轮工作状态**（sw-workflow）：现在由主 [workflow](workflow.md) 接入 [剧情状态与恢复](continuity-control.md)，不再依赖是否选用本外部方法页。长项目在工作记录保存当前版本、锁定事实、已完成集场、未解决问题和下一步；恢复时先读当前可见稿及用户新修改。工作状态不得替用户确认作品，也不得触发图像、视频或发布流程。
+
+## 参考实现的阶段与版本边界
+
+另对照chatfire-AI/huobao-drama固定提交26de7df59806588e98e103a21bd0bfd26d4a55a6的 [改写Skill](https://github.com/chatfire-AI/huobao-drama/blob/26de7df59806588e98e103a21bd0bfd26d4a55a6/backend/workspace/skills/script-rewriter/SKILL.md)、[脚本工具](https://github.com/chatfire-AI/huobao-drama/blob/26de7df59806588e98e103a21bd0bfd26d4a55a6/backend/src/agents/tools/script-tools.ts)及 [提取Skill](https://github.com/chatfire-AI/huobao-drama/blob/26de7df59806588e98e103a21bd0bfd26d4a55a6/backend/workspace/skills/extractor/SKILL.md)。这里只自主表达阶段分工与版本辨识的抽象经验，不导入提示词或代码，不安装该项目；其 [LICENSE](https://github.com/chatfire-AI/huobao-drama/blob/26de7df59806588e98e103a21bd0bfd26d4a55a6/LICENSE)标为CC BY-NC-SA 4.0，与上文本库另一来源的MIT声明分开。
+
+参考实现的读取字段优先级不等于本项目当前稿权威；格式指令、完整写作和保存各有作用，不能把格式变化当扩写、把存档当成稿验收。复用已有对象也须核身份。该项目的固定场景/镜头秒数、逐场情绪转折、心理统一外化、图片成本限制及近名去重不能变成本库默认规则。实际执行仍按 [本轮任务与最新稿](workflow.md)及 [必要状态](continuity-control.md)。
 
 ## 用法记录
 

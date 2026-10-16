@@ -8,6 +8,8 @@ from urllib.parse import urlparse
 
 from story_contract import ROOT, ContractError, read_json, require, unique
 
+SCOPE_NOTICE = 'Only data/genre-index.json and data/story-methods.json are searched. Markdown choice cases and private research are outside this index; no matches do not mean no relevant resource. For a concrete writing problem, use references/knowledge-library.md; follow the relevant passage, not the whole library.'
+
 
 def normalized(text):
     return re.sub(r'\s+', '', unicodedata.normalize('NFKC', text).casefold())
@@ -232,7 +234,7 @@ def search(index, library, genre_name, query='', stage='draft', limit=3):
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(description=__doc__, epilog=SCOPE_NOTICE)
     parser.add_argument('--genre')
     parser.add_argument('--query', default='')
     parser.add_argument('--stage', choices=['draft', 'authorized_revision', 'confirmed_translation'], default='draft')
@@ -250,6 +252,8 @@ def main():
                   if args.list_genres else search(index, library, args.genre, args.query, args.stage, args.limit))
     except (ContractError, KeyError, OSError, ValueError) as exc:
         parser.error(str(exc))
+    if isinstance(result, dict):
+        result['scope_notice'] = SCOPE_NOTICE
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
