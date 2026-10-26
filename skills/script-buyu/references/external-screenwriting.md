@@ -50,6 +50,20 @@
 
 参考实现的读取字段优先级不等于本项目当前稿权威；格式指令、完整写作和保存各有作用，不能把格式变化当扩写、把存档当成稿验收。复用已有对象也须核身份。该项目的固定场景/镜头秒数、逐场情绪转折、心理统一外化、图片成本限制及近名去重不能变成本库默认规则。实际执行仍按 [本轮任务与最新稿](workflow.md)及 [必要状态](continuity-control.md)。
 
+## 本轮融合的来源与落点
+
+2026-10-25复核下列固定版本的技能入口相关段落，仅借鉴操作思路，以本库原创中文融入既有章节；不复制书籍、剧本或附录，不执行来源命令。此前归档和 `external-skill-map` 的旧版本不因此改成新版本；本次不是整包同步，也不新增方法卡或检索记录。
+
+| 固定来源与实读范围 | 本库落点与取舍 |
+| --- | --- |
+| [sw-scene-craft](https://github.com/jtydhr88/screenwriting-skills/blob/51115f18d160aa8b2ac5813e4432b6f0b425358f/plugins/screenwriting/skills/sw-scene-craft/SKILL.md)：“道具要精”“场景要当”及诊断边界 | [空间、行动与选择](text-direction.md#空间行动与选择)补接近、接手与行动成本的原创例；不采纳逐场翻转、场地不可替换或道具必须象征。 |
+| [sw-writers-room](https://github.com/jtydhr88/screenwriting-skills/blob/51115f18d160aa8b2ac5813e4432b6f0b425358f/plugins/screenwriting/skills/sw-writers-room/SKILL.md)：“接 note 与给 note”及改动所得与代价 | [按症状修订](text-review.md#按症状选择修订尺度)补问题与解法的区分、好场位置；[文本取舍](text-review.md#先看文本发生了什么)允许有代价的审美选择，保护硬约束。 |
+| [em-script-trim](https://github.com/adoria111/emma-screenwriting-skills/blob/919292cabf7b5b3ebd1027c72f1d0b711a16c189/skills/em-script-trim/SKILL.md)：试删、合并依赖与边界 | [试删与合稿](text-review.md#按症状选择修订尺度)要求读实际接合正文、指认最终保留位置，复用连续性流程；无新事实不自动删。 |
+| [narrative-to-screen-reader](https://github.com/zhlmi/narrative-to-screen-reader/blob/35398e9072ee38d0b959149ef92a8d54c3159e94/SKILL.md)：原文证据、事实与推断、已定框架跳过询问 | [改编输入](workflow.md#先确定需要写什么)与[当前稿](workflow.md#写作与修订)沿用已定群像和批准差分；不导入强制诊断、暂停或读本高于源稿的权威顺序。 |
+| [sw-japanese-screenwriting](https://github.com/jtydhr88/screenwriting-skills/blob/51115f18d160aa8b2ac5813e4432b6f0b425358f/plugins/screenwriting/skills/sw-japanese-screenwriting/SKILL.md)：“两派方法”“素材与构想”及连接代价 | [经历怎样呈现](scene-methods.md#构思时选择这段经历怎样呈现)补片段起稿与回到完整正文的时机；不移植篇幅配额或无限收集。 |
+
+收益损失比较、依赖回读、群像及观察路线此前已有，本次只是细化判断与反例。来源能提供启发，不证明稳定改善文学质量；原创构造例的文字检查也不等于独立读者验证。
+
 ## 用法记录
 
 每次采用一项方法，内部保留“当前问题 → 方法 → 改动的集/场 → 读回结果”。如果它不能改变写作决策或指出具体问题，就不必加载。对同一场通常选择最相关的两三项；不要把全库拼成每场必须满足的检查清单。

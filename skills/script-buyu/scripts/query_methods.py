@@ -7,8 +7,9 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from story_contract import ROOT, ContractError, read_json, require, unique
+from writing_routes import resource_routes
 
-SCOPE_NOTICE = 'Only data/genre-index.json and data/story-methods.json are searched. Markdown choice cases and private research are outside this index; no matches do not mean no relevant resource. For a concrete writing problem, use references/knowledge-library.md; follow the relevant passage, not the whole library.'
+SCOPE_NOTICE = 'Only data/genre-index.json and data/story-methods.json are searched. Markdown choice cases and private research are outside this index; no matches do not mean no relevant resource. For a concrete writing problem, use references/knowledge-library.md; follow the relevant passage, not the whole library. Recognized problem phrases may add resource_routes as navigation only; those passages have not been searched or read.'
 
 
 def normalized(text):
@@ -254,6 +255,9 @@ def main():
         parser.error(str(exc))
     if isinstance(result, dict):
         result['scope_notice'] = SCOPE_NOTICE
+        routes = resource_routes(args.query)
+        if routes:
+            result['resource_routes'] = routes
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
