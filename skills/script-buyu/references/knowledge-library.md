@@ -10,7 +10,7 @@
 
 两个CLI识别上述部分同义问法时，会另给`resource_routes`：显示触发的词、建议章节及有条件的案例位置，不改原知识/人物方法命中与状态筛选。建议只按显式词语匹配，不是语义诊断、正文已读回执或必须加载的清单。完整研究语境对照复用本页下方的[解释/接话](writing-choice-cases.md#长解释和没接住话各在写什么)与[叙述选择](writing-choice-cases.md#展开概述和评论由谁承担)；归属问题只有涉及叙述/转述层次时才需后者，普通说话标记可直接修。
 
-先明确用户要创作、忠实改写、局部修订还是诊断。`query_knowledge.py` 只搜 Hope 的 golden/craft/wiki，`query_methods.py` 只搜现有 genre-index/story-methods；它们不检索下方三个 Markdown 案例页，也不检索研究区的八组整理、理论补充、试稿或审计答复。手动案例用相对链接查读；CLI 零命中不表示没有相关案例，手动查读也不假报 CLI 命中。通常先取当前问题最相关的资料，不足再扩展。不能只凭标题或截断的搜索片段说已经读完原件。
+先明确用户要创作、忠实改写、局部修订还是诊断。`query_knowledge.py` 只搜 Hope 的 golden/craft/wiki，`query_methods.py` 只搜现有 genre-index/story-methods；它们不检索下方 Markdown 案例页或[创作知识导航](writing-knowledge-map.md)，也不检索研究区的八组原始整理、理论补充、试稿或审计答复。手动案例用相对链接查读；CLI 零命中不表示没有相关案例，手动查读也不假报 CLI 命中。通常先取当前问题最相关的资料，不足再扩展。不能只凭标题或截断的搜索片段说已经读完原件。
 
 ```text
 python scripts/query_knowledge.py --query "人物 弧线" --limit 3
@@ -31,6 +31,8 @@ python scripts/query_knowledge.py --id 条目ID
 - 本稿恰有职业改向/合作去留的交流，可按[拉片查读](scene-study-library.md#查读)选择analysis、MB001，比较反对本次方案与不愿继续重复职业的区别；其继承范围仅Taubin评论L39–43，无实看/听音。CLI只有同时出现相应问题词与职业合作条件时才提示该窄例。scene-study的1049条catalog、20条curated_analysis、697个sources及57条status_only分别是目录、精选分析、出处和状态；均不等于275部完整阅读成果，status_only不进入该正向提示。
 - 黄金样本：先区分来源状态和样本用途，再提取方法，见下文。
 - 来源核查或同步维护：读 [同步与来源](source-sync.md)，不要把维护步骤混入普通写作。
+
+想从跨题材经验选一项创作方法时，读[创作知识导航](writing-knowledge-map.md)：对应正文已随包提供，含适用条件、反例风险与效果未证边界；不需要取得研究原件。它与下表互补，不是第二套检查表。
 
 ## 具体写作取舍的手动入口
 
