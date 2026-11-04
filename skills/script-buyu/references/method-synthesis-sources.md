@@ -12,6 +12,8 @@
 - **观看与劳动的跨媒介参照**：[Lucrecia Martel，Film Comment访谈](https://www.filmcomment.com/article/shadow-of-a-doubt-lucrecia-martel-interviewed/)，既有读取浅焦、无人物主观镜头和摄影机位置的连续问答，未看片或剧本；[Kelly Reichardt，BFI 2021访谈](https://www.bfi.org.uk/sight-and-sound/interviews/kelly-reichardt-first-cow)，既有读取开场驳船、Peter Hutton影响和演员劳动段。采访者的描述不充当导演原话，观看时间不能直接换算成文字行数。
 - **描写节奏与声画条件**：[Le Guin，A Writing Lesson](https://lithub.com/a-writing-lesson-from-ursula-k-leguin/)，既有读取第一章授权选文、四个片段及评论／练习，非全书，英语声音经验不直接证明中文韵律；[Hitchcock，My Own Methods](https://www.bfi.org.uk/sight-and-sound/features/alfred-hitchcock-my-own-methods)，既有读取1937年文章，含餐刀场注意与距离组织；[Adrian Lyne，DGA Fatal Attraction分析](https://www.dga.org/craft/dgaq/issues/1001-spring-2010/shot-remember-fatal-attraction)，既有读取逐拍口述，非整片观看。具体声画选择不能变成每场必需的镜头或惊悚模板。
 
+- **人物关系与背景**：[洪治纲《论小说叙事中的“背景”》](https://image.chinawriter.com.cn/n1/2024/1022/c404030-40344380.html)，中国作家网2024-10-22转载，来源《长江文艺·好小说》。2026-11-04核读公开节选的导言及“一”“二”；页面注明全文见原刊2024年第10期，原刊全文未读。作者讨论的背景不限于景物，也包括人际关系和历史文化参照，未将人与背景的关系都视为对抗。可结合已有[人物和对立](story-craft.md#人物和对立)及[个人局部经验](genre-choice-cases.md#从个人局部经验写历史战争与公共任务)理解。此处只补评论者的理论视角；文中举例原作未另行核读，不据此要求每人多重身份、每场伦理冲突或省略必要说明，也不证明生成效果。
+
 八组既有作品归纳继续通过[叙述案例](writing-choice-cases.md)、[题材案例](genre-choice-cases.md)和[删句摘要](revision-choice-example.md)使用；各页保留版本、有限阅读范围与迁移边界。本次没有把书目覆盖数当成新完成的全文阅读量，也没有把分支数量当成八套必用写法。只见搜索选段、权限未取得的全文，以及未核的来源，不提升为完整理论依据；本次未采用仅有搜索选段的Morrison讲演作新增论据。
 
 ## 中文戏剧文学与文本声音的补充来源
