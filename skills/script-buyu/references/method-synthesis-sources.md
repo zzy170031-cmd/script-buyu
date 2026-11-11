@@ -34,6 +34,13 @@
 
 这组研究可与既有[情境与接收方法](dialogue-situation-methods.md)参照：问法的作用要结合所处情境和参与者的接续理解，接续也可能显示误会。形式和语料频次不作正文句型或应答配额；本库尚未用这组研究单独检验小说或剧本效果。
 
+### 开源写作方法的选择性参照（2026-11-11）
+
+本轮固定审读 [Oh Story 的14个Skill](https://github.com/zenstory-ai/oh-story-claudecode/tree/41d28fcde00bc60956f9fa432a569478c43a217e/skills)，实际覆盖435随包路径，重复副本按相同内容核对；源码只静态阅读，没有安装或执行。其[叙述重心](https://github.com/zenstory-ai/oh-story-claudecode/blob/41d28fcde00bc60956f9fa432a569478c43a217e/skills/story-deslop/references/narrative-focus.md)对判断过程、枝节与详略的比较，以及[阶段答案](https://github.com/zenstory-ai/oh-story-claudecode/blob/41d28fcde00bc60956f9fa432a569478c43a217e/skills/story-short-write/references/short-reversal.md)的安排，可与既有[叙述取舍](story-craft.md#选择叙述的信息声音与距离)、[接收与身体](dialogue-situation-methods.md)、[后来重释](writing-choice-cases.md#后来的解释保留当时的真实经历)对照。关键处可以展开估计或顾虑，人物也可以暂不自知；办事合作仍按实际接受的范围理解，不自动推成原谅。
+
+结合本地正向样本提出的组合卡，已作六题十二份中文首稿比较。两位作者分别固定一条件，版本与作者/上下文混杂；审阅同属宿主模型，一位读者另有研究方向和部分回执泄露。具体位置的意见包含仅用现行Skill的稿较好、加卡稿局部有所得及各有所长，没有足以支持新增通用指令的证据。本轮仅纳入来源对照，继续沿已有方法取舍，不添加卡片、常驻角色、固定情绪或词形清零要求；这不是认定现有方法已解决全部输出问题。私人稿与完整试验材料保留本地，普通使用不依赖它们。
+
+
 ## 有限验证能说明什么
 
 2026-10-26的单次新旧对照含四题、八篇首稿：多人工作场景、双处删改依赖、有限视角与改编授权、碎片补写。没有一致的新版质量优势。两版都能保留必要因果告知，双处删改题的最终三段正文完全一致；这些结果支持继续检查实际剩余正文，不能证明新版稳定优胜。
