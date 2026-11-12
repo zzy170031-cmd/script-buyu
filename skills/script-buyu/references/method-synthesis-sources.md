@@ -34,6 +34,15 @@
 
 这组研究可与既有[情境与接收方法](dialogue-situation-methods.md)参照：问法的作用要结合所处情境和参与者的接续理解，接续也可能显示误会。形式和语料频次不作正文句型或应答配额；本库尚未用这组研究单独检验小说或剧本效果。
 
+### 汉语简短回应与话题边界（2026-11-12）
+
+本轮核读两篇会话研究的公开正文及转写例。未重听原录音、重看原录像或复做标注；PDF 以文字抽取核读，韵律图及识别异常的语料字段未独立核验。
+
+- 张瑞祥、方梅《现代汉语叹词的互动功能初探》，《辞书研究》2024年第3期，36—47页，[论文公开镜像](https://library.ttcdw.com/dev/upload/webUploader/202405/17167910973e5d0e0aa1d39dae.pdf)。实读第一至四节、例1—10及附注。例3结合接续与韵律区分回应作用，例8展示听者简答后仍被继续追问的特定情境；不据此认定简答不足。镜像来自培训资料馆，非期刊官网；论文研究对话中的叹词，附注也限定了其范围。
+- 姚双云、肖兆《口语互动中标识边界的“好”：功能类型与序列组织》，《汉语学习》2025年第2期，13—24页，[期刊官网整期 PDF](https://hyxx.ybu.edu.cn/__local/8/B0/D6/FD5D6DBF12BC44178C486635D00_2BA13D0E_A7779F.pdf)。实际读取该文13—22页正文、例①—⑪，未把整期算作已读。例⑧的普通收悉、例⑨的指称修复及例⑪结束旁支后恢复故事，提供了不同接续情形；研究聚焦边界用法，不能代表所有“好”。
+
+与已有[接收方法](dialogue-situation-methods.md#b接收以后才有回应)及[多年关系](genre-choice-cases.md#多年关系别把一次回应延长成同一承诺)对照时，可从完整往来判断本次回答接住了什么。普通回答可以已经足够；结束一段话也不自动解决双方的关系。后一句显示误会，仍不等于听者有意回避。这些是本库的有条件迁移，论文没有验证小说写法、跨场关系变化或生成效果；不把词形、句长或韵律形式写成角色心理公式。
+
 ### 开源写作方法的选择性参照（2026-11-11）
 
 本轮固定审读 [Oh Story 的14个Skill](https://github.com/zenstory-ai/oh-story-claudecode/tree/41d28fcde00bc60956f9fa432a569478c43a217e/skills)，实际覆盖435随包路径，重复副本按相同内容核对；源码只静态阅读，没有安装或执行。其[叙述重心](https://github.com/zenstory-ai/oh-story-claudecode/blob/41d28fcde00bc60956f9fa432a569478c43a217e/skills/story-deslop/references/narrative-focus.md)对判断过程、枝节与详略的比较，以及[阶段答案](https://github.com/zenstory-ai/oh-story-claudecode/blob/41d28fcde00bc60956f9fa432a569478c43a217e/skills/story-short-write/references/short-reversal.md)的安排，可与既有[叙述取舍](story-craft.md#选择叙述的信息声音与距离)、[接收与身体](dialogue-situation-methods.md)、[后来重释](writing-choice-cases.md#后来的解释保留当时的真实经历)对照。关键处可以展开估计或顾虑，人物也可以暂不自知；办事合作仍按实际接受的范围理解，不自动推成原谅。
