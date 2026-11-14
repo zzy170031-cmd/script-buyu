@@ -18,7 +18,7 @@
 
 ## 第二阶段：两张工作表的Excel
 
-按 [storyboard-excel](storyboard-excel.md) 输出一个真实XLSX：
+按 [当前完整分镜提示词](storyboard-prompt-current.txt) 转译当前剧本，再按 [storyboard-excel](storyboard-excel.md) 输出一个真实XLSX。两表实际负面提示词按该页要求使用真实局部加粗红字并导出回读，普通否定对白不着色：
 
 1. Sheet1：镜号、场景、人物、动作描述、主画面描述、运镜、台词。一镜一行，内容来自获批剧本。
 2. Sheet2：人物ID、人物姓名、人物形象提示词、人物参考图。完整提示词来自本剧确认设定，图片来自确认视觉方向后的外部人物资产，实际嵌入包内并逐人对应。
