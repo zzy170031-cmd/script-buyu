@@ -1,11 +1,35 @@
 """Offline structural check; not a substitute for Agent or literary evaluation."""
 import ast
+import hashlib
 import json
 import re
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 from story_contract import ROOT, ContractError, read_json, require, unique
+
+
+def validate_package_links(root):
+    root = root.resolve()
+    references = root / "references"
+    pages = [root / "SKILL.md", *references.glob("*.md"), *(references / "study-notes").glob("*.md")]
+    for page in pages:
+        for link in re.findall(r"\]\(([^)]+)\)", page.read_text(encoding="utf-8")):
+            url = urlparse(link)
+            if url.scheme or url.netloc or not url.path:
+                continue
+            target = (page.parent / unquote(url.path)).resolve()
+            exists = target.is_dir() if url.path.endswith("/") else target.is_file()
+            require(target.is_relative_to(root) and exists,
+                    f"missing or nonportable link in {page.relative_to(root)}: {link}")
+
+    marker = root / "WORKBUDDY_PACKAGE_VERSION.json"
+    if marker.exists():
+        declared = read_json(marker)
+        prompt = references / "storyboard-prompt-current.txt"
+        actual = hashlib.sha256(prompt.read_bytes()).hexdigest()
+        require(isinstance(declared, dict) and declared.get("prompt_sha256") == actual,
+                "WorkBuddy marker does not match the installed storyboard prompt")
 
 
 def validate_skill(root=ROOT):
@@ -19,10 +43,7 @@ def validate_skill(root=ROOT):
     require(len(entry.splitlines()) < 250, "entrypoint too long")
     for relative in re.findall(r"`((?:references|data|schemas|scripts)/[^`\s]+)`", entry):
         require((root / relative).is_file(), "missing resource: " + relative)
-    for relative in re.findall(r"\]\(([^)]+)\)", entry):
-        if "://" not in relative:
-            target = (root / relative).resolve()
-            require(target.is_relative_to(root.resolve()) and target.is_file(), "invalid linked resource: " + relative)
+    validate_package_links(root)
     require("--docx " not in entry and "--out " not in entry, "stale CLI examples")
     yaml = (root / "agents/openai.yaml").read_text(encoding="utf-8")
     for key in ("display_name", "short_description", "default_prompt"):
