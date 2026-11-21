@@ -1,0 +1,61 @@
+{
+  "version": "v0.13.1",
+  "status": "known_production_regressions_not_blind_tests",
+  "limits": "Derived from provided production records and actual cut contact sheet. Root did not replay the complete video or query live model capabilities. These descriptors do not prove future media quality.",
+  "cases": [
+    {
+      "id": "CHAIN-PREMISE",
+      "symptom": "Old failure clip not evidenced; a demonstrative pronoun may be bound to a later communication socket.",
+      "root": "story premise/knowledge/reference",
+      "treatment": "Check source occurrence and adopted failure/target coverage before next decision; no invented explanation or early reveal.",
+      "acceptance": "Actual adopted scene makes specified failure aftermath and pronoun target readable.",
+      "stop": "Missing premise remains open; do not treat an unchanged object or old PASS as failure proof."
+    },
+    {
+      "id": "CHAIN-EQUIPMENT",
+      "symptom": "Prior tail bareheaded, new first frame already helmeted; prompt only says fasten.",
+      "root": "design omission and wrong starting reference",
+      "treatment": "Plan allowed bareheaded/holding/putting-on/secured change; correct initial reference and motion path.",
+      "acceptance": "Actual join and transition show required starting and finishing states.",
+      "stop": "Stop cosmetic rewording while start design is wrong."
+    },
+    {
+      "id": "CHAIN-LINK",
+      "symptom": "Extra loose end appears; rope attached to moving door handle with clasp open.",
+      "root": "object topology/structure",
+      "treatment": "Identify both endpoints and the sole free end; distinguish fixed load-bearing structure from moving door.",
+      "acceptance": "Actual connection/closure and door movement preserve endpoint ownership; no duplication.",
+      "stop": "Ambiguous structural reference cannot be cleared by adding the word fixed."
+    },
+    {
+      "id": "CHAIN-DOOR",
+      "symptom": "Door closed in near view, open again in next wide view, then closed again.",
+      "root": "actual cut-state reset",
+      "treatment": "Compare exact adjacent boundary files/time ranges and preserve one approved open-to-close event.",
+      "acceptance": "Actual seam chronology is consistent; anchor relation persists.",
+      "stop": "Do not use rejected whole clip as downstream reference."
+    },
+    {
+      "id": "CHAIN-MOTION",
+      "symptom": "User replay reports stiff walking while still frame shows feet inside.",
+      "root": "intermediate movement",
+      "treatment": "Locate actual segment and foot/contact/weight sequence; simplify only with evidence and scope.",
+      "acceptance": "Continuous replay supports action completion and judged motion; frame metadata is not motion evidence.",
+      "stop": "Keep unknown without replay; do not promise frame-rate or speed cure."
+    },
+    {
+      "id": "CHAIN-CONTROL",
+      "symptom": "Only reference slots supplied, but text promises fixed first/last states.",
+      "root": "input-mode capability mismatch",
+      "treatment": "Inspect real current mode/fields and actual submission; choose supported control or smaller authorized unit.",
+      "acceptance": "Mode definition and submitted binding establish conditioning used; verify real output anyway.",
+      "stop": "Stop hard-endpoint promises when only reference control exists; no automatic task/fee expansion."
+    }
+  ],
+  "normal_controls": [
+    "Established time jump or omitted already-supported preparation can be valid.",
+    "Shot/reverse-shot screen-side changes do not change anatomical handedness.",
+    "No-media text tasks continue with media explicitly unverified.",
+    "Correct endpoints do not prove correct intermediate action, and a verified motion does not fix wrong story premises."
+  ]
+}

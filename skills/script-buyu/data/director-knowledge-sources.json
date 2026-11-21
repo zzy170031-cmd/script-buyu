@@ -1,0 +1,166 @@
+{
+  "addition_id": "director-reference-20261120",
+  "user_authorized": "2026-11-20 根据你的结论加入对应内容到对应地方",
+  "audit": "KB-J10-20261119; all10unitsclosed; adoption remains scoped to optional references",
+  "reading_population": {
+    "documents": 182,
+    "canonical_characters": 2276755,
+    "media_scope": "purpose/metadata and representative samples; no continuous playback/listening acceptance"
+  },
+  "source_group": "user provided local director collection; variants are not independent empirical replications",
+  "sources": [
+    {
+      "doc_id": "D009",
+      "original_relative_path": "01_全流程套组/AI导演全流程智能体/reference/MINIMAX_H3_AUDIO_REFERENCE_BINDING.md",
+      "original_sha256": "0e2ca5e18f47023238259f878999fe1710f9ceab96202e5ca08ecdfabee90a93",
+      "canonical_text_sha256": "0e2ca5e18f47023238259f878999fe1710f9ceab96202e5ca08ecdfabee90a93",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D012",
+      "original_relative_path": "01_全流程套组/AI导演全流程智能体/reference/MINIMAX_H3_CROSS_CLIP_EDIT_CONTINUITY.md",
+      "original_sha256": "755871f3b5a63216226aee59f16529c7f53e2e2ec4e5da2703df77148bb82c32",
+      "canonical_text_sha256": "755871f3b5a63216226aee59f16529c7f53e2e2ec4e5da2703df77148bb82c32",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D014",
+      "original_relative_path": "01_全流程套组/AI导演全流程智能体/reference/MINIMAX_H3_DUAL_PROMPT_CONTRACT.md",
+      "original_sha256": "8b6c56c1d25ce0342570a73bfce82c45b8410171aaefed39af6abcee712f4bb4",
+      "canonical_text_sha256": "105384ddfc816f85233ccaecc2204ce598219197f738fdecf29f1c5c80fc767b",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D023",
+      "original_relative_path": "01_全流程套组/AI导演全流程智能体/reference/MINIMAX_H3_SOURCE_COVERAGE.md",
+      "original_sha256": "f613a18dd6852cba69444c58650e07566cd04eb5d58ed17c7ba9e7f6c2705317",
+      "canonical_text_sha256": "f613a18dd6852cba69444c58650e07566cd04eb5d58ed17c7ba9e7f6c2705317",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D024",
+      "original_relative_path": "01_全流程套组/AI导演全流程智能体/reference/MINIMAX_H3_TIMING_ENGINEERING.md",
+      "original_sha256": "9e90fddafa2fab683e6e3801ae618db29c2e17e38654095aa1dcd38e977978aa",
+      "canonical_text_sha256": "9e90fddafa2fab683e6e3801ae618db29c2e17e38654095aa1dcd38e977978aa",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D036",
+      "original_relative_path": "01_全流程套组/电影分镜大师.txt",
+      "original_sha256": "d37c038984393e5c9c8b6c2b7a7809a38e39b3399ffb245b2105879bef94e3cd",
+      "canonical_text_sha256": "8ba7309dc2b8077ea6a84d70c204d92bde341f0a1d4d889346bb09ffc37c284f",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D077",
+      "original_relative_path": "02_创意与剧本/题材与小说/AI生成小说提示词.txt",
+      "original_sha256": "10bd8b14cc7364c18e9bb197fd266111cb1527f5a9a005714a0e308da4080e8c",
+      "canonical_text_sha256": "10bd8b14cc7364c18e9bb197fd266111cb1527f5a9a005714a0e308da4080e8c",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D078",
+      "original_relative_path": "02_创意与剧本/题材与小说/小说题材参考.txt",
+      "original_sha256": "610241c9fbeb536e83eef69013477e212e3f35bcfd688532646838d30c2d3261",
+      "canonical_text_sha256": "56855b48ac28c4cabd720b01306c9baa4988e54abebd5e4729a26ba26c315555",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D118",
+      "original_relative_path": "05_专题类型/生成歌曲MV的提示词.txt",
+      "original_sha256": "75c09b71717cde144d7b0bfa961bc37523e8efb40281759be053db1a52a27f75",
+      "canonical_text_sha256": "75c09b71717cde144d7b0bfa961bc37523e8efb40281759be053db1a52a27f75",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D136",
+      "original_relative_path": "08_视听语言词库/分库/声音设计库.TXT",
+      "original_sha256": "3770c507338ac20e53c17a283f63f1df4b668cb91847564646ba1b98da01acd4",
+      "canonical_text_sha256": "3770c507338ac20e53c17a283f63f1df4b668cb91847564646ba1b98da01acd4",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D157",
+      "original_relative_path": "10_代码生成视频/MG动态设计15风格（opus5.5案例）/lib/audio/README.md",
+      "original_sha256": "6fdf2bc87ba66e4bca6d82bdb7fc592748b35f7860899ea985611be4223ff934",
+      "canonical_text_sha256": "6fdf2bc87ba66e4bca6d82bdb7fc592748b35f7860899ea985611be4223ff934",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D159",
+      "original_relative_path": "10_代码生成视频/MG动态设计15风格（opus5.5案例）/prompts/01-flat-vector.md",
+      "original_sha256": "0599f4dadbc163066d70e5b98afa190a5580ee00e14bd1ce3473ce8f14c48cf3",
+      "canonical_text_sha256": "0599f4dadbc163066d70e5b98afa190a5580ee00e14bd1ce3473ce8f14c48cf3",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D167",
+      "original_relative_path": "10_代码生成视频/MG动态设计15风格（opus5.5案例）/prompts/09-bauhaus.md",
+      "original_sha256": "061828b54389f932f7914bdbc6e5afc25c394a401bcdf06111b7f4687d9f89f5",
+      "canonical_text_sha256": "061828b54389f932f7914bdbc6e5afc25c394a401bcdf06111b7f4687d9f89f5",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D170",
+      "original_relative_path": "10_代码生成视频/MG动态设计15风格（opus5.5案例）/prompts/18-hanazi.md",
+      "original_sha256": "7d6bc0e6e3712778a2ed849fab1a358055d2dfc88cbddc1a27b5694c2f25be69",
+      "canonical_text_sha256": "7d6bc0e6e3712778a2ed849fab1a358055d2dfc88cbddc1a27b5694c2f25be69",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D171",
+      "original_relative_path": "10_代码生成视频/MG动态设计15风格（opus5.5案例）/prompts/19-paperclip.md",
+      "original_sha256": "808ccae55d57005eefdc78c06007bc324195063faac80d8c47136ff050b4ea05",
+      "canonical_text_sha256": "808ccae55d57005eefdc78c06007bc324195063faac80d8c47136ff050b4ea05",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D173",
+      "original_relative_path": "10_代码生成视频/MG动态设计15风格（opus5.5案例）/prompts/22-hud.md",
+      "original_sha256": "42e7ba11855ecba90ab9bea4f6963d56f725dbbfd32ff637daebf9428fabb2c9",
+      "canonical_text_sha256": "42e7ba11855ecba90ab9bea4f6963d56f725dbbfd32ff637daebf9428fabb2c9",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    },
+    {
+      "doc_id": "D179",
+      "original_relative_path": "10_代码生成视频/代码生成视频的提示词.txt",
+      "original_sha256": "da64d4d10949f38db3598756d4009a902cadb2daff52e66596db67fecd3c1ccb",
+      "canonical_text_sha256": "da64d4d10949f38db3598756d4009a902cadb2daff52e66596db67fecd3c1ccb",
+      "use": "independently paraphrased reference or conditional comparison; original not bundled"
+    }
+  ],
+  "missing_originals": [
+    "07_封面海报与品牌/封面图提示词v1.0.txt",
+    "07_封面海报与品牌/封面图生成提示词.docx",
+    "07_封面海报与品牌/海报提示词.txt",
+    "07_封面海报与品牌/品牌视觉设计提示词.txt"
+  ],
+  "license_scope": "No collection-wide permission established. Independent short paraphrases only; MG subproject MIT is not a blanket third-party asset licence.",
+  "official_documents_checked": "2026-11-20",
+  "official_urls": [
+    "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/docs/VIDEO_PROMPT_WRITING_GUIDE_base_en.md",
+    "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/docs/VIDEO_PROMPT_WRITING_GUIDE_ref_en.md",
+    "https://docs.volcengine.com/docs/ark/create-video-generation-task-api?lang=zh"
+  ],
+  "not_imported": [
+    "upstream code/models/fonts/audio/images",
+    "detector/Key/network/TTS execution chain",
+    "fixed duration/reference quotas/style/psychology thresholds",
+    "old52 proposal as fully approved",
+    "candidatev0.12 core prompt into v0.11 installation"
+  ],
+  "canonical_text_identity_rule": {
+    "encoding": "UTF-8 without BOM",
+    "newlines": "Normalize CRLF to LF before hashing",
+    "digest_target": "Canonical extracted text identified by documents.json, including extraction section labels; not raw texts/Dxxx.txt file bytes",
+    "characters": "Unicode code points, not UTF-16 units",
+    "original_sha256": "Exact original file bytes, without text normalization",
+    "normalization_steps": [
+      "Decode UTF-8",
+      "Remove one leading U+FEFF if present",
+      "Replace CRLF with LF",
+      "Do not trim or otherwise normalize the text",
+      "Encode UTF-8 and compute SHA-256"
+    ]
+  }
+}
