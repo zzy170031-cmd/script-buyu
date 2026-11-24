@@ -30,7 +30,7 @@
 
 ## 从剧本到交付
 
-当前分镜核心为v0.13.2。七层为创意开发、剧本写作、DOCX与视觉提案、确认与人物准备、导演拆解与一致性准备、分镜与提示词产出、核验交付；局部修订与特殊分支按[现有流程](skills/script-buyu/references/workflow.md)直接进入适用位置。接镜或动作失效按[分层诊断](skills/script-buyu/references/continuity-diagnostics.md)核症状、根因、手段、验收与转法条件。修订按[有界执行](skills/script-buyu/references/bounded-execution.md)短修一次再推进，必修未过保留未结。
+当前分镜核心为v0.13.3。七层为创意开发、剧本写作、DOCX与视觉提案、确认与人物准备、导演拆解与一致性准备、分镜与提示词产出、核验交付；局部修订与特殊分支按[现有流程](skills/script-buyu/references/workflow.md)直接进入适用位置。接镜或动作失效按[分层诊断](skills/script-buyu/references/continuity-diagnostics.md)核症状、根因、手段、验收与转法条件。修订按[有界执行](skills/script-buyu/references/bounded-execution.md)短修一次再推进，必修未过保留未结。
 
 1. 读取需求和来稿，明确题材、范围、背景及不可改项；必要时研究。
 2. 完成人物、世界规则、分集与逐场正文，检查对白和连续性。
@@ -50,7 +50,7 @@
 
 已确认内容保护原台词/旁白、人物、事件、因果、结果和揭示顺序；重复发言按每次发生分别保留。修改只重新处理受影响确认，不借运镜、图片或方法切换改剧情。详见[输出规范](skills/script-buyu/references/output-contract.md)、[人物形象](skills/script-buyu/references/character-visuals.md)与[Excel交付](skills/script-buyu/references/storyboard-excel.md)。
 
-表格按 [可复制正文与一致性约束](skills/script-buyu/references/storyboard-excel.md#表格正文与一致性约束) 处理：关键身份、左右、道具与接点状态进入本镜描述，内部设定及修订历史不逐镜堆入；必要负面词保持真实红色加粗。用户按镜修改与复制，保留实际需要的详细程度，不固定字数。
+表格按 [可复制正文与一致性约束](skills/script-buyu/references/storyboard-excel.md#表格正文与一致性约束) 处理：关键身份、左右、道具与接点状态进入本镜描述，内部设定及修订历史不逐镜堆入；必要负面词保持真实红色加粗。复杂格按需短分项，简单格仍一句话；用户按镜修改与复制，保留实际需要的详细程度，不固定字数。需要复制版时从最终镜行整理同镜号 TXT，保留原话、声道及必要状态，不机械拼列。新增[场面选用短例](skills/script-buyu/references/visual-scene-examples.md)，按媒介、场面、观看与参考职责选择，不整库载入；图片观察不冒充心理、片源或生成效果。
 
 ## 方法与内置资料
 
